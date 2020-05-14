@@ -22,5 +22,5 @@ def color_classifier(segment):
     value_pct = round(value*100 / total,2)
     add_pct = round(add*100 / total,2)
     weak_pct = round(weak*100 / total,2)
-    return value_pct, add_pct, weak_pct
+    return [add_pct, weak_pct]
             

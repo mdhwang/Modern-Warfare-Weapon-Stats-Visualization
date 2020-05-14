@@ -6,8 +6,10 @@ from os.path import isfile, join
 from color_classifier import *
 
 import json
+import csv
 
-weapon = input("What Gun? : ")
+# weapon = input("What Gun? : ")
+weapon = "M4A1"
 mypath = 'data/images/{}'.format(weapon)
 files = [f for f in listdir(mypath) if isfile(join(mypath, f))]
 
@@ -36,13 +38,19 @@ for attachment in files:
         stat = crop[start:end,:]
         stat_lines.append(stat)
 
-    attachment_stats = {}
+    attachment_stats = []
     for i,each in enumerate(stat_lines):
         mid = round(each.shape[0]/2)
         arr = each[mid,:]
-        attachment_stats[categories[i]] = color_classifier(arr)
+        stats = color_classifier(arr)
+        attachment_stats.append(stats[0])
+        attachment_stats.append(stats[1])
     
     attachment_data[weapon][category][name] = attachment_stats
+    row = [weapon,category,name]+attachment_stats
 
-with open("attachment_data.json", "w") as file:
-    json.dump(attachment_data, file)
+# with open("attachment_data.json", "w") as file:
+#     json.dump(attachment_data, file)
+
+with open("attachment_data.csv","w") as file:
+    writer = csv.writer(file)
