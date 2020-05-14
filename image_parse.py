@@ -13,9 +13,12 @@ files = [f for f in listdir(mypath) if isfile(join(mypath, f))]
 
 x0,x1,y0,y1 = (195,490,831,970)
 categories = ['Accuracy','Damage','Range','Fire Rate','Mobility','Control']
+types = ['MUZZLE','BARREL','UNDERBARREL','GRIP','STOCK','LASER','BASE']
 
 attachment_data = {}
 attachment_data[weapon] = {}
+for each in types:
+    attachment_data[weapon][each] = {}
 
 for attachment in files:
     category = attachment.split('-')[1]
@@ -39,7 +42,7 @@ for attachment in files:
         arr = each[mid,:]
         attachment_stats[categories[i]] = color_classifier(arr)
     
-    attachment_data[weapon][name] = attachment_stats
+    attachment_data[weapon][category][name] = attachment_stats
 
 with open("attachment_data.json", "w") as file:
     json.dump(attachment_data, file)
