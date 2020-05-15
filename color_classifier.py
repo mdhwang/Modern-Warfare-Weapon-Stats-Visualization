@@ -1,4 +1,4 @@
-def color_classifier(segment):
+def color_classifier(segment,category):
     colors = {}
     values = ['border','base','boost','break','remain']
     for each in values:
@@ -21,6 +21,12 @@ def color_classifier(segment):
     weak = colors['break']
     value_pct = round(value*100 / total,2)
     add_pct = round(add*100 / total,2)
-    weak_pct = round(weak*100 / total,2)
-    return [add_pct, weak_pct]
+    weak_pct = round(-1 * weak*100 / total,2)
+    if category == "BASE":
+        value = value_pct
+    elif add > weak:
+        value = add_pct
+    else:
+        value = weak_pct
+    return value
             
