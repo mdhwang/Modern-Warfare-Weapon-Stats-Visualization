@@ -8,22 +8,24 @@ from color_classifier import *
 import csv
 
 rows = []
-weapons = listdir('data/images')[2:]
+weapons = listdir('data/images/guns')
+weapons.remove(".DS_Store")
+print(weapons)
 for weapon in weapons:
-    mypath = 'data/images/{}'.format(weapon)
+    mypath = 'data/images/guns/{}'.format(weapon)
     files = [f for f in listdir(mypath) if isfile(join(mypath, f))]
 
     x0,x1,y0,y1 = (195,490,831,970)
     categories = ['Accuracy','Damage','Range','Fire Rate','Mobility','Control']
-    types = ['MUZZLE','BARREL','UNDERBARREL','MAG','GRIP','STOCK','LASER','BASE']
+    types = ['MUZZLE','BARREL','UNDERBARREL','MAG','GRIP','STOCK','LASER','BASE','TRIGGER']
     csv_header = ['Weapon','Category','Attachment','Accuracy','Damage','Range','Fire Rate','Mobility','Control']
 
 
     for attachment in files:
-        category = attachment.split('-')[1]
-        name = '_'.join(attachment.split('.')[0].split('-')[2:])
+        category = attachment.split('-')[1].split('.')[0]
+        name = '_'.join(attachment[:-4].split('-')[2:])
         
-        path = 'data/images/{}/{}'.format(weapon,attachment)
+        path = 'data/images/guns/{}/{}'.format(weapon,attachment)
         img = cv2.imread(path,0)
         crop = img[y0:y1,x0:x1]
         crop_path = 'data/cropped/{}/{}'.format(weapon,attachment)
@@ -43,7 +45,7 @@ for weapon in weapons:
             arr = each[mid,:]
             attachment_stats.append(color_classifier(arr,category))
         
-        row = [weapon,category,name] + attachment_stats
+        row = [weapon, category, name] + attachment_stats
         rows.append(row)
 
 
