@@ -1,8 +1,8 @@
-def create_options(category, attachments):
+def create_options(attachments):
     options = []
     for attachment in attachments:
         line = {}
-        line['label'] = category + " - " + attachment
+        line['label'] = attachment
         line['value'] = attachment
         options.append(line)
     return options

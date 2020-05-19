@@ -15,25 +15,42 @@ for each in categories:
     
 df = pd.read_csv('attachment_data.csv',dtype=formatting)
 
-stonks = df[df.Category == "STOCK"].Attachment.to_list()
-options = create_options("STOCK",stonks)
+weapons = create_options(df.Weapon.unique())
+
+stocks_mask = (df.Weapon == "M4A1") & (df.Category == "STOCK")
+stocks = create_options(df[stocks_mask].Attachment.to_list())
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 app.layout = html.Div([
     dcc.Dropdown(
-        id='demo-dropdown',
-        options=options,
-        value='Select {}'.format("Stock")
+        id='weapon-dropdown',
+        options=weapons,
+        value='M4A1'
     ),
-    html.Div(id='dd-output-container')
+    html.Div(id='dd-output-container'),
+    html.Br(),
+    dcc.Dropdown(
+        id='stocks',
+        options=stocks,
+        value='Choose Stock Attachment'
+    ),
+    html.Div(id='stock-output-container'),
 ])
 
 
 @app.callback(
     dash.dependencies.Output('dd-output-container', 'children'),
-    [dash.dependencies.Input('demo-dropdown', 'value')])
+    [dash.dependencies.Input('weapon-dropdown', 'value')])
 def update_output(value):
     return 'You have selected "{}"'.format(value)
+
+@app.callback(
+    dash.dependencies.Output('stock-output-container', 'children'),
+    [dash.dependencies.Input('stocks', 'value')])
+def update_output(value):
+    return 'You have selected "{}"'.format(value)
+
+
 
 
 if __name__ == "__main__":
