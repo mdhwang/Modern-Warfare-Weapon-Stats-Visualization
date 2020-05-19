@@ -44,12 +44,15 @@ app.layout = html.Div([
 def update_output(value):
     return 'You have selected "{}"'.format(value)
 
-@app.callback(
-    dash.dependencies.Output('stock-output-container', 'children'),
-    [dash.dependencies.Input('stocks', 'value')])
-def update_output(value):
-    return 'You have selected "{}"'.format(value)
-
+@app.callback([
+    dash.dependencies.Output('stocks', 'children'),
+    dash.dependencies.Output('stocks', 'options'),
+    dash.dependencies.Output('stocks', 'value')],
+    [dash.dependencies.Input('weapon-dropdown', 'value')])
+def update_dropdown(value):
+    stocks_mask = (df.Weapon == value) & (df.Category == "STOCK")
+    stocks = create_options(df[stocks_mask].Attachment.to_list())
+    return value, stocks, value
 
 
 

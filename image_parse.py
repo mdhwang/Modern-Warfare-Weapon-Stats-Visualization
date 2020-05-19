@@ -26,7 +26,7 @@ for weapon in weapons:
         path = 'data/images/{}/{}'.format(weapon,attachment)
         img = cv2.imread(path,0)
         crop = img[y0:y1,x0:x1]
-        crop_path = 'images/cropped/{}/{}'.format(weapon,attachment)
+        crop_path = 'data/cropped/{}/{}'.format(weapon,attachment)
         cv2.imwrite(crop_path, crop) 
         
         stat_lines = []    
