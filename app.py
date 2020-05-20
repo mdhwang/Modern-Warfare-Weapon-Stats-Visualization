@@ -40,113 +40,173 @@ app.layout = html.Div([
     ),
 
     html.Br(),
+    html.Br(),
 
     html.Div(id = 'attachment-block',
         style = {'textAlign': 'center'},
         children = [
             html.Div(
-                style = {'width' : '20%',
+                className = 'card',
+                style = {'width' : '18%',
                          'display': 'inline-block',
+                         'marginLeft': '1%', 
+                         'marginRight': '1%',
                          },
                 children = [
-                    html.H2('Attachment 1'),
-                    html.P('Category:'),
+                    html.Div(
+                        className = 'card-header',
+                        children=[
+                            html.H3('Attachment 1')
+                        ]
+                    ),
+                    html.Br(),
+                    html.H4('Category:'),
                     dcc.Dropdown(
                         id='cat1',
                         options=empty,
                         value='None'
                     ),
                     html.Br(),
-                    html.P('Attachment:'),
+                    html.H4('Attachment:'),
                     dcc.Dropdown(
                         id='att1',
                         options=empty,
                         value='None'
                     ),
+                    html.Br(),
+                    html.Br(),
                 ]
             ),
+
             html.Div(
-                style = {'width' : '20%',
+                className = 'card',
+                style = {'width' : '18%',
                          'display': 'inline-block',
+                         'marginLeft': '1%', 
+                         'marginRight': '1%',
                          },
                 children = [
-                    html.H2('Attachment 2'),
-                    html.P('Category:'),
+                    html.Div(
+                        className = 'card-header',
+                        children=[
+                            html.H3('Attachment 2')
+                        ]
+                    ),
+                    html.Br(),
+                    html.H4('Category:'),
                     dcc.Dropdown(
                         id='cat2',
                         options=empty,
                         value='None'
                     ),
                     html.Br(),
-                    html.P('Attachment:'),
+                    html.H4('Attachment:'),
                     dcc.Dropdown(
                         id='att2',
                         options=empty,
                         value='None'
                     ),
+                    html.Br(),
+                    html.Br(),
                 ]
             ),
+
             html.Div(
-                style = {'width' : '20%',
+                className = 'card',
+                style = {'width' : '18%',
                          'display': 'inline-block',
+                         'marginLeft': '1%', 
+                         'marginRight': '1%',
                          },
                 children = [
-                    html.H2('Attachment 3'),
-                    html.P('Category:'),
+                    html.Div(
+                        className = 'card-header',
+                        children=[
+                            html.H3('Attachment 3')
+                        ]
+                    ),
+                    html.Br(),
+                    html.H4('Category:'),
                     dcc.Dropdown(
                         id='cat3',
                         options=empty,
                         value='None'
                     ),
                     html.Br(),
-                    html.P('Attachment:'),
+                    html.H4('Attachment:'),
                     dcc.Dropdown(
                         id='att3',
                         options=empty,
                         value='None'
                     ),
+                    html.Br(),
+                    html.Br(),
                 ]
             ),
+
             html.Div(
-                style = {'width' : '20%',
+                className = 'card',
+                style = {'width' : '18%',
                          'display': 'inline-block',
+                         'marginLeft': '1%', 
+                         'marginRight': '1%',
                          },
                 children = [
-                    html.H2('Attachment 4'),
-                    html.P('Category:'),
+                    html.Div(
+                        className = 'card-header',
+                        children=[
+                            html.H3('Attachment 4')
+                        ]
+                    ),
+                    html.Br(),
+                    html.H4('Category:'),
                     dcc.Dropdown(
                         id='cat4',
                         options=empty,
                         value='None'
                     ),
                     html.Br(),
-                    html.P('Attachment:'),
+                    html.H4('Attachment:'),
                     dcc.Dropdown(
                         id='att4',
                         options=empty,
                         value='None'
                     ),
+                    html.Br(),
+                    html.Br(),
                 ]
             ),
+
             html.Div(
-                style = {'width' : '20%',
+                className = 'card',
+                style = {'width' : '18%',
                          'display': 'inline-block',
+                         'marginLeft': '1%', 
+                         'marginRight': '1%',
                          },
                 children = [
-                    html.H2('Attachment 5'),
-                    html.P('Category:'),
+                    html.Div(
+                        className = 'card-header',
+                        children=[
+                            html.H3('Attachment 5')
+                        ]
+                    ),
+                    html.Br(),
+                    html.H4('Category:'),
                     dcc.Dropdown(
                         id='cat5',
                         options=empty,
                         value='None'
                     ),
                     html.Br(),
-                    html.P('Attachment:'),
+                    html.H4('Attachment:'),
                     dcc.Dropdown(
                         id='att5',
                         options=empty,
                         value='None'
                     ),
+                    html.Br(),
+                    html.Br(),
                 ]
             ),
 
@@ -154,85 +214,6 @@ app.layout = html.Div([
 
         ]
     ),
-
-    # html.H5('Attachment 1'),
-    # html.P('Category:'),
-    # dcc.Dropdown(
-    #     id='cat1',
-    #     options=empty,
-    #     value='None'
-    # ),
-    # html.Br(),
-    # html.P('Attachment:'),
-    # dcc.Dropdown(
-    #     id='att1',
-    #     options=empty,
-    #     value='None'
-    # ),
-
-    # html.Br(),
-    # html.H5('Attachment 2'),
-    # html.P('Category:'),
-    # dcc.Dropdown(
-    #     id='cat2',
-    #     options=empty,
-    #     value='None'
-    # ),
-    # html.Br(),
-    # html.P('Attachment:'),
-    # dcc.Dropdown(
-    #     id='att2',
-    #     options=empty,
-    #     value='None'
-    # ),
-
-    # html.Br(),
-    # html.H5('Attachment 3'),
-    # html.P('Category:'),
-    # dcc.Dropdown(
-    #     id='cat3',
-    #     options=empty,
-    #     value='None'
-    # ),
-    # html.Br(),
-    # html.P('Attachment:'),
-    # dcc.Dropdown(
-    #     id='att3',
-    #     options=empty,
-    #     value='None'
-    # ),
-
-    # html.Br(),
-    # html.H5('Attachment 4'),
-    # html.P('Category:'),
-    # dcc.Dropdown(
-    #     id='cat4',
-    #     options=empty,
-    #     value='None'
-    # ),
-    # html.Br(),
-    # html.P('Attachment:'),
-    # dcc.Dropdown(
-    #     id='att4',
-    #     options=empty,
-    #     value='None'
-    # ),
-
-    # html.Br(),
-    # html.H5('Attachment 5'),
-    # html.P('Category:'),
-    # dcc.Dropdown(
-    #     id='cat5',
-    #     options=empty,
-    #     value='None'
-    # ),
-    # html.Br(),
-    # html.P('Attachment:'),
-    # dcc.Dropdown(
-    #     id='att5',
-    #     options=empty,
-    #     value='None'
-    # ),
 
 
     
