@@ -4,10 +4,10 @@ import dash_core_components as dcc
 import pandas as pd
 from app_helpers import *
 from graph import *
+from get_stats import *
 
 external_stylesheets = ['https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/slate/bootstrap.min.css']
 
-types = ['MUZZLE','BARREL','UNDERBARREL','GRIP','STOCK','LASER','BASE']
 categories = ['Accuracy','Damage','Range','Fire Rate','Mobility','Control']
     
 formatting = {}
@@ -31,14 +31,18 @@ app.layout = html.Div([
         id = 'weapon-block',
         style = {'textAlign': 'center',
                  'margin' : 'auto',
-                 'width' : '50%'},
+                 'width' : '60%'},
         children = [
+            html.H1('CALL OF DUTY : MODERN WARFARE WEAPON STATS VISUALIZATION'),
+            html.Br(),
             html.H2('CHOOSE YOUR WEAPON'),
             dcc.Dropdown(
                 id = 'weapon-dropdown',
                 options = weapons,
                 value = 'M4A1'
             ),
+            html.Br(),
+            html.H3('This is my rifle.  There are many like it, but this one is mine.')
         ]
     ),
 
@@ -222,18 +226,19 @@ app.layout = html.Div([
         style = {'textAlign': 'center'},
         children = [
             dcc.Graph(
-                style={'width':'47%',
+                id = 'radar',
+                style={'width':'46%',
                 'display': 'inline-block',
                 'marginLeft': '1%', 
-                'marginRight': '1%',
+                'marginRight': '0%',
                 'verticalAlign': 'top', },
                 figure=fig),   
 
             html.Div(
                 className = 'card',
-                style={'width':'47%', 
+                style={'width':'46%', 
                 'display': 'inline-block',
-                'marginLeft': '1%', 
+                'marginLeft': '0%', 
                 'marginRight': '1%',
                 'verticalAlign': 'top', },
                 children = [
@@ -372,6 +377,58 @@ def update_dropdown(wep_val,cat_val):
     att = create_options(df[att_mask].Attachment.to_list())
     return att, "- Attachment 5: {}".format(cat_val)
 
+@app.callback(
+    dash.dependencies.Output('table-att1', 'children'),
+    [dash.dependencies.Input('att1', 'value'),])
+def update_dropdown(att_val):
+    return att_val
+
+@app.callback(
+    dash.dependencies.Output('table-att2', 'children'),
+    [dash.dependencies.Input('att2', 'value'),])
+def update_dropdown(att_val):
+    return att_val
+
+@app.callback(
+    dash.dependencies.Output('table-att3', 'children'),
+    [dash.dependencies.Input('att3', 'value'),])
+def update_dropdown(att_val):
+    return att_val
+
+@app.callback(
+    dash.dependencies.Output('table-att4', 'children'),
+    [dash.dependencies.Input('att4', 'value'),])
+def update_dropdown(att_val):
+    return att_val
+
+@app.callback(
+    dash.dependencies.Output('table-att5', 'children'),
+    [dash.dependencies.Input('att5', 'value'),])
+def update_dropdown(att_val):
+    return att_val
+
+@app.callback(
+    dash.dependencies.Output('radar', 'figure'),
+    [dash.dependencies.Input('weapon-dropdown', 'value'),
+    dash.dependencies.Input('att1', 'value'),
+    dash.dependencies.Input('att2', 'value'),
+    dash.dependencies.Input('att3', 'value'),
+    dash.dependencies.Input('att4', 'value'),
+    dash.dependencies.Input('att5', 'value'),])
+def update_dropdown(wep, att1, att2, att3, att4, att5):
+    attachments = [att1, att2, att3, att4, att5]
+    base = base_stats(df, wep)
+    agg = aggregate(df, wep, attachments)
+    return make_graph(base, agg, wep)
+
+
+
+
+# @app.callback(
+#     dash.dependencies.Output('radar', 'figure'),
+#     [dash.dependencies.Input('weapon-dropdown', 'value')])
+# def update_dropdown(wep_val):
+#     return make_graph(gun = wep_val)
 
 
 

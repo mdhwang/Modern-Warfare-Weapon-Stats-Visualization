@@ -10,7 +10,7 @@ categories = ['Accuracy','Damage','Range','Fire Rate','Mobility','Control']
 
 def make_graph(original = m4base, updated = upgrade, gun = "M4A1"):
 
-    fig = px.line_polar(r = upgrade, 
+    fig = px.line_polar(r = updated, 
                         theta = categories, 
                         line_close = True,
                         range_r = [0,100],
@@ -55,7 +55,7 @@ def make_graph(original = m4base, updated = upgrade, gun = "M4A1"):
             fillcolor = 'gray',
             line = dict(color='gray',width=3),
             opacity = 0.5,
-            r = m4base,
+            r = original,
             theta = categories,
             fill = "toself",
             showlegend=False,
