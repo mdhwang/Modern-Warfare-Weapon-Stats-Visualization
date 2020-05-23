@@ -5,6 +5,12 @@ import pandas as pd
 from app_helpers import *
 from graph import *
 from get_stats import *
+import flask
+import os 
+import uuid
+
+from dash.dependencies import Input, Output, State
+
 
 external_stylesheets = ['https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/slate/bootstrap.min.css']
 
@@ -35,6 +41,14 @@ app.layout = html.Div([
         children = [
             html.H1('CALL OF DUTY : MODERN WARFARE WEAPON STATS VISUALIZATION'),
             html.Br(),
+
+            html.H2("WHAT'S YOUR GAMERTAG?"),
+            dcc.Input(id = "gamertag",
+                      type = 'text',
+                      value = 'Gamertag'
+            ),
+            html.Br(),
+
             html.H2('CHOOSE YOUR WEAPON'),
             dcc.Dropdown(
                 id = 'weapon-dropdown',
@@ -306,13 +320,60 @@ app.layout = html.Div([
                         ]
                     )
                 ]
+            ),
+        ]
+    ),
+    html.Br(),
+    html.Br(),
+    html.Br(),
+    html.Div(
+        style = {'textAlign': 'center'},
+        children = [
+            html.Button(
+                    id="generate",
+                    className="btn btn-primary btn-lg",
+                    children="GENERATE IMAGE"),
+            html.A(
+                'DOWNLOAD IMAGE',
+                className = "btn btn-primary btn-lg",
+                id='download-link',
+                download="",
+                href="",
+                target="_blank"
             )
         ]
     ),
-
-    
 ])
 
+
+@app.callback([
+    dash.dependencies.Output('download-link', 'href'),
+    dash.dependencies.Output('download-link', 'download')],
+    [dash.dependencies.Input("generate", "n_clicks")],
+    [dash.dependencies.State("radar", "figure"),
+    dash.dependencies.State('gamertag', 'value'),
+    dash.dependencies.State('weapon-dropdown', 'value')])
+def update_download_link(n_clicks,fig1,gamer,wep):
+    chart = go.Figure(fig1)
+    filename = "{} - {}.png".format(gamer,wep)
+    path = 'static/' + filename
+    chart.write_image(path)
+    return path, path
+    
+
+# @app.callback([
+#     dash.dependencies.Output('download-link', 'href'),
+#     dash.dependencies.Output('download-link', 'download')],
+#     [dash.dependencies.Input("download-link", "n_clicks")],
+#     [dash.dependencies.State("radar", "figure"),
+#     dash.dependencies.State('gamertag', 'value'),
+#     dash.dependencies.State('weapon-dropdown', 'value')])
+# def update_download_link(n_clicks,fig1,gamer,wep):
+#     chart = go.Figure(fig1)
+#     filename = "{} - {}.png".format(gamer,wep)
+#     path = 'static/' + filename
+#     chart.write_image(path)
+#     return path, path
 
 @app.callback([
     dash.dependencies.Output('cat1', 'options'),
@@ -410,26 +471,22 @@ def update_dropdown(att_val):
 @app.callback(
     dash.dependencies.Output('radar', 'figure'),
     [dash.dependencies.Input('weapon-dropdown', 'value'),
+    dash.dependencies.Input('gamertag', 'value'),
     dash.dependencies.Input('att1', 'value'),
     dash.dependencies.Input('att2', 'value'),
     dash.dependencies.Input('att3', 'value'),
     dash.dependencies.Input('att4', 'value'),
     dash.dependencies.Input('att5', 'value'),])
-def update_dropdown(wep, att1, att2, att3, att4, att5):
+def update_dropdown(wep, gamertag, att1, att2, att3, att4, att5):
     attachments = [att1, att2, att3, att4, att5]
     base = base_stats(df, wep)
     agg = aggregate(df, wep, attachments)
-    return make_graph(base, agg, wep)
+    return make_graph(base, agg, wep, gamertag)
 
 
 
 
-# @app.callback(
-#     dash.dependencies.Output('radar', 'figure'),
-#     [dash.dependencies.Input('weapon-dropdown', 'value')])
-# def update_dropdown(wep_val):
-#     return make_graph(gun = wep_val)
-
+# ----
 
 
 if __name__ == "__main__":

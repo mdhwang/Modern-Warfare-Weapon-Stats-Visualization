@@ -2,13 +2,13 @@ import plotly.graph_objects as go
 import plotly.express as px
 
 
-m4base = [71.13, 71.83, 63.03, 67.96, 63.03, 71.83]
+m4base = [0,0,0,0,0,0]
 
-upgrade = [81.13, 69, 73.03, 50, 73.03, 81.83]
+upgrade = [0,0,0,0,0,0]
 
 categories = ['Accuracy','Damage','Range','Fire Rate','Mobility','Control']
 
-def make_graph(original = m4base, updated = upgrade, gun = "M4A1"):
+def make_graph(original = m4base, updated = upgrade, gun = "M4A1", gamertag = "Gamertag"):
 
     fig = px.line_polar(r = updated, 
                         theta = categories, 
@@ -24,8 +24,8 @@ def make_graph(original = m4base, updated = upgrade, gun = "M4A1"):
     
     fig.update_layout(
         title={
-            'text': "{} STATS".format(gun),
-            'y':0.98,
+            'text': "{}'s CUSTOM <br> {} BUILD".format(gamertag, gun),
+            'y':0.93,
             'x':0.5,
             'xanchor': 'center',
             'yanchor': 'top',
@@ -35,7 +35,9 @@ def make_graph(original = m4base, updated = upgrade, gun = "M4A1"):
                 color="green"
                 ),
             },
-        
+        transition =  {
+                'duration': 1000,
+                'easing': 'cubic-in-out'},
         font = dict(
             family = "Helvetica",
             size = 18,
