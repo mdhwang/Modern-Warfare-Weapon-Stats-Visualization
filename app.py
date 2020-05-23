@@ -39,14 +39,17 @@ app.layout = html.Div([
                  'margin' : 'auto',
                  'width' : '60%'},
         children = [
-            html.H1('CALL OF DUTY : MODERN WARFARE WEAPON STATS VISUALIZATION'),
+            html.H1('CALL OF DUTY : MODERN WARFARE WEAPON STATS VISUALIZATION',
+                    style = {"text-decoration": "underline"}),
             html.Br(),
 
             html.H2("WHAT'S YOUR GAMERTAG?"),
             dcc.Input(id = "gamertag",
                       type = 'text',
-                      value = 'Gamertag'
+                      value = 'Enter Gamertag',
+                      style = {'textAlign': 'center'},
             ),
+            html.Br(),
             html.Br(),
 
             html.H2('CHOOSE YOUR WEAPON'),
@@ -325,16 +328,27 @@ app.layout = html.Div([
     ),
     html.Br(),
     html.Br(),
-    html.Br(),
+    html.H2(
+        style = {'textAlign': 'center'},
+        children = [html.H1('Save your customized weapon',
+                            style = {"text-decoration": "underline"}),
+                    'Step 1: Hit the "Generate Image" button',html.Br(),
+                    'Step 2: Hit the "Download Image" button',html.Br(),
+                    'Step 3: Share your creation and plz share the source',html.Br(),
+        ]
+
+    ),
     html.Div(
         style = {'textAlign': 'center'},
         children = [
             html.Button(
+                    style = {'margin':'2%'},
                     id="generate",
                     className="btn btn-primary btn-lg",
                     children="GENERATE IMAGE"),
             html.A(
                 'DOWNLOAD IMAGE',
+                style = {'margin':'2%'},    
                 className = "btn btn-primary btn-lg",
                 id='download-link',
                 download="",
