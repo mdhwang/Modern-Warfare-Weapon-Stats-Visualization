@@ -52,6 +52,15 @@ app.layout = html.Div([
             html.Br(),
             html.Br(),
 
+            html.H2("NAME YOUR BUILD"),
+            dcc.Input(id = "guncode",
+                      type = 'text',
+                      value = 'Enter Guncode',
+                      style = {'textAlign': 'center'},
+            ),
+            html.Br(),
+            html.Br(),
+
             html.H2('CHOOSE YOUR WEAPON'),
             dcc.Dropdown(
                 id = 'weapon-dropdown',
@@ -363,6 +372,7 @@ def update_dropdown(wep_val,cat_val):
     dash.dependencies.Output('radar', 'figure'),
     [dash.dependencies.Input('weapon-dropdown', 'value'),
     dash.dependencies.Input('gamertag', 'value'),
+    dash.dependencies.Input('guncode', 'value'),
     dash.dependencies.Input('cat1', 'value'),
     dash.dependencies.Input('cat2', 'value'),
     dash.dependencies.Input('cat3', 'value'),
@@ -373,14 +383,14 @@ def update_dropdown(wep_val,cat_val):
     dash.dependencies.Input('att3', 'value'),
     dash.dependencies.Input('att4', 'value'),
     dash.dependencies.Input('att5', 'value'),])
-def update_dropdown(wep, gamertag, cat1, cat2, cat3, cat4, cat5, att1, att2, att3, att4, att5):
+def update_dropdown(wep, gamertag, guncode, cat1, cat2, cat3, cat4, cat5, att1, att2, att3, att4, att5):
     categories = [cat1, cat2, cat3, cat4, cat5]
     attachments = [att1, att2, att3, att4, att5]
 
     base = base_stats(df, wep)
     agg = aggregate(df, wep, attachments)
     attachment_formatting = [categories, attachments]
-    return make_graph(base, agg, wep, gamertag, attachment_formatting)
+    return make_graph(base, agg, wep, gamertag, guncode, attachment_formatting)
 
 
 

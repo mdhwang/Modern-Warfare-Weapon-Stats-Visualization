@@ -12,7 +12,7 @@ values = [['MUZZLE','BARREL','UNDERBARREL','GRIP','STOCK'],
 
 categories = ['Accuracy','Damage','Range','Fire Rate','Mobility','Control']
 
-def make_graph(original = m4base, updated = upgrade, gun = "M4A1", gamertag = "Gamertag",values = values):
+def make_graph(original = m4base, updated = upgrade, gun = "M4A1", gamertag = "Gamertag", guncode = "Guncode",values = values):
 
     fig = make_subplots(
         rows = 1, 
@@ -71,7 +71,7 @@ def make_graph(original = m4base, updated = upgrade, gun = "M4A1", gamertag = "G
     
     fig.update_layout(
         title={
-            'text': "{}'s CUSTOM <br> {} BUILD".format(gamertag, gun),
+            'text': "{}'s {} BUILD <br> THE '{}'".format(gamertag, gun, guncode),
             'y':0.93,
             'x':0.5,
             'xanchor': 'center',
