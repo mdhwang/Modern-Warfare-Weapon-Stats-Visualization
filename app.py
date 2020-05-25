@@ -334,7 +334,7 @@ app.layout = html.Div([
                             style = {"text-decoration": "underline"}),
                     'Step 1: Hit the "Generate Image" button',html.Br(),
                     'Step 2: Hit the "Download Image" button',html.Br(),
-                    'Step 3: Share your creation and plz share the source',html.Br(),
+                    'Step 3: Share your creation!',html.Br(),
         ]
 
     ),
