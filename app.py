@@ -3,7 +3,7 @@ import dash_html_components as html
 import dash_core_components as dcc
 import pandas as pd
 from app_helpers import *
-from graph import *
+from graph2 import *
 from get_stats import *
 import flask
 import os 
@@ -244,86 +244,86 @@ app.layout = html.Div([
         children = [
             dcc.Graph(
                 id = 'radar',
-                style={'width':'46%',
+                style={'width':'80%',
                 'display': 'inline-block',
                 'marginLeft': '1%', 
                 'marginRight': '0%',
                 'verticalAlign': 'top', },
                 figure=fig),   
 
-            html.Div(
-                className = 'card',
-                style={'width':'46%', 
-                'display': 'inline-block',
-                'marginLeft': '0%', 
-                'marginRight': '1%',
-                'verticalAlign': 'top', },
-                children = [
-                    html.Div(
-                        className = "card-header",
-                        children = [
-                            html.H2(
-                                id = 'table-title', 
-                                children = 'GUN NAME'
-                            )
-                        ]
-                    ),
-                    html.Div(
-                        style = {'textAlign':'left'},
-                        children = [
-                            html.H4(
-                                id = 'tablecat1',
-                                children = 'Attachment 1'
-                                ),
-                            html.H5(
-                                id = 'table-att1',
-                                children = 'Attachment Name'
-                            ),
-                            html.Br(),
+            # html.Div(
+            #     className = 'card',
+            #     style={'width':'46%', 
+            #     'display': 'inline-block',
+            #     'marginLeft': '0%', 
+            #     'marginRight': '1%',
+            #     'verticalAlign': 'top', },
+            #     children = [
+            #         html.Div(
+            #             className = "card-header",
+            #             children = [
+            #                 html.H2(
+            #                     id = 'table-title', 
+            #                     children = 'GUN NAME'
+            #                 )
+            #             ]
+            #         ),
+            #         html.Div(
+            #             style = {'textAlign':'left'},
+            #             children = [
+            #                 html.H4(
+            #                     id = 'tablecat1',
+            #                     children = 'Attachment 1'
+            #                     ),
+            #                 html.H5(
+            #                     id = 'table-att1',
+            #                     children = 'Attachment Name'
+            #                 ),
+            #                 html.Br(),
 
-                            html.H4(
-                                id = 'tablecat2',
-                                children = 'Attachment 2'
-                                ),
-                            html.H5(
-                                id = 'table-att2',
-                                children = 'Attachment Name'
-                            ),
-                            html.Br(),
+            #                 html.H4(
+            #                     id = 'tablecat2',
+            #                     children = 'Attachment 2'
+            #                     ),
+            #                 html.H5(
+            #                     id = 'table-att2',
+            #                     children = 'Attachment Name'
+            #                 ),
+            #                 html.Br(),
 
-                            html.H4(
-                                id = 'tablecat3',
-                                children = 'Attachment 3'
-                                ),
-                            html.H5(
-                                id = 'table-att3',
-                                children = 'Attachment Name'
-                            ),
-                            html.Br(),
+            #                 html.H4(
+            #                     id = 'tablecat3',
+            #                     children = 'Attachment 3'
+            #                     ),
+            #                 html.H5(
+            #                     id = 'table-att3',
+            #                     children = 'Attachment Name'
+            #                 ),
+            #                 html.Br(),
 
-                            html.H4(
-                                id = 'tablecat4',
-                                children = 'Attachment 4'
-                                ),
-                            html.H5(
-                                id = 'table-att4',
-                                children = 'Attachment Name'
-                            ),
-                            html.Br(),
+            #                 html.H4(
+            #                     id = 'tablecat4',
+            #                     children = 'Attachment 4'
+            #                     ),
+            #                 html.H5(
+            #                     id = 'table-att4',
+            #                     children = 'Attachment Name'
+            #                 ),
+            #                 html.Br(),
 
-                            html.H4(
-                                id = 'tablecat5',
-                                children = 'Attachment 5'
-                                ),
-                            html.H5(
-                                id = 'table-att5',
-                                children = 'Attachment Name'
-                            ),
-                            html.Br(),
-                        ]
-                    )
-                ]
-            ),
+            #                 html.H4(
+            #                     id = 'tablecat5',
+            #                     children = 'Attachment 5'
+            #                     ),
+            #                 html.H5(
+            #                     id = 'table-att5',
+            #                     children = 'Attachment Name'
+            #                 ),
+            #                 html.Br(),
+            #             ]
+            #         )
+            #     ]
+            # ),
         ]
     ),
     html.Br(),
@@ -394,93 +394,87 @@ def update_download_link(n_clicks,fig1,gamer,wep):
     dash.dependencies.Output('cat2', 'options'),
     dash.dependencies.Output('cat3', 'options'),
     dash.dependencies.Output('cat4', 'options'),
-    dash.dependencies.Output('cat5', 'options'),
-    dash.dependencies.Output('table-title', 'children'),],
+    dash.dependencies.Output('cat5', 'options'),],
     [dash.dependencies.Input('weapon-dropdown', 'value')])
 def update_dropdown(value):
     cat_mask = (df.Weapon == value)
     cat = create_options(df[cat_mask].Category.unique())
-    return cat, cat, cat, cat, cat, 'Custom {} Build'.format(value)
+    return cat, cat, cat, cat, cat
 
 @app.callback(
-    [dash.dependencies.Output('att1', 'options'),
-    dash.dependencies.Output('tablecat1', 'children'),],
+    dash.dependencies.Output('att1', 'options'),
     [dash.dependencies.Input('weapon-dropdown', 'value'),
     dash.dependencies.Input('cat1', 'value'),])
 def update_dropdown(wep_val,cat_val):
     att_mask = (df.Weapon == wep_val) & (df.Category == cat_val)
     att = create_options(df[att_mask].Attachment.to_list())
-    return att, "- Attachment 1: {}".format(cat_val)
+    return att
 
 @app.callback(
-    [dash.dependencies.Output('att2', 'options'),
-    dash.dependencies.Output('tablecat2', 'children'),],
+    dash.dependencies.Output('att2', 'options'),
     [dash.dependencies.Input('weapon-dropdown', 'value'),
     dash.dependencies.Input('cat2', 'value'),])
 def update_dropdown(wep_val,cat_val):
     att_mask = (df.Weapon == wep_val) & (df.Category == cat_val)
     att = create_options(df[att_mask].Attachment.to_list())
-    return att, "- Attachment 2: {}".format(cat_val)
+    return att
 
 @app.callback(
-    [dash.dependencies.Output('att3', 'options'),
-    dash.dependencies.Output('tablecat3', 'children'),],
+    dash.dependencies.Output('att3', 'options'),
     [dash.dependencies.Input('weapon-dropdown', 'value'),
     dash.dependencies.Input('cat3', 'value'),])
 def update_dropdown(wep_val,cat_val):
     att_mask = (df.Weapon == wep_val) & (df.Category == cat_val)
     att = create_options(df[att_mask].Attachment.to_list())
-    return att, "- Attachment 3: {}".format(cat_val)
+    return att
 
 @app.callback(
-    [dash.dependencies.Output('att4', 'options'),
-    dash.dependencies.Output('tablecat4', 'children'),],
+    dash.dependencies.Output('att4', 'options'),
     [dash.dependencies.Input('weapon-dropdown', 'value'),
     dash.dependencies.Input('cat4', 'value'),])
 def update_dropdown(wep_val,cat_val):
     att_mask = (df.Weapon == wep_val) & (df.Category == cat_val)
     att = create_options(df[att_mask].Attachment.to_list())
-    return att, "- Attachment 4: {}".format(cat_val)
+    return att
 
 @app.callback(
-    [dash.dependencies.Output('att5', 'options'),
-    dash.dependencies.Output('tablecat5', 'children'),],
+    dash.dependencies.Output('att5', 'options'),
     [dash.dependencies.Input('weapon-dropdown', 'value'),
     dash.dependencies.Input('cat5', 'value'),])
 def update_dropdown(wep_val,cat_val):
     att_mask = (df.Weapon == wep_val) & (df.Category == cat_val)
     att = create_options(df[att_mask].Attachment.to_list())
-    return att, "- Attachment 5: {}".format(cat_val)
+    return att
 
-@app.callback(
-    dash.dependencies.Output('table-att1', 'children'),
-    [dash.dependencies.Input('att1', 'value'),])
-def update_dropdown(att_val):
-    return att_val
+# @app.callback(
+#     dash.dependencies.Output('table-att1', 'children'),
+#     [dash.dependencies.Input('att1', 'value'),])
+# def update_dropdown(att_val):
+#     return att_val
 
-@app.callback(
-    dash.dependencies.Output('table-att2', 'children'),
-    [dash.dependencies.Input('att2', 'value'),])
-def update_dropdown(att_val):
-    return att_val
+# @app.callback(
+#     dash.dependencies.Output('table-att2', 'children'),
+#     [dash.dependencies.Input('att2', 'value'),])
+# def update_dropdown(att_val):
+#     return att_val
 
-@app.callback(
-    dash.dependencies.Output('table-att3', 'children'),
-    [dash.dependencies.Input('att3', 'value'),])
-def update_dropdown(att_val):
-    return att_val
+# @app.callback(
+#     dash.dependencies.Output('table-att3', 'children'),
+#     [dash.dependencies.Input('att3', 'value'),])
+# def update_dropdown(att_val):
+#     return att_val
 
-@app.callback(
-    dash.dependencies.Output('table-att4', 'children'),
-    [dash.dependencies.Input('att4', 'value'),])
-def update_dropdown(att_val):
-    return att_val
+# @app.callback(
+#     dash.dependencies.Output('table-att4', 'children'),
+#     [dash.dependencies.Input('att4', 'value'),])
+# def update_dropdown(att_val):
+#     return att_val
 
-@app.callback(
-    dash.dependencies.Output('table-att5', 'children'),
-    [dash.dependencies.Input('att5', 'value'),])
-def update_dropdown(att_val):
-    return att_val
+# @app.callback(
+#     dash.dependencies.Output('table-att5', 'children'),
+#     [dash.dependencies.Input('att5', 'value'),])
+# def update_dropdown(att_val):
+#     return att_val
 
 @app.callback(
     dash.dependencies.Output('radar', 'figure'),
