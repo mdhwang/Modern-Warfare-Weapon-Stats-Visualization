@@ -480,16 +480,24 @@ def update_dropdown(wep_val,cat_val):
     dash.dependencies.Output('radar', 'figure'),
     [dash.dependencies.Input('weapon-dropdown', 'value'),
     dash.dependencies.Input('gamertag', 'value'),
+    dash.dependencies.Input('cat1', 'value'),
+    dash.dependencies.Input('cat2', 'value'),
+    dash.dependencies.Input('cat3', 'value'),
+    dash.dependencies.Input('cat4', 'value'),
+    dash.dependencies.Input('cat5', 'value'),
     dash.dependencies.Input('att1', 'value'),
     dash.dependencies.Input('att2', 'value'),
     dash.dependencies.Input('att3', 'value'),
     dash.dependencies.Input('att4', 'value'),
     dash.dependencies.Input('att5', 'value'),])
-def update_dropdown(wep, gamertag, att1, att2, att3, att4, att5):
+def update_dropdown(wep, gamertag, cat1, cat2, cat3, cat4, cat5, att1, att2, att3, att4, att5):
+    categories = [cat1, cat2, cat3, cat4, cat5]
     attachments = [att1, att2, att3, att4, att5]
+
     base = base_stats(df, wep)
     agg = aggregate(df, wep, attachments)
-    return make_graph(base, agg, wep, gamertag)
+    attachment_formatting = [categories, attachments]
+    return make_graph(base, agg, wep, gamertag, attachment_formatting)
 
 
 
