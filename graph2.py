@@ -17,8 +17,7 @@ def make_graph(original = m4base, updated = upgrade, gun = "M4A1", gamertag = "G
     fig = make_subplots(
         rows = 1, 
         cols = 2,
-        shared_xaxes = True,
-        vertical_spacing = 0.03,
+        column_widths=[0.4, 0.6],
         specs = [[{"type": "scatterpolar"},{"type": "table"}],]
     )
     
@@ -51,7 +50,7 @@ def make_graph(original = m4base, updated = upgrade, gun = "M4A1", gamertag = "G
     
     fig.add_trace(
         go.Table(        
-            columnwidth = [225,400],
+            columnwidth = [0.3, 0.7],
             header = dict(
                 values = ["CATEGORY","ATTACHMENT"],
                 font = dict(size = 20,
@@ -59,7 +58,7 @@ def make_graph(original = m4base, updated = upgrade, gun = "M4A1", gamertag = "G
                 height = 36,
                 align="left"
             ),
-            cells=dict(
+            cells = dict(
                 values = values,
                 height = 36,
                 align = "left",
@@ -67,7 +66,7 @@ def make_graph(original = m4base, updated = upgrade, gun = "M4A1", gamertag = "G
                 color = "black"),
             )
         ),
-        row=1, col=2
+        row=1, col=2,
     )
     
     fig.update_layout(
