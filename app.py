@@ -33,6 +33,8 @@ app.layout = html.Div([
 
     html.Br(),
 
+    html.Img(src='data:image/png;base64,title'),
+
     html.Div(
         id = 'weapon-block',
         style = {'textAlign': 'center',
@@ -41,6 +43,7 @@ app.layout = html.Div([
         children = [
             html.H1('CALL OF DUTY : MODERN WARFARE WEAPON STATS VISUALIZATION',
                     style = {"text-decoration": "underline"}),
+            html.Img(src = ''),
             html.Br(),
 
             html.H2("WHAT'S YOUR GAMERTAG?"),
