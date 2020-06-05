@@ -3,7 +3,7 @@ import dash_html_components as html
 import dash_core_components as dcc
 import pandas as pd
 from app_helpers import *
-from graph import *
+from graph2 import *
 from get_stats import *
 import flask
 import os 
@@ -255,13 +255,16 @@ app.layout = html.Div([
     html.Br(),
 
     html.Div(
-        style = {'textAlign': 'center'},
+        style = {'textAlign': 'center',
+                'display': 'inline-block',
+                'width':'100%',},
         children = [
             dcc.Graph(
                 id = 'radar',
-                style={'width':'80%',
+                style={
+                'textAlign': 'center',
                 'display': 'inline-block',
-                'marginLeft': '1%', 
+                'marginLeft': '0%', 
                 'marginRight': '0%',
                 'verticalAlign': 'top', },
                 figure=fig),   

@@ -15,10 +15,12 @@ categories = ['Accuracy','Damage','Range','Fire Rate','Mobility','Control']
 def make_graph(original = m4base, updated = upgrade, gun = "M4A1", gamertag = "Gamertag", guncode = "Guncode",values = values):
 
     fig = make_subplots(
-        rows = 1, 
-        cols = 2,
-        column_widths=[0.4, 0.6],
-        specs = [[{"type": "scatterpolar"},{"type": "table"}],]
+        rows = 2, 
+        cols = 1,
+        specs = [
+            [{"type": "scatterpolar"}],
+            [{"type": "table"}]
+        ]
     )
     
     fig.add_trace(
@@ -47,7 +49,7 @@ def make_graph(original = m4base, updated = upgrade, gun = "M4A1", gamertag = "G
                 showlegend=False),
             row=1, col=1
     )
-    
+
     fig.add_trace(
         go.Table(        
             columnwidth = [0.3, 0.7],
@@ -66,10 +68,12 @@ def make_graph(original = m4base, updated = upgrade, gun = "M4A1", gamertag = "G
                 color = "black"),
             )
         ),
-        row=1, col=2,
+        row=2, col=1,
     )
     
     fig.update_layout(
+        height = 1000,
+        width = 1000,
         title={
             'text': "{}'s {} BUILD <br> THE '{}'".format(gamertag, gun, guncode),
             'y':0.93,
@@ -91,7 +95,7 @@ def make_graph(original = m4base, updated = upgrade, gun = "M4A1", gamertag = "G
             size = 18,
             color = "gray"
             ),
-        margin = {'t':130},
+        margin = {'t':200},
         polar = dict(
             radialaxis = dict(showticklabels = True, 
                             color = 'gray',
