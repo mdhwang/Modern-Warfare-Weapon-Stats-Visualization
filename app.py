@@ -3,7 +3,7 @@ import dash_html_components as html
 import dash_core_components as dcc
 import pandas as pd
 from app_helpers import *
-from graph2 import *
+from graph import *
 from get_stats import *
 import flask
 import os 
@@ -52,7 +52,7 @@ app.layout = html.Div([
             html.H2("WHAT'S YOUR GAMERTAG?"),
             dcc.Input(id = "gamertag",
                       type = 'text',
-                      value = 'Enter Gamertag',
+                      placeholder =  'Ex. John Wick',
                       style = {'textAlign': 'center'},
             ),
             html.Br(),
@@ -61,7 +61,7 @@ app.layout = html.Div([
             html.H2("NAME YOUR BUILD"),
             dcc.Input(id = "guncode",
                       type = 'text',
-                      value = 'Enter Guncode',
+                      placeholder = 'Ex. YeetCannon5000',
                       style = {'textAlign': 'center'},
             ),
             html.Br(),

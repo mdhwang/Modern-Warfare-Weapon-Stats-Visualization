@@ -1,30 +1,77 @@
 import plotly.graph_objects as go
 import plotly.express as px
 
+from plotly.subplots import make_subplots
+
 
 m4base = [0,0,0,0,0,0]
-
 upgrade = [0,0,0,0,0,0]
+
+values = [['MUZZLE','BARREL','UNDERBARREL','GRIP','STOCK'],
+         ['A','B','C','D','E']]
 
 categories = ['Accuracy','Damage','Range','Fire Rate','Mobility','Control']
 
-def make_graph(original = m4base, updated = upgrade, gun = "M4A1", gamertag = "Gamertag"):
+def make_graph(original = m4base, updated = upgrade, gun = "M4A1", gamertag = "Gamertag", guncode = "Guncode",values = values):
 
-    fig = px.line_polar(r = updated, 
-                        theta = categories, 
-                        line_close = True,
-                        range_r = [0,100],
-                        render_mode = 'svg',
-                        template = "plotly_dark",
-                        width=500,
-                        height=500,
-                    )
+    fig = make_subplots(
+        rows = 1, 
+        cols = 2,
+        column_widths=[0.4, 0.6],
+        specs = [[{"type": "scatterpolar"},{"type": "table"}],]
+    )
     
-    fig.update_traces(fill='toself',line_color='green')
+    fig.add_trace(
+            go.Scatterpolar(
+                mode = "lines",
+                fillcolor = 'green',
+                line = dict(color='green',width=3),
+                opacity = 0.5,
+                r = updated,
+                theta = categories,
+                fill = "toself",
+                showlegend=False,
+            ),
+            row=1, col=1
+    )
+        
+    fig.add_trace(
+            go.Scatterpolar(
+                mode = "lines",
+                fillcolor = '#ffa07a ',
+                line = dict(color='red',width=2),
+                opacity = 0.25,
+                r = original,
+                theta = categories,
+                fill = "toself",
+                showlegend=False),
+            row=1, col=1
+    )
+    
+    fig.add_trace(
+        go.Table(        
+            columnwidth = [0.3, 0.7],
+            header = dict(
+                values = ["CATEGORY","ATTACHMENT"],
+                font = dict(size = 20,
+                color = "black"),
+                height = 36,
+                align="left"
+            ),
+            cells = dict(
+                values = values,
+                height = 36,
+                align = "left",
+                font = dict(size = 16,
+                color = "black"),
+            )
+        ),
+        row=1, col=2,
+    )
     
     fig.update_layout(
         title={
-            'text': "{}'s CUSTOM <br> {} BUILD".format(gamertag, gun),
+            'text': "{}'s {} BUILD <br> THE '{}'".format(gamertag, gun, guncode),
             'y':0.93,
             'x':0.5,
             'xanchor': 'center',
@@ -35,6 +82,7 @@ def make_graph(original = m4base, updated = upgrade, gun = "M4A1", gamertag = "G
                 color="green"
                 ),
             },
+        template = "plotly_dark",
         transition =  {
                 'duration': 1000,
                 'easing': 'cubic-in-out'},
@@ -48,19 +96,13 @@ def make_graph(original = m4base, updated = upgrade, gun = "M4A1", gamertag = "G
             radialaxis = dict(showticklabels = True, 
                             color = 'gray',
                             tickangle = 0,
-                            tickfont = dict(size = 16)),
+                            tickfont = dict(size = 12),
+                            range = [0,100],)
             )
         )
 
-    fig.add_trace(go.Scatterpolar(
-            mode = "lines",
-            fillcolor = 'gray',
-            line = dict(color='gray',width=3),
-            opacity = 0.5,
-            r = original,
-            theta = categories,
-            fill = "toself",
-            showlegend=False,
-            name = "BASE"))
 
     return fig
+
+def make_table():
+    pass
