@@ -4,13 +4,25 @@ import plotly.express as px
 from plotly.subplots import make_subplots
 
 
+from get_stats import *
+
+
 m4base = [0,0,0,0,0,0]
 upgrade = [0,0,0,0,0,0]
 
-values = [['MUZZLE','BARREL','UNDERBARREL','GRIP','STOCK'],
-         ['A','B','C','D','E']]
 
 categories = ['Accuracy','Damage','Range','Fire Rate','Mobility','Control']
+    
+formatting = {}
+for each in categories:
+    formatting[each] = float
+    
+df = pd.read_csv('attachment_data.csv',dtype=formatting)
+
+attachments = []
+cat = []
+
+values = table_agg(df, "M4A1", attachments, cat)
 
 def make_graph(original = m4base, updated = upgrade, gun = "M4A1", gamertag = "Gamertag", guncode = "Guncode",values = values):
 
@@ -52,16 +64,23 @@ def make_graph(original = m4base, updated = upgrade, gun = "M4A1", gamertag = "G
 
     fig.add_trace(
         go.Table(        
-            columnwidth = [0.3, 0.7],
+            columnwidth = [0.2, 0.2, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1],
             header = dict(
-                values = ["CATEGORY","ATTACHMENT"],
+                values = ["Category","Attachment",'Accuracy','Damage','Range','Fire Rate','Mobility','Control'],
                 font = dict(size = 20,
                 color = "black"),
                 height = 36,
                 align="left"
             ),
             cells = dict(
-                values = values,
+                values = [values.Category, 
+                          values.Attachment, 
+                          values.Accuracy, 
+                          values.Damage, 
+                          values.Range, 
+                          values['Fire Rate'], 
+                          values.Mobility,
+                          values.Control],
                 height = 36,
                 align = "left",
                 font = dict(size = 16,

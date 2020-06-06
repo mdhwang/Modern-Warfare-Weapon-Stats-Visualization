@@ -398,8 +398,8 @@ def update_dropdown(wep, gamertag, guncode, cat1, cat2, cat3, cat4, cat5, att1, 
 
     base = base_stats(df, wep)
     agg = aggregate(df, wep, attachments)
-    attachment_formatting = [categories, attachments]
-    return make_graph(base, agg, wep, gamertag, guncode, attachment_formatting)
+    table_values = table_agg(df, wep, attachments, categories)
+    return make_graph(base, agg, wep, gamertag, guncode, table_values)
 
 
 
