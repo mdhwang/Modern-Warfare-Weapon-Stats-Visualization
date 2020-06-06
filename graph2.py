@@ -19,8 +19,8 @@ for each in categories:
     
 df = pd.read_csv('attachment_data.csv',dtype=formatting)
 
-attachments = []
-cat = []
+attachments = [0,0,0,0,0]
+cat = [0,0,0,0,0]
 
 values = table_agg(df, "M4A1", attachments, cat)
 
@@ -73,14 +73,27 @@ def make_graph(original = m4base, updated = upgrade, gun = "M4A1", gamertag = "G
                 align="left"
             ),
             cells = dict(
-                values = [values.Category, 
-                          values.Attachment, 
-                          values.Accuracy, 
-                          values.Damage, 
-                          values.Range, 
-                          values['Fire Rate'], 
-                          values.Mobility,
-                          values.Control],
+                values = [
+                    values.Category, 
+                    values.Attachment, 
+                    values.Accuracy, 
+                    values.Damage, 
+                    values.Range, 
+                    values['Fire Rate'], 
+                    values.Mobility,
+                    values.Control
+                ],
+                
+                fill_color=[
+                    ['white']*len(values),
+                    ['white']*len(values),
+                    values.Accuracy_color,
+                    values.Damage_color,
+                    values.Range_color,
+                    values['Fire Rate_color'],
+                    values.Mobility_color,
+                    values.Control_color,
+                ],
                 height = 36,
                 align = "left",
                 font = dict(size = 16,

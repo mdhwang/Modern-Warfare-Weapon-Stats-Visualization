@@ -39,4 +39,33 @@ def table_agg(df, weapon, attachemnts,categories):
     table.append(final)
     header = ["Category","Attachment",'Accuracy','Damage','Range','Fire Rate','Mobility','Control']
     pd_table = pd.DataFrame(table, columns = header)
+
+    stats = ['Accuracy','Damage','Range','Fire Rate','Mobility','Control']
+    for each in stats:
+        string = each + "_color"
+        # print(pd_table[each])
+        pd_table[string] = color_selector(pd_table[each])
     return pd_table
+
+def color_selector(column):
+    try:
+        colors = []
+        values = column.to_list()[1:-1]
+        for value in values:
+            if value > 0:
+                colors.append('green')
+            elif value < 0:
+                colors.append('red')
+            else:
+                colors.append('white')
+        colors.insert(0,'white')
+        if values[-1] > values[0]:
+            fin = 'green'
+        elif values[-1] < values[0]:
+            fin = 'red'
+        else:
+            fin = 'white'
+        colors.append(fin)
+        return colors
+    except:
+        return ['white'] * len(column)
