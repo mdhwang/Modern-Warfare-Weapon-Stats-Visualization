@@ -64,13 +64,13 @@ def make_graph(original = m4base, updated = upgrade, gun = "M4A1", gamertag = "G
 
     fig.add_trace(
         go.Table(        
-            columnwidth = [0.2, 0.2, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1],
+            columnwidth = [0.17, 0.17, 0.11, 0.11, 0.11, 0.11, 0.11, 0.11],
             header = dict(
                 values = ["Category","Attachment",'Accuracy','Damage','Range','Fire Rate','Mobility','Control'],
-                font = dict(size = 20,
-                color = "black"),
+                font = dict(size = 16,
+                            color = "black"),
                 height = 36,
-                align="left"
+                align="center",
             ),
             cells = dict(
                 values = [
@@ -85,8 +85,8 @@ def make_graph(original = m4base, updated = upgrade, gun = "M4A1", gamertag = "G
                 ],
                 
                 fill_color=[
-                    ['white']*len(values),
-                    ['white']*len(values),
+                    ["rgb(200, 200, 200)"]*len(values),
+                    ["rgb(200, 200, 200)"]*len(values),
                     values.Accuracy_color,
                     values.Damage_color,
                     values.Range_color,
@@ -95,7 +95,7 @@ def make_graph(original = m4base, updated = upgrade, gun = "M4A1", gamertag = "G
                     values.Control_color,
                 ],
                 height = 36,
-                align = "left",
+                align = "center",
                 font = dict(size = 16,
                 color = "black"),
             )
