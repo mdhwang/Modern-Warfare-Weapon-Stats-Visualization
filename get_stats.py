@@ -53,19 +53,19 @@ def color_selector(column):
         values = column.to_list()[1:-1]
         for value in values:
             if value > 0:
-                colors.append('green')
+                colors.append("rgba(100, 200, 100,0.75)")
             elif value < 0:
-                colors.append('red')
+                colors.append("rgba(250, 100, 100,0.75)")
             else:
-                colors.append('white')
-        colors.insert(0,'white')
+                colors.append("rgb(200, 200, 200)")
+        colors.insert(0,"rgb(200, 200, 200)")
         if values[-1] > values[0]:
-            fin = 'green'
+            fin = "rgba(100, 200, 100,0.75)"
         elif values[-1] < values[0]:
-            fin = 'red'
+            fin = "rgba(250, 100, 100,0.75)"
         else:
-            fin = 'white'
+            fin = "rgb(200, 200, 200)"
         colors.append(fin)
         return colors
     except:
-        return ['white'] * len(column)
+        return ["rgb(200, 200, 200)"] * len(column)
