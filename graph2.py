@@ -195,15 +195,15 @@ def make_table(original = m4base, updated = upgrade, gun = "M4A1", gamertag = "G
         height = 600,
         width = 1000,
         title={
-            'text': "{}'s {} BUILD <br> THE '{}'".format(gamertag, gun, guncode),
+            'text': guncode,
             'y':0.93,
             'x':0.5,
             'xanchor': 'center',
             'yanchor': 'top',
             'font' : dict(
-                family="Courier New, monospace",
-                size=32,
-                color="green"
+                family = "Courier New, monospace",
+                size = 50,
+                color = "green"
                 ),
             },
         template = "plotly_dark",
@@ -215,7 +215,41 @@ def make_table(original = m4base, updated = upgrade, gun = "M4A1", gamertag = "G
             size = 18,
             color = "gray"
             ),
-        margin = {'t':200},
+        margin = {'t':150,
+                  'b':150
+        },
+        annotations=[
+            go.layout.Annotation(
+                showarrow = False,
+                text = 'Custom {} Build Created By {}'.format(gun, gamertag),
+                xanchor = 'center',
+                x = 0.5,
+                yanchor = 'top',
+                y = 0,
+                font = dict(
+                    family = "Courier New, monospace",
+                    size = 24,
+                    color = "green",
+                ),
+                yshift = -50,
+            ),
+
+            go.layout.Annotation(
+                showarrow = False,
+                text = 'Make Yours On IG At:<br>@The_Gulag_Gunsmith',
+                xanchor = 'center',
+                x = 0.95,
+                yanchor = 'top',
+                y = 0,
+                font = dict(
+                    family = "Courier New, monospace",
+                    size = 14,
+                    color = "gray",
+                ),
+                yshift = -100,
+                align = "center",
+            )
+        ]
         )
 
 

@@ -350,22 +350,38 @@ def update_download_link(n_clicks,fig1,gamer,wep):
     
 
 @app.callback([
-    dash.dependencies.Output('cat1', 'options'),
-    dash.dependencies.Output('cat2', 'options'),
-    dash.dependencies.Output('cat3', 'options'),
-    dash.dependencies.Output('cat4', 'options'),
-    dash.dependencies.Output('cat5', 'options'),],
-    [dash.dependencies.Input('weapon-dropdown', 'value')])
-def update_dropdown(value):
-    cat_mask = (df.Weapon == value) & (df.Category != "BASE")
+        dash.dependencies.Output('cat1', 'options'),
+        dash.dependencies.Output('cat2', 'options'),
+        dash.dependencies.Output('cat3', 'options'),
+        dash.dependencies.Output('cat4', 'options'),
+        dash.dependencies.Output('cat5', 'options'),
+        dash.dependencies.Output('cat1', 'value'),
+        dash.dependencies.Output('cat2', 'value'),
+        dash.dependencies.Output('cat3', 'value'),
+        dash.dependencies.Output('cat4', 'value'),
+        dash.dependencies.Output('cat5', 'value'),
+    ],
+    [
+        dash.dependencies.Input('weapon-dropdown', 'value')
+    ],
+    [
+        dash.dependencies.State('cat1', 'options'),
+        dash.dependencies.State('cat2', 'options'),
+        dash.dependencies.State('cat3', 'options'),
+        dash.dependencies.State('cat4', 'options'),
+        dash.dependencies.State('cat5', 'options'),
+    ],
+    )
+def set_categories_from_weapon(weapon,c1,c2,c3,c4,c5):
+    cat_mask = (df.Weapon == weapon) & (df.Category != "BASE")
     cat = create_options(df[cat_mask].Category.unique())
-    return cat, cat, cat, cat, cat
+    return cat, cat, cat, cat, cat, '', '', '', '', ''
 
 @app.callback(
     dash.dependencies.Output('att1', 'options'),
     [dash.dependencies.Input('weapon-dropdown', 'value'),
     dash.dependencies.Input('cat1', 'value'),])
-def update_dropdown(wep_val,cat_val):
+def set_attachments_from_categories(wep_val,cat_val):
     att_mask = (df.Weapon == wep_val) & (df.Category == cat_val)
     att = create_options(df[att_mask].Attachment.to_list())
     return att
@@ -374,7 +390,7 @@ def update_dropdown(wep_val,cat_val):
     dash.dependencies.Output('att2', 'options'),
     [dash.dependencies.Input('weapon-dropdown', 'value'),
     dash.dependencies.Input('cat2', 'value'),])
-def update_dropdown(wep_val,cat_val):
+def set_attachments_from_categories(wep_val,cat_val):
     att_mask = (df.Weapon == wep_val) & (df.Category == cat_val)
     att = create_options(df[att_mask].Attachment.to_list())
     return att
@@ -383,7 +399,7 @@ def update_dropdown(wep_val,cat_val):
     dash.dependencies.Output('att3', 'options'),
     [dash.dependencies.Input('weapon-dropdown', 'value'),
     dash.dependencies.Input('cat3', 'value'),])
-def update_dropdown(wep_val,cat_val):
+def set_attachments_from_categories(wep_val,cat_val):
     att_mask = (df.Weapon == wep_val) & (df.Category == cat_val)
     att = create_options(df[att_mask].Attachment.to_list())
     return att
@@ -392,7 +408,7 @@ def update_dropdown(wep_val,cat_val):
     dash.dependencies.Output('att4', 'options'),
     [dash.dependencies.Input('weapon-dropdown', 'value'),
     dash.dependencies.Input('cat4', 'value'),])
-def update_dropdown(wep_val,cat_val):
+def set_attachments_from_categories(wep_val,cat_val):
     att_mask = (df.Weapon == wep_val) & (df.Category == cat_val)
     att = create_options(df[att_mask].Attachment.to_list())
     return att
@@ -401,7 +417,7 @@ def update_dropdown(wep_val,cat_val):
     dash.dependencies.Output('att5', 'options'),
     [dash.dependencies.Input('weapon-dropdown', 'value'),
     dash.dependencies.Input('cat5', 'value'),])
-def update_dropdown(wep_val,cat_val):
+def set_attachments_from_categories(wep_val,cat_val):
     att_mask = (df.Weapon == wep_val) & (df.Category == cat_val)
     att = create_options(df[att_mask].Attachment.to_list())
     return att
@@ -423,7 +439,7 @@ def update_dropdown(wep_val,cat_val):
     dash.dependencies.Input('att3', 'value'),
     dash.dependencies.Input('att4', 'value'),
     dash.dependencies.Input('att5', 'value'),])
-def update_dropdown(wep, gamertag, guncode, cat1, cat2, cat3, cat4, cat5, att1, att2, att3, att4, att5):
+def generate_figures(wep, gamertag, guncode, cat1, cat2, cat3, cat4, cat5, att1, att2, att3, att4, att5):
     categories = [cat1, cat2, cat3, cat4, cat5]
     attachments = [att1, att2, att3, att4, att5]
 
