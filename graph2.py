@@ -11,7 +11,7 @@ m4base = [0,0,0,0,0,0]
 upgrade = [0,0,0,0,0,0]
 
 
-categories = ['Accuracy','Damage','Range','Fire Rate','Mobility','Control']
+categories = ['  Accuracy','Damage','Range','Fire Rate','Mobility','Control']
     
 formatting = {}
 for each in categories:
@@ -53,7 +53,8 @@ def make_graph(original = m4base, updated = upgrade, gun = "M4A1", gamertag = "G
             go.Scatterpolar(
                 mode = "lines",
                 fillcolor = '#ffa07a ',
-                line = dict(color='red',width=2),
+                # line = dict(color='red',
+                #             width=2),
                 opacity = 0.25,
                 r = original,
                 theta = categories,
@@ -69,7 +70,7 @@ def make_graph(original = m4base, updated = upgrade, gun = "M4A1", gamertag = "G
                 values = ["Category","Attachment",'Accuracy','Damage','Range','Fire Rate','Mobility','Control'],
                 font = dict(size = 14,
                             color = "black"),
-                height = 36,
+                height = 30,
                 align="center",
                 fill_color=[
                     ["rgba(100,149,237, 0.85)"] * 8,
@@ -97,7 +98,7 @@ def make_graph(original = m4base, updated = upgrade, gun = "M4A1", gamertag = "G
                     values.Mobility_color,
                     values.Control_color,
                 ],
-                height = 36,
+                height = 24,
                 align = "center",
                 font = dict(size = 12,
                             color = "black"),

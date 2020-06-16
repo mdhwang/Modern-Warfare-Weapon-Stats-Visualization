@@ -28,7 +28,7 @@ def table_agg(df, weapon, attachemnts,categories):
     for i, attachment in enumerate(attachemnts):
         try:
             diff = df[(df.Weapon == weapon) & (df.Attachment == attachment)].iloc[0,3:].tolist()
-            final = [sum(i) for i in zip(final, diff)]
+            final = [round(sum(i),2) for i in zip(final, diff)]
             diff.insert(0,attachment)
             diff.insert(0,categories[i])
             table.append(diff)
@@ -50,7 +50,8 @@ def table_agg(df, weapon, attachemnts,categories):
 def color_selector(column):
     try:
         colors = []
-        values = column.to_list()[1:-1]
+        col = column.to_list()
+        values = col[1:-1]
         for value in values:
             if value > 0:
                 colors.append("rgba(100, 200, 100,0.75)")
@@ -59,9 +60,9 @@ def color_selector(column):
             else:
                 colors.append("rgb(200, 200, 200)")
         colors.insert(0,"rgb(200, 200, 200)")
-        if values[-1] > values[0]:
+        if col[-1] > col[0]:
             fin = "rgba(100, 200, 100,0.75)"
-        elif values[-1] < values[0]:
+        elif col[-1] < col[0]:
             fin = "rgba(250, 100, 100,0.75)"
         else:
             fin = "rgb(200, 200, 200)"
