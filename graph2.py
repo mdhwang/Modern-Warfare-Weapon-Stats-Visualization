@@ -90,7 +90,7 @@ def make_graph(original = m4base, updated = upgrade, gun = "M4A1", gamertag = "G
             color = "gray"
             ),
         margin = {'t':150,
-                  'b':100
+                  'b':150
                 },
         polar = dict(
             radialaxis = dict(showticklabels = True, 
@@ -114,6 +114,22 @@ def make_graph(original = m4base, updated = upgrade, gun = "M4A1", gamertag = "G
                     color = "green",
                 ),
                 yshift = -50,
+            ),
+
+            go.layout.Annotation(
+                showarrow = False,
+                text = 'Make Yours On IG At:<br>@The_Gulag_Gunsmith',
+                xanchor = 'center',
+                x = 0.95,
+                yanchor = 'top',
+                y = 0,
+                font = dict(
+                    family = "Courier New, monospace",
+                    size = 14,
+                    color = "gray",
+                ),
+                yshift = -100,
+                align = "center",
             )
         ]
     )
@@ -139,9 +155,9 @@ def make_table(original = m4base, updated = upgrade, gun = "M4A1", gamertag = "G
                 font = dict(size = 14,
                             color = "black"),
                 height = 30,
-                align="center",
-                fill_color=[
-                    ["rgba(100,149,237, 0.85)"] * 8,
+                align = "center",
+                fill_color = [
+                    ["rgba(100, 149, 237, 0.85)"] * 8,
                 ]
             ),
             cells = dict(
