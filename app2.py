@@ -312,16 +312,77 @@ app.layout = html.Div([
         ]
 
     ),
+
+    # html.Div(id = 'download-block',
+    #     style = {'textAlign': 'center'},
+    #     children = [
+    #             html.Div(
+    #             style = {'textAlign': 'center',
+    #                      'width' : '49%'
+    #             },
+    #             children = [
+    #                 html.H1("Stats Chart:"),
+    #                 html.Button(
+    #                         style = {'margin':'2%'},
+    #                         id="generate",
+    #                         className="btn btn-primary btn-lg",
+    #                         children="GENERATE CHART"),
+    #                 html.Br(),
+    #                 html.A(
+    #                     'DOWNLOAD CHART',
+    #                     # style = {'margin':'2%'},    
+    #                     className = "btn btn-primary btn-lg",
+    #                     id='download-link',
+    #                     download="",
+    #                     href="",
+    #                     target="_blank"
+    #                 )
+    #             ]
+    #         ),
+
+    #         html.Div(
+    #             style = {'textAlign': 'center',
+    #                      'width' : '49%'
+    #                 },
+    #             children = [
+    #                 html.H1("Stats Table:"),
+    #                 html.Button(
+    #                         style = {'margin':'2%'},
+    #                         id="generate2",
+    #                         className="btn btn-primary btn-lg",
+    #                         children="GENERATE TABLE"),
+    #                 html.Br(),
+    #                 html.A(
+    #                     'DOWNLOAD TABLE',
+    #                     # style = {'margin':'2%'},    
+    #                     className = "btn btn-primary btn-lg",
+    #                     id='download-link2',
+    #                     download="",
+    #                     href="",
+    #                     target="_blank"
+    #                 )
+    #             ]
+    #         ),
+    #     ]
+    # ),
+
+    html.Br(),
+    html.Br(),
+
     html.Div(
-        style = {'textAlign': 'center'},
+        style = {'textAlign': 'center',
+                         'width' : '50%',
+                         'display': 'inline-block', },
         children = [
+            html.H1("Stats Chart:"),
             html.Button(
                     style = {'margin':'2%'},
                     id="generate",
                     className="btn btn-primary btn-lg",
-                    children="GENERATE IMAGE"),
+                    children="GENERATE CHART"),
+            html.Br(),
             html.A(
-                'DOWNLOAD IMAGE',
+                'DOWNLOAD CHART',
                 style = {'margin':'2%'},    
                 className = "btn btn-primary btn-lg",
                 id='download-link',
@@ -331,9 +392,49 @@ app.layout = html.Div([
             )
         ]
     ),
+
+
+
+    html.Div(
+        style = {'textAlign': 'center',
+                         'width' : '50%',
+                         'display': 'inline-block',},
+        children = [
+            html.H1("Stats Table:"),
+            html.Button(
+                    style = {'margin':'2%'},
+                    id="generate2",
+                    className="btn btn-primary btn-lg",
+                    children="GENERATE TABLE"),
+            html.Br(),
+            html.A(
+                'DOWNLOAD TABLE',
+                style = {'margin':'2%'},    
+                className = "btn btn-primary btn-lg",
+                id='download-link2',
+                download="",
+                href="",
+                target="_blank"
+            )
+        ]
+    ),
 ])
 
 
+@app.callback([
+    dash.dependencies.Output('download-link2', 'href'),
+    dash.dependencies.Output('download-link2', 'download')],
+    [dash.dependencies.Input("generate2", "n_clicks")],
+    [dash.dependencies.State("radar2", "figure"),
+    dash.dependencies.State('gamertag', 'value'),
+    dash.dependencies.State('weapon-dropdown', 'value')])
+def update_download_link(n_clicks,fig1,gamer,wep):
+    chart = go.Figure(fig1)
+    filename = "{} - {}.png".format(gamer,wep)
+    path = 'static/' + filename
+    chart.write_image(path, width = 1000, height = 600)
+    return path, path
+    
 @app.callback([
     dash.dependencies.Output('download-link', 'href'),
     dash.dependencies.Output('download-link', 'download')],
@@ -345,7 +446,7 @@ def update_download_link(n_clicks,fig1,gamer,wep):
     chart = go.Figure(fig1)
     filename = "{} - {}.png".format(gamer,wep)
     path = 'static/' + filename
-    chart.write_image(path, width = 1200, height = 500)
+    chart.write_image(path, width = 1000, height = 1000)
     return path, path
     
 
