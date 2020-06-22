@@ -313,59 +313,6 @@ app.layout = html.Div([
 
     ),
 
-    # html.Div(id = 'download-block',
-    #     style = {'textAlign': 'center'},
-    #     children = [
-    #             html.Div(
-    #             style = {'textAlign': 'center',
-    #                      'width' : '49%'
-    #             },
-    #             children = [
-    #                 html.H1("Stats Chart:"),
-    #                 html.Button(
-    #                         style = {'margin':'2%'},
-    #                         id="generate",
-    #                         className="btn btn-primary btn-lg",
-    #                         children="GENERATE CHART"),
-    #                 html.Br(),
-    #                 html.A(
-    #                     'DOWNLOAD CHART',
-    #                     # style = {'margin':'2%'},    
-    #                     className = "btn btn-primary btn-lg",
-    #                     id='download-link',
-    #                     download="",
-    #                     href="",
-    #                     target="_blank"
-    #                 )
-    #             ]
-    #         ),
-
-    #         html.Div(
-    #             style = {'textAlign': 'center',
-    #                      'width' : '49%'
-    #                 },
-    #             children = [
-    #                 html.H1("Stats Table:"),
-    #                 html.Button(
-    #                         style = {'margin':'2%'},
-    #                         id="generate2",
-    #                         className="btn btn-primary btn-lg",
-    #                         children="GENERATE TABLE"),
-    #                 html.Br(),
-    #                 html.A(
-    #                     'DOWNLOAD TABLE',
-    #                     # style = {'margin':'2%'},    
-    #                     className = "btn btn-primary btn-lg",
-    #                     id='download-link2',
-    #                     download="",
-    #                     href="",
-    #                     target="_blank"
-    #                 )
-    #             ]
-    #         ),
-    #     ]
-    # ),
-
     html.Br(),
     html.Br(),
 
@@ -418,6 +365,26 @@ app.layout = html.Div([
             )
         ]
     ),
+
+    html.Br(),
+    html.Br(),
+    html.H3(
+        style = {'textAlign': 'center'},
+        children = ['Check out @The_Gulag_Gunsmith on IG',
+                    html.Br(),
+                    'to see the stats for the COD:MW Blueprint Guns',
+                    html.Br(),
+                    html.Br(),
+                    'If you enjoy this kind of content please consider donating to my pateron page',
+                    html.Br(),
+                    'to keep the server up and so I can buy all the skins and blueprints',
+                    html.Br(),
+                    html.Br(),
+                    'Stay Frosty',
+                    html.Br(),
+        ]
+
+    ),
 ])
 
 
@@ -430,7 +397,7 @@ app.layout = html.Div([
     dash.dependencies.State('weapon-dropdown', 'value')])
 def update_download_link(n_clicks,fig1,gamer,wep):
     chart = go.Figure(fig1)
-    filename = "{} - {}.png".format(gamer,wep)
+    filename = "Stats Table {} - {}.png".format(gamer,wep)
     path = 'static/' + filename
     chart.write_image(path, width = 1000, height = 600)
     return path, path
@@ -444,7 +411,7 @@ def update_download_link(n_clicks,fig1,gamer,wep):
     dash.dependencies.State('weapon-dropdown', 'value')])
 def update_download_link(n_clicks,fig1,gamer,wep):
     chart = go.Figure(fig1)
-    filename = "{} - {}.png".format(gamer,wep)
+    filename = "Stats Chart {} - {}.png".format(gamer,wep)
     path = 'static/' + filename
     chart.write_image(path, width = 1000, height = 1000)
     return path, path
