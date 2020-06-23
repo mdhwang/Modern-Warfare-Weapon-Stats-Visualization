@@ -22,7 +22,7 @@ def color_classifier(segment,category):
     value_pct = round(value*100 / total,2)
     add_pct = round(add*100 / total,2)
     weak_pct = round(-1 * weak*100 / total,2)
-    if category == "BASE":
+    if category == "Base":
         value = value_pct
     elif add > weak:
         value = add_pct

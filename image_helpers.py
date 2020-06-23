@@ -7,6 +7,12 @@ from color_classifier import *
 
 import csv
 
+
+coords = {
+    'stats_table' : (195,490,831,970),
+    
+}
+
 def halfsize(img):
     y,x = img.shape
     half = int(x/2)
@@ -15,6 +21,11 @@ def halfsize(img):
     # cv2.waitKey(0)  
     # cv2.destroyAllWindows() 
     return cropped
+
+def stats_table(img):
+    x0,x1,y0,y1 = coords['stats_table']
+    stats_window = img[y0:y1,x0:x1]
+    return stats_window
 
 def muzzle(img):
     pass
