@@ -1,70 +1,2323 @@
 Class,Weapon,Category,Attachment,Accuracy,Damage,Range,Fire Rate,Mobility,Control
-Rifles,Kilo,Barrel,"Singuard Arms 19.8"" Prowler",3.87,0.0,7.04,0.0,-5.99,5.28
-Rifles,Kilo,Barrel,"Singuard Arms 16.6"" SOCOM",1.76,0.0,3.87,0.0,-1.41,2.11
-Rifles,Kilo,Barrel,Singuard Arms Whisper,1.06,0.0,3.87,0.0,-2.82,0.0
-Rifles,Kilo,Perk,FMJ,0.0,5.28,0.0,0.0,0.0,0.0
-Rifles,Kilo,Perk,Frangible - Disabling,0.0,0.0,0.0,0.0,0.0,0.0
-Rifles,Kilo,Perk,Sleight of Hand,0.0,0.0,0.0,2.11,0.0,0.0
-Rifles,Kilo,Perk,Fully Loaded,0.0,0.0,0.0,0.0,0.0,0.0
-Rifles,Kilo,Perk,Presence of Mind,0.0,0.0,0.0,0.0,0.0,0.0
-Rifles,Kilo,Perk,Burst,0.0,0.0,0.0,0.0,0.0,0.0
-Rifles,Kilo,Perk,Mo! Money,0.0,0.0,0.0,0.0,0.0,0.0
-Rifles,Kilo,Perk,Frangible - Wounding,0.0,0.0,0.0,0.0,0.0,0.0
-Rifles,Kilo,Perk,Fast Melee,0.0,0.0,0.0,0.0,0.0,0.0
-Rifles,Kilo,Perk,Recon,0.0,0.0,0.0,0.0,0.0,0.0
-Rifles,Kilo,Perk,Heavy Hitter,0.0,0.0,0.0,0.0,0.0,0.0
-Rifles,Kilo,Optic,Operator Reflex Sight,2.82,0.0,0.0,0.0,-1.06,-1.06
-Rifles,Kilo,Optic,Variable Zoom Scope,7.04,0.0,13.03,0.0,-4.93,-7.04
-Rifles,Kilo,Optic,Scout Combat Optic,4.93,0.0,3.87,0.0,-2.82,-2.82
-Rifles,Kilo,Optic,G.I. Mini Reflex,2.82,0.0,0.0,0.0,0.0,-1.06
-Rifles,Kilo,Optic,Canted Hybrid,3.87,0.0,4.93,0.0,-1.76,-2.82
-Rifles,Kilo,Optic,Sniper Scope,5.99,0.0,9.86,0.0,-3.87,-5.99
-Rifles,Kilo,Optic,Viper Reflex Sight,2.82,0.0,0.0,0.0,-1.06,-1.06
-Rifles,Kilo,Optic,Integral Hybrid,3.87,0.0,4.93,0.0,-1.76,-2.82
-Rifles,Kilo,Optic,Monocle Reflex Sight,2.82,0.0,0.0,0.0,-1.06,-1.06
-Rifles,Kilo,Optic,VLK 3.0x Optic,4.58,0.0,3.87,0.0,-2.46,-2.82
-Rifles,Kilo,Optic,PBX Holo 7 Sight,3.87,0.0,1.76,0.0,-1.76,-1.76
-Rifles,Kilo,Optic,Solozero NVG Enhanced,4.93,0.0,3.87,0.0,-3.87,-3.87
-Rifles,Kilo,Optic,Cronen C480 Pro Optic,5.28,0.0,3.87,0.0,-3.52,-3.17
-Rifles,Kilo,Optic,Merc Thermal Optic,4.93,0.0,3.87,0.0,-3.87,-3.87
-Rifles,Kilo,Optic,4.0x Flip Hybrid,3.87,0.0,5.99,0.0,-2.82,-3.87
-Rifles,Kilo,Optic,Aim-Op Reflex Sight,2.82,0.0,0.0,0.0,-1.06,-1.06
-Rifles,Kilo,Optic,Cronen LP945 Mini Reflex,2.82,0.0,0.0,0.0,0.0,-1.06
-Rifles,Kilo,Optic,Solozero Optics Mini Reflex,2.82,0.0,0.0,0.0,0.0,-1.06
-Rifles,Kilo,Optic,Thermal Hybrid,4.93,0.0,4.93,0.0,-7.04,-4.93
-Rifles,Kilo,Optic,APXS5 Holographic Sight,3.87,0.0,1.76,0.0,-1.76,-1.76
-Rifles,Kilo,Optic,Corp Combat Holo Sight,3.87,0.0,1.76,0.0,-1.76,-1.76
-Rifles,Kilo,Underbarrel,M203 40mm Incendiary,0.0,0.0,0.0,0.0,-1.76,-2.82
-Rifles,Kilo,Underbarrel,Bipod,0.0,0.0,0.0,0.0,0.0,3.17
-Rifles,Kilo,Underbarrel,Tactical Foregrip,1.06,0.0,1.06,0.0,-1.06,5.99
-Rifles,Kilo,Underbarrel,M203 40mm Smokescreen,0.0,0.0,0.0,0.0,-1.76,-2.82
-Rifles,Kilo,Underbarrel,Merc Foregrip,4.93,0.0,1.06,0.0,-1.41,2.11
-Rifles,Kilo,Underbarrel,M203 40mm Recon,0.0,0.0,0.0,0.0,-1.76,-2.82
-Rifles,Kilo,Underbarrel,M203 40mm Concussive,0.0,0.0,0.0,0.0,-1.76,-2.82
-Rifles,Kilo,Underbarrel,Commando Foregrip,3.87,0.0,1.76,0.0,-1.76,3.17
-Rifles,Kilo,Underbarrel,12-Gauge Deputy,0.0,0.0,0.0,0.0,-0.35,-1.76
-Rifles,Kilo,Underbarrel,M203 40mm Flash,0.0,0.0,0.0,0.0,-1.76,-2.82
-Rifles,Kilo,Underbarrel,Ranger Foregrip,4.58,0.0,2.82,0.0,-2.46,3.17
-Rifles,Kilo,Underbarrel,Operator Foregrip,3.87,0.0,1.41,0.0,-1.06,1.06
-Rifles,Kilo,Underbarrel,M203 40mm High-explosive,0.0,0.0,0.0,0.0,-1.76,-2.82
-Rifles,Kilo,Laser,Tac Laser,1.76,0.0,0.0,0.0,2.11,3.17
-Rifles,Kilo,Laser,SmW Laser,3.87,0.0,0.0,0.0,2.11,-1.06
-Rifles,Kilo,Laser,mW Laser,1.76,0.0,0.0,0.0,1.06,-1.06
-Rifles,Kilo,Rear Grip,Stippled Grip Tape,0.0,0.0,0.0,0.0,3.17,-1.76
-Rifles,Kilo,Rear Grip,Rubberized Grip Tape,3.87,0.0,0.0,0.0,0.0,-1.76
-Rifles,Kilo,Rear Grip,Granulated Grip Tape,1.76,0.0,-2.11,0.0,-1.76,2.11
-Rifles,Kilo,Muzzle,Flash Guard,0.0,0.0,-1.06,0.0,-0.35,0.0
-Rifles,Kilo,Muzzle,Compensator,1.76,0.0,0.0,0.0,-1.06,3.17
-Rifles,Kilo,Muzzle,Tactical Suppressor,1.41,0.0,0.0,0.0,-1.41,-0.35
-Rifles,Kilo,Muzzle,Breacher Device,0.0,0.0,0.0,0.0,-1.76,-1.76
-Rifles,Kilo,Muzzle,Monolithic Suppressor,1.76,0.0,2.82,0.0,-2.82,-1.06
-Rifles,Kilo,Muzzle,Muzzle Brake,3.52,0.0,0.0,0.0,-1.06,1.06
-Rifles,Kilo,Muzzle,Lightweight Suppressor,1.06,0.0,-4.23,0.0,-0.35,0.0
-Rifles,Kilo,Stock,FSS Close Quarters Stock,-2.11,0.0,0.0,0.0,3.17,-1.06
-Rifles,Kilo,Stock,No Stock,-3.17,0.0,-2.11,0.0,9.15,-3.87
-Rifles,Kilo,Stock,Singuard Arms Sniper Pro,1.76,0.0,0.0,0.0,-1.76,3.17
-Rifles,Kilo,Stock,FORGE TAC Ultralight,-1.06,0.0,0.0,0.0,4.23,-2.46
-Rifles,Kilo,Ammunition,100 Round Drums,0.0,0.0,0.0,0.0,-4.93,-2.82
-Rifles,Kilo,Ammunition,60 Round Mags,0.0,0.0,0.0,0.0,-3.87,-2.46
-Rifles,Kilo,Ammunition,50 Round Mags,0.0,0.0,0.0,0.0,-1.76,-1.76
-Rifles,Kilo,Base,,70.07,72.89,64.08,65.85,60.92,72.89
+Handgun,1911,Barrel,.45 Compact,-1.06,0.0,-2.11,0.0,3.17,-1.06
+Handgun,1911,Barrel,.45 Match Grade,1.41,0.0,2.82,0.0,-1.06,2.11
+Handgun,1911,Barrel,1911 Stalker,1.06,0.0,5.99,0.0,-3.87,0.0
+Handgun,1911,Perk,Frangible - Disabling,0.0,0.0,0.0,0.0,0.0,0.0
+Handgun,1911,Perk,Frangible - Wounding,0.0,0.0,0.0,0.0,0.0,0.0
+Handgun,1911,Perk,Mo! Money,0.0,0.0,0.0,0.0,0.0,0.0
+Handgun,1911,Perk,Recon,0.0,0.0,0.0,0.0,0.0,0.0
+Handgun,1911,Perk,Sleight of Hand,0.0,0.0,0.0,2.11,0.0,0.0
+Handgun,1911,Perk,Heavy Hitter,0.0,0.0,0.0,0.0,0.0,0.0
+Handgun,1911,Perk,,-9.86,6.69,0.0,15.14,-4.93,0.0
+Handgun,1911,Perk,Fully Loaded,0.0,0.0,0.0,0.0,0.0,0.0
+Handgun,1911,Perk,FMJ,0.0,4.93,0.0,0.0,0.0,0.0
+Handgun,1911,Perk,Fast Melee,0.0,0.0,0.0,0.0,0.0,0.0
+Handgun,1911,Optic,Cronen LP945 Mini Reflex,3.17,0.0,0.0,0.0,0.0,-1.06
+Handgun,1911,Optic,Solozero Optics Mini Reflex,3.17,0.0,0.0,0.0,0.0,-1.06
+Handgun,1911,Optic,G.I. Mini Reflex,3.17,0.0,0.0,0.0,0.0,-1.06
+Handgun,1911,Laser,SmW Laser,4.23,0.0,0.0,0.0,2.11,-1.06
+Handgun,1911,Laser,Tac Laser,2.11,0.0,0.0,0.0,2.11,2.82
+Handgun,1911,Laser,mW Laser,2.11,0.0,0.0,0.0,1.06,-1.06
+Handgun,1911,Rear Grip,Stippled Grip Tape,0.0,0.0,0.0,0.0,4.23,-2.11
+Handgun,1911,Rear Grip,Granulated Grip Tape,3.17,0.0,0.0,0.0,-1.76,2.82
+Handgun,1911,Rear Grip,Rubberized Grip Tape,4.23,0.0,0.0,0.0,0.0,-2.11
+Handgun,1911,Muzzle,Oil Can Suppressor,2.11,0.0,-2.11,0.0,-1.76,0.35
+Handgun,1911,Muzzle,Muzzle Brake,3.52,0.0,0.0,0.0,-1.06,1.06
+Handgun,1911,Muzzle,Tactical Suppressor,1.41,0.0,0.0,0.0,-1.41,-0.35
+Handgun,1911,Muzzle,Compensator,2.11,0.0,0.0,0.0,-1.06,2.82
+Handgun,1911,Muzzle,Monolithic Suppressor,2.11,0.0,2.82,0.0,-2.82,-1.06
+Handgun,1911,Muzzle,Lightweight Suppressor,1.06,0.0,-3.87,0.0,-0.35,0.0
+Handgun,1911,Muzzle,Flash Guard,0.0,0.0,-1.06,0.0,-0.35,0.0
+Handgun,1911,Ammunition,15 Round Mags,0.0,0.0,0.0,0.0,-3.87,-2.46
+Handgun,1911,Ammunition,10 Round Mags,0.0,0.0,0.0,0.0,-1.76,-2.11
+Handgun,1911,Trigger Action,Heavy Duty Trigger,2.11,0.0,0.0,-3.87,0.0,3.87
+Handgun,1911,Trigger Action,Match Grade Trigger,-1.76,0.0,0.0,4.93,0.0,2.11
+Handgun,1911,Trigger Action,Lightweight Trigger,-1.76,0.0,0.0,8.1,0.0,-3.87
+Handgun,1911,Base,,54.93,59.15,44.01,54.93,79.93,69.01
+Handgun,.357,Barrel,.357 Long,3.17,0.0,4.93,0.0,-3.17,3.87
+Handgun,.357,Barrel,Silverfield Ordnance .357,1.06,0.0,3.87,0.0,-2.11,0.0
+Handgun,.357,Barrel,.357 Snub Nose,-1.41,0.0,-2.82,0.0,4.58,-1.76
+Handgun,.357,Perk,Fast Melee,0.0,0.0,0.0,0.0,0.0,0.0
+Handgun,.357,Perk,Frangible - Wounding,0.0,0.0,0.0,0.0,0.0,0.0
+Handgun,.357,Perk,Sleight of Hand,0.0,0.0,0.0,2.11,0.0,0.0
+Handgun,.357,Perk,Recon,0.0,0.0,0.0,0.0,0.0,0.0
+Handgun,.357,Perk,,-9.86,7.04,0.0,15.14,-4.93,0.0
+Handgun,.357,Perk,Mo! Money,0.0,0.0,0.0,0.0,0.0,0.0
+Handgun,.357,Perk,FMJ,0.0,4.93,0.0,0.0,0.0,0.0
+Handgun,.357,Perk,Heavy Hitter,0.0,0.0,0.0,0.0,0.0,0.0
+Handgun,.357,Perk,Fully Loaded,0.0,0.0,0.0,0.0,0.0,0.0
+Handgun,.357,Perk,Frangible - Disabling,0.0,0.0,0.0,0.0,0.0,0.0
+Handgun,.357,Optic,Cronen LP945 Mini Reflex,3.17,0.0,0.0,0.0,0.0,-1.06
+Handgun,.357,Optic,Lockwood Pistol Scope,5.99,0.0,9.86,0.0,-4.23,-5.99
+Handgun,.357,Optic,VLK 2.5x Optic,4.58,0.0,3.87,0.0,-2.46,-2.82
+Handgun,.357,Optic,G.I. Mini Reflex,3.17,0.0,0.0,0.0,0.0,-1.06
+Handgun,.357,Optic,Viper Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-1.06
+Handgun,.357,Optic,APXS5 Holographic Sight,4.23,0.0,2.11,0.0,-2.11,-2.11
+Handgun,.357,Optic,Corp Combat Holo Sight,4.23,0.0,2.11,0.0,-2.11,-2.11
+Handgun,.357,Optic,Scout Combat Optic,5.28,0.0,3.87,0.0,-3.17,-3.17
+Handgun,.357,Optic,Aim-Op Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-1.06
+Handgun,.357,Optic,Operator Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-1.06
+Handgun,.357,Optic,Solozero Optics Mini Reflex,3.17,0.0,0.0,0.0,0.0,-1.06
+Handgun,.357,Optic,Cronen C480 Pro Optic,5.63,0.0,3.87,0.0,-3.52,-3.52
+Handgun,.357,Optic,Monocle Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-1.06
+Handgun,.357,Laser,mW Laser,2.11,0.0,0.0,0.0,1.06,-1.06
+Handgun,.357,Laser,Tac Laser,2.11,0.0,0.0,0.0,2.11,2.82
+Handgun,.357,Laser,SmW Laser,4.23,0.0,0.0,0.0,2.11,-1.06
+Handgun,.357,Rear Grip,Rubberized Grip Tape,4.23,0.0,0.0,0.0,0.0,-2.11
+Handgun,.357,Rear Grip,Granulated Grip Tape,3.17,0.0,0.0,0.0,-2.11,2.82
+Handgun,.357,Rear Grip,FSS Raider Stock,4.23,0.0,2.11,0.0,-2.11,-1.06
+Handgun,.357,Rear Grip,Stippled Grip Tape,0.0,0.0,0.0,0.0,3.87,-2.11
+Handgun,.357,Rear Grip,Lockwood .357 Custom Stock,5.99,0.0,2.11,0.0,-5.99,4.93
+Handgun,.357,Muzzle,Muzzle Brake,3.52,0.0,0.0,0.0,-1.06,0.7
+Handgun,.357,Muzzle,Compensator,2.11,0.0,0.0,0.0,-1.06,2.82
+Handgun,.357,Muzzle,Flash Guard,0.0,0.0,-1.06,0.0,-0.7,0.0
+Handgun,.357,Ammunition,Snake Shot,5.99,2.11,-7.04,0.0,0.0,0.0
+Handgun,.357,Trigger Action,Lightweight Trigger,-1.76,0.0,0.0,8.1,0.0,-4.23
+Handgun,.357,Trigger Action,Match Grade Trigger,-1.76,0.0,0.0,4.93,0.0,1.76
+Handgun,.357,Trigger Action,Heavy Duty Trigger,2.11,0.0,0.0,-3.87,0.0,3.87
+Handgun,.357,Base,,59.86,63.03,55.99,44.01,76.06,65.14
+Handgun,X16,Barrel,Singuard Arms Advantage,1.06,0.0,5.99,0.0,-3.87,0.0
+Handgun,X16,Barrel,Vanguard Elite,2.46,0.0,4.23,0.0,-2.46,3.52
+Handgun,X16,Barrel,Singuard Arms Featherweight,0.0,0.0,-3.87,0.0,4.93,0.0
+Handgun,X16,Perk,FMJ,0.0,4.93,0.0,0.0,0.0,0.0
+Handgun,X16,Perk,Heavy Hitter,0.0,0.0,0.0,0.0,0.0,0.0
+Handgun,X16,Perk,Fully Loaded,0.0,0.0,0.0,0.0,0.0,0.0
+Handgun,X16,Perk,Mo! Money,0.0,0.0,0.0,0.0,0.0,0.0
+Handgun,X16,Perk,Frangible - Wounding,0.0,0.0,0.0,0.0,0.0,0.0
+Handgun,X16,Perk,Frangible - Disabling,0.0,0.0,0.0,0.0,0.0,0.0
+Handgun,X16,Perk,Fast Melee,0.0,0.0,0.0,0.0,0.0,0.0
+Handgun,X16,Perk,,-9.86,7.04,0.0,14.79,-4.93,0.0
+Handgun,X16,Perk,Sleight of Hand,0.0,0.0,0.0,1.76,0.0,0.0
+Handgun,X16,Perk,Recon,0.0,0.0,0.0,0.0,0.0,0.0
+Handgun,X16,Optic,G.I. Mini Reflex,3.17,0.0,0.0,0.0,0.0,-1.06
+Handgun,X16,Optic,Cronen LP945 Mini Reflex,3.17,0.0,0.0,0.0,-1.06,-1.06
+Handgun,X16,Optic,Solozero Optics Mini Reflex,3.17,0.0,0.0,0.0,0.0,-1.06
+Handgun,X16,Laser,SmW Laser,4.23,0.0,0.0,0.0,2.11,-1.06
+Handgun,X16,Laser,Tac Laser,2.11,0.0,0.0,0.0,2.11,2.82
+Handgun,X16,Laser,mW Laser,2.11,0.0,0.0,0.0,1.06,-1.06
+Handgun,X16,Rear Grip,Stippled Grip Tape,0.0,0.0,0.0,0.0,3.87,-2.11
+Handgun,X16,Rear Grip,X16 Stock,4.93,0.0,2.11,0.0,-3.87,2.82
+Handgun,X16,Rear Grip,Rubberized Grip Tape,4.23,0.0,0.0,0.0,0.0,-2.11
+Handgun,X16,Rear Grip,Granulated Grip Tape,3.17,0.0,0.0,0.0,-2.11,2.82
+Handgun,X16,Muzzle,Muzzle Brake,3.52,0.0,0.0,0.0,-1.06,1.06
+Handgun,X16,Muzzle,Tactical Suppressor,1.41,0.0,0.0,0.0,-1.41,-0.7
+Handgun,X16,Muzzle,Lightweight Suppressor,1.06,0.0,-3.87,0.0,-0.35,0.0
+Handgun,X16,Muzzle,Monolithic Suppressor,2.11,0.0,3.17,0.0,-2.82,-1.06
+Handgun,X16,Muzzle,Compensator,2.11,0.0,0.0,0.0,-1.06,2.82
+Handgun,X16,Muzzle,Flash Guard,0.0,0.0,-1.06,0.0,-0.35,0.0
+Handgun,X16,Muzzle,Oil Can Suppressor,2.11,0.0,-1.76,0.0,-2.11,0.35
+Handgun,X16,Ammunition,17 Round Mags,0.0,0.0,0.0,0.0,-2.11,-2.11
+Handgun,X16,Ammunition,26 Round Mags,0.0,0.0,0.0,0.0,-3.87,-2.46
+Handgun,X16,Trigger Action,Heavy Duty Trigger,2.11,0.0,0.0,-4.23,0.0,3.87
+Handgun,X16,Trigger Action,Match Grade Trigger,-1.76,0.0,0.0,4.93,0.0,1.76
+Handgun,X16,Trigger Action,Lightweight Trigger,-1.76,0.0,0.0,7.75,0.0,-4.23
+Handgun,X16,Base,,54.93,57.04,41.9,58.1,80.99,70.07
+Handgun,M19,Barrel,XRK L Super,2.11,0.0,3.87,0.0,-2.46,3.52
+Handgun,M19,Barrel,XRK V Extended,1.06,0.0,3.87,0.0,-2.11,0.0
+Handgun,M19,Barrel,A9-16 Lightweight,0.0,0.0,-3.17,0.0,2.82,0.0
+Handgun,M19,Perk,Frangible - Wounding,0.0,0.0,0.0,0.0,0.0,0.0
+Handgun,M19,Perk,Fully Loaded,0.0,0.0,0.0,0.0,0.0,0.0
+Handgun,M19,Perk,Sleight of Hand,0.0,0.0,0.0,2.11,0.0,0.0
+Handgun,M19,Perk,Heavy Hitter,0.0,0.0,0.0,0.0,0.0,0.0
+Handgun,M19,Perk,Frangible - Disabling,0.0,0.0,0.0,0.0,0.0,0.0
+Handgun,M19,Perk,Recon,0.0,0.0,0.0,0.0,0.0,0.0
+Handgun,M19,Perk,FMJ,0.0,4.93,0.0,0.0,0.0,0.0
+Handgun,M19,Perk,Mo! Money,0.0,0.0,0.0,0.0,0.0,0.0
+Handgun,M19,Perk,Fast Melee,0.0,0.0,0.0,0.0,0.0,0.0
+Handgun,M19,Optic,Cronen LP945 Mini Reflex,2.82,0.0,0.0,0.0,-1.06,-0.7
+Handgun,M19,Optic,Solozero Optics Mini Reflex,2.82,0.0,0.0,0.0,0.0,-0.7
+Handgun,M19,Optic,G.I. Mini Reflex,2.82,0.0,0.0,0.0,0.0,-0.7
+Handgun,M19,Laser,SmW Laser,3.87,0.0,0.0,0.0,2.11,-0.7
+Handgun,M19,Laser,Tac Laser,2.11,0.0,0.0,0.0,2.11,3.17
+Handgun,M19,Laser,mW Laser,2.11,0.0,0.0,0.0,1.06,-0.7
+Handgun,M19,Rear Grip,Stippled Grip Tape,0.0,0.0,0.0,0.0,3.87,-1.76
+Handgun,M19,Rear Grip,Rubberized Grip Tape,3.87,0.0,0.0,0.0,0.0,-1.76
+Handgun,M19,Rear Grip,Granulated Grip Tape,2.82,0.0,0.0,0.0,-2.11,3.17
+Handgun,M19,Muzzle,Muzzle Brake,3.52,0.0,0.0,0.0,-1.06,1.06
+Handgun,M19,Muzzle,Flash Guard,0.0,0.0,-1.06,0.0,-0.7,0.0
+Handgun,M19,Muzzle,Monolithic Suppressor,2.11,0.0,2.82,0.0,-3.17,-0.7
+Handgun,M19,Muzzle,Oil Can Suppressor,2.11,0.0,-2.11,0.0,-2.11,0.7
+Handgun,M19,Muzzle,Tactical Suppressor,1.41,0.0,0.0,0.0,-1.41,-0.35
+Handgun,M19,Muzzle,Lightweight Suppressor,1.06,0.0,-4.23,0.0,-0.7,0.0
+Handgun,M19,Muzzle,Compensator,2.11,0.0,0.0,0.0,-1.06,3.17
+Handgun,M19,Ammunition,21 Round Mags,0.0,0.0,0.0,0.0,-2.11,-1.76
+Handgun,M19,Ammunition,32 Round Mags,0.0,0.0,0.0,0.0,-3.87,-2.46
+Handgun,M19,Trigger Action,Heavy Duty Trigger,2.11,0.0,0.0,-3.87,0.0,4.23
+Handgun,M19,Trigger Action,Lightweight Trigger,-2.11,0.0,0.0,8.1,0.0,-3.87
+Handgun,M19,Trigger Action,Match Grade Trigger,-2.11,0.0,0.0,5.28,0.0,2.11
+Handgun,M19,Base,,57.04,54.93,40.14,59.86,82.04,71.83
+Handgun,Renetti,Barrel,Mk1 Competition,0.0,0.0,-3.87,0.0,4.93,0.0
+Handgun,Renetti,Barrel,Mk1 Extended,2.46,0.0,4.23,0.0,-2.46,3.52
+Handgun,Renetti,Barrel,Mk3 Burst Mod,-2.82,2.11,0.0,5.63,-1.06,-1.06
+Handgun,Renetti,Perk,Fast Melee,0.0,0.0,0.0,0.0,0.0,0.0
+Handgun,Renetti,Perk,Heavy Hitter,0.0,0.0,0.0,0.0,0.0,0.0
+Handgun,Renetti,Perk,FMJ,0.0,4.93,0.0,0.0,0.0,0.0
+Handgun,Renetti,Perk,Fully Loaded,0.0,0.0,0.0,0.0,0.0,0.0
+Handgun,Renetti,Perk,Sleight of Hand,0.0,0.0,0.0,2.11,0.0,0.0
+Handgun,Renetti,Perk,,-9.86,7.04,0.0,15.14,-4.93,0.0
+Handgun,Renetti,Perk,Mo! Money,0.0,0.0,0.0,0.0,0.0,0.0
+Handgun,Renetti,Perk,Recon,0.0,0.0,0.0,0.0,0.0,0.0
+Handgun,Renetti,Perk,Frangible - Disabling,0.0,0.0,0.0,0.0,0.0,0.0
+Handgun,Renetti,Perk,Frangible - Wounding,0.0,0.0,0.0,0.0,0.0,0.0
+Handgun,Renetti,Optic,Operator Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-1.06
+Handgun,Renetti,Optic,Corp Combat Holo Sight,4.23,0.0,2.11,0.0,-1.76,-2.11
+Handgun,Renetti,Optic,Monocle Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-1.06
+Handgun,Renetti,Optic,VLK 2.5x Optic,4.58,0.0,4.23,0.0,-2.46,-2.82
+Handgun,Renetti,Optic,Scout Combat Optic,5.28,0.0,4.23,0.0,-2.82,-3.17
+Handgun,Renetti,Optic,G.I. Mini Reflex,3.17,0.0,0.0,0.0,0.0,-1.06
+Handgun,Renetti,Optic,Cronen C480 Pro Optic,5.63,0.0,4.23,0.0,-3.52,-3.52
+Handgun,Renetti,Optic,Viper Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-1.06
+Handgun,Renetti,Optic,XRK 4.0x Pistol Scope,5.99,0.0,10.21,0.0,-3.87,-5.99
+Handgun,Renetti,Optic,APXS5 Holographic Sight,4.23,0.0,2.11,0.0,-1.76,-2.11
+Handgun,Renetti,Optic,Solozero Optics Mini Reflex,3.17,0.0,0.0,0.0,0.0,-1.06
+Handgun,Renetti,Optic,Aim-Op Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-1.06
+Handgun,Renetti,Optic,Cronen LP945 Mini Reflex,3.17,0.0,0.0,0.0,0.0,-1.06
+Handgun,Renetti,Laser,mW Laser,2.11,0.0,0.0,0.0,1.06,-1.06
+Handgun,Renetti,Laser,SmW Laser,4.23,0.0,0.0,0.0,2.11,-1.06
+Handgun,Renetti,Laser,Tac Laser,2.11,0.0,0.0,0.0,2.11,2.82
+Handgun,Renetti,Rear Grip,XRK Pro Grip,4.23,0.0,0.0,0.0,0.0,-2.11
+Handgun,Renetti,Rear Grip,XRK Speed Grip,0.0,0.0,0.0,0.0,4.23,-2.11
+Handgun,Renetti,Muzzle,Desperado Pro Compensator,2.46,0.0,0.0,0.0,-1.41,3.52
+Handgun,Renetti,Muzzle,Flash Guard,0.0,0.0,-0.7,0.0,-0.35,0.0
+Handgun,Renetti,Muzzle,Oil Can Suppressor,2.11,0.0,-1.76,0.0,-1.76,0.35
+Handgun,Renetti,Muzzle,Monolithic Suppressor,2.11,0.0,3.17,0.0,-2.82,-1.06
+Handgun,Renetti,Muzzle,Muzzle Brake,3.52,0.0,0.0,0.0,-1.06,1.06
+Handgun,Renetti,Muzzle,Lightweight Suppressor,1.06,0.0,-3.87,0.0,-0.35,0.0
+Handgun,Renetti,Muzzle,Tactical Suppressor,1.76,0.0,0.0,0.0,-1.41,-0.7
+Handgun,Renetti,Stock,FTAC SATUS CS-X,5.99,0.0,3.17,0.0,-2.82,-1.41
+Handgun,Renetti,Stock,FTAC G-X,3.17,0.0,1.06,0.0,0.0,-1.41
+Handgun,Renetti,Stock,FTAC SATUS CS-3,4.23,0.0,2.11,0.0,-1.76,-1.06
+Handgun,Renetti,Ammunition,27 Round Mags,0.0,0.0,0.0,0.0,-3.87,-2.46
+Handgun,Renetti,Ammunition,21 Round Mags,0.0,0.0,0.0,0.0,-1.76,-2.11
+Handgun,Renetti,Trigger Action,Lightweight Trigger,-1.76,0.0,0.0,8.1,0.0,-4.23
+Handgun,Renetti,Trigger Action,Match Grade Trigger,-1.76,0.0,0.0,4.93,0.0,1.76
+Handgun,Renetti,Trigger Action,Heavy Duty Trigger,2.11,0.0,0.0,-3.87,0.0,3.87
+Handgun,Renetti,Base,,59.86,54.93,40.85,61.97,79.93,70.07
+Handgun,.50 GS,Barrel,FORGE TAC Extended,1.06,0.0,3.87,0.0,-2.11,0.0
+Handgun,.50 GS,Barrel,FORGE TAC Enforcer,3.17,0.0,4.93,0.0,-3.17,4.23
+Handgun,.50 GS,Perk,FMJ,0.0,4.93,0.0,0.0,0.0,0.0
+Handgun,.50 GS,Perk,Fully Loaded,0.0,0.0,0.0,0.0,0.0,0.0
+Handgun,.50 GS,Perk,Sleight of Hand,0.0,0.0,0.0,1.76,0.0,0.0
+Handgun,.50 GS,Perk,Frangible - Wounding,0.0,0.0,0.0,0.0,0.0,0.0
+Handgun,.50 GS,Perk,Frangible - Disabling,0.0,0.0,0.0,0.0,0.0,0.0
+Handgun,.50 GS,Perk,Fast Melee,0.0,0.0,0.0,0.0,0.0,0.0
+Handgun,.50 GS,Perk,Mo! Money,0.0,0.0,0.0,0.0,0.0,0.0
+Handgun,.50 GS,Perk,Recon,0.0,0.0,0.0,0.0,0.0,0.0
+Handgun,.50 GS,Perk,Heavy Hitter,0.0,0.0,0.0,0.0,0.0,0.0
+Handgun,.50 GS,Optic,APXS5 Holographic Sight,4.23,0.0,1.76,0.0,-2.11,-1.76
+Handgun,.50 GS,Optic,Cronen LP945 Mini Reflex,3.17,0.0,0.0,0.0,0.0,-0.7
+Handgun,.50 GS,Optic,Operator Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-0.7
+Handgun,.50 GS,Optic,Solozero Optics Mini Reflex,3.17,0.0,0.0,0.0,0.0,-0.7
+Handgun,.50 GS,Optic,Cronen C480 Pro Optic,5.63,0.0,3.87,0.0,-3.52,-3.17
+Handgun,.50 GS,Optic,Monocle Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-0.7
+Handgun,.50 GS,Optic,VLK 2.5x Optic,4.58,0.0,3.87,0.0,-2.46,-2.82
+Handgun,.50 GS,Optic,G.I. Mini Reflex,3.17,0.0,0.0,0.0,0.0,-0.7
+Handgun,.50 GS,Optic,Aim-Op Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-0.7
+Handgun,.50 GS,Optic,Scout Combat Optic,5.28,0.0,3.87,0.0,-3.17,-2.82
+Handgun,.50 GS,Optic,Viper Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-0.7
+Handgun,.50 GS,Optic,Corp Combat Holo Sight,4.23,0.0,1.76,0.0,-2.11,-1.76
+Handgun,.50 GS,Laser,mW Laser,2.11,0.0,0.0,0.0,1.06,-0.7
+Handgun,.50 GS,Laser,Tac Laser,2.11,0.0,0.0,0.0,1.76,3.17
+Handgun,.50 GS,Laser,SmW Laser,4.23,0.0,0.0,0.0,1.76,-0.7
+Handgun,.50 GS,Rear Grip,Granulated Grip Tape,3.17,0.0,0.0,0.0,-2.11,3.17
+Handgun,.50 GS,Rear Grip,Stippled Grip Tape,0.0,0.0,0.0,0.0,3.87,-1.76
+Handgun,.50 GS,Rear Grip,Rubberized Grip Tape,4.23,0.0,0.0,0.0,0.0,-1.76
+Handgun,.50 GS,Muzzle,Oil Can Suppressor,2.11,0.0,-2.11,0.0,-2.11,0.7
+Handgun,.50 GS,Muzzle,Monolithic Suppressor,2.11,0.0,2.82,0.0,-3.17,-0.7
+Handgun,.50 GS,Muzzle,Tactical Suppressor,1.76,0.0,0.0,0.0,-1.76,-0.35
+Handgun,.50 GS,Muzzle,Lightweight Suppressor,1.06,0.0,-4.23,0.0,-0.7,0.0
+Handgun,.50 GS,Muzzle,Muzzle Brake,3.52,0.0,0.0,0.0,-1.06,1.06
+Handgun,.50 GS,Muzzle,Flash Guard,0.0,0.0,-1.06,0.0,-0.7,0.0
+Handgun,.50 GS,Muzzle,Compensator,2.11,0.0,0.0,0.0,-1.06,3.17
+Handgun,.50 GS,Ammunition,10 Round Mags,0.0,0.0,0.0,0.0,-2.11,-1.76
+Handgun,.50 GS,Ammunition,13 Round Mags,0.0,0.0,0.0,0.0,-4.23,-2.46
+Handgun,.50 GS,Trigger Action,Match Grade Trigger,-1.76,0.0,0.0,4.93,0.0,2.11
+Handgun,.50 GS,Trigger Action,Lightweight Trigger,-1.76,0.0,0.0,7.75,0.0,-3.87
+Handgun,.50 GS,Trigger Action,Heavy Duty Trigger,2.11,0.0,0.0,-4.23,0.0,4.23
+Handgun,.50 GS,Base,,53.87,65.14,52.11,53.17,77.11,59.86
+Marksman Rifle,Kar98k,Barrel,Singuard Custom 25.1',2.11,0.0,3.87,0.0,-2.82,3.52
+Marksman Rifle,Kar98k,Barrel,Singuard Custom 27.6',2.82,0.0,4.93,0.0,-3.17,3.87
+Marksman Rifle,Kar98k,Barrel,Singuard Custom 21.2,1.41,0.0,3.17,0.0,-1.06,2.11
+Marksman Rifle,Kar98k,Perk,Frangible - Disabling,0.0,0.0,0.0,0.0,0.0,0.0
+Marksman Rifle,Kar98k,Perk,Fully Loaded,0.0,0.0,0.0,0.0,0.0,0.0
+Marksman Rifle,Kar98k,Perk,Heavy Hitter,0.0,0.0,0.0,0.0,0.0,0.0
+Marksman Rifle,Kar98k,Perk,Fast Melee,0.0,0.0,0.0,0.0,0.0,0.0
+Marksman Rifle,Kar98k,Perk,Recon,0.0,0.0,0.0,0.0,0.0,0.0
+Marksman Rifle,Kar98k,Perk,FMJ,0.0,4.93,0.0,0.0,0.0,0.0
+Marksman Rifle,Kar98k,Perk,Presence of Mind,0.0,0.0,0.0,0.0,0.0,0.0
+Marksman Rifle,Kar98k,Perk,Mo! Money,0.0,0.0,0.0,0.0,0.0,0.0
+Marksman Rifle,Kar98k,Perk,Sleight of Hand,0.0,0.0,0.0,2.11,0.0,0.0
+Marksman Rifle,Kar98k,Perk,Frangible - Wounding,0.0,0.0,0.0,0.0,0.0,0.0
+Marksman Rifle,Kar98k,Perk,Focus,0.0,0.0,2.11,0.0,0.0,2.11
+Marksman Rifle,Kar98k,Optic,Cronen LP945 Mini Reflex,2.82,0.0,0.0,0.0,0.0,-1.06
+Marksman Rifle,Kar98k,Optic,Monocle Reflex Sight,2.82,0.0,0.0,0.0,-1.06,-1.06
+Marksman Rifle,Kar98k,Optic,Solozero Optics Mini Reflex,2.82,0.0,0.0,0.0,0.0,-1.06
+Marksman Rifle,Kar98k,Optic,4.0x Flip Hybrid,3.87,0.0,5.99,0.0,-3.17,-3.87
+Marksman Rifle,Kar98k,Optic,VLK 3.0x Optic,4.58,0.0,3.87,0.0,-2.82,-2.82
+Marksman Rifle,Kar98k,Optic,Solozero NVG Enhanced,4.93,0.0,3.87,0.0,-4.23,-3.87
+Marksman Rifle,Kar98k,Optic,Operator Reflex Sight,2.82,0.0,0.0,0.0,-1.06,-1.06
+Marksman Rifle,Kar98k,Optic,G.I. Mini Reflex,2.82,0.0,0.0,0.0,0.0,-1.06
+Marksman Rifle,Kar98k,Optic,APXS5 Holographic Sight,3.87,0.0,2.11,0.0,-2.11,-2.11
+Marksman Rifle,Kar98k,Optic,Integral Hybrid,3.87,0.0,4.93,0.0,-2.11,-2.82
+Marksman Rifle,Kar98k,Optic,Sniper Scope,5.99,0.0,9.86,0.0,-4.23,-5.99
+Marksman Rifle,Kar98k,Optic,Scout Combat Optic,4.93,0.0,3.87,0.0,-3.17,-2.82
+Marksman Rifle,Kar98k,Optic,PBX Holo 7 Sight,3.87,0.0,2.11,0.0,-2.11,-2.11
+Marksman Rifle,Kar98k,Optic,Thermal Hybrid,4.93,0.0,4.93,0.0,-4.23,-4.93
+Marksman Rifle,Kar98k,Optic,Variable Zoom Scope,7.04,0.0,13.03,0.0,-5.28,-7.04
+Marksman Rifle,Kar98k,Optic,Cronen C480 Pro Optic,5.28,0.0,3.87,0.0,-3.52,-3.17
+Marksman Rifle,Kar98k,Optic,Corp Combat Holo Sight,3.87,0.0,2.11,0.0,-2.11,-2.11
+Marksman Rifle,Kar98k,Optic,Aim-Op Reflex Sight,2.82,0.0,0.0,0.0,-1.06,-1.06
+Marksman Rifle,Kar98k,Optic,Viper Reflex Sight,2.82,0.0,0.0,0.0,-1.06,-1.06
+Marksman Rifle,Kar98k,Optic,Merc Thermal Optic,4.93,0.0,3.87,0.0,-4.23,-3.87
+Marksman Rifle,Kar98k,Underbarrel,Bipod,0.0,0.0,0.0,0.0,0.0,3.17
+Marksman Rifle,Kar98k,Laser,Tac Laser,2.11,0.0,0.0,0.0,1.76,3.17
+Marksman Rifle,Kar98k,Rear Grip,Stippled Grip Tape,0.0,0.0,0.0,0.0,2.82,-2.11
+Marksman Rifle,Kar98k,Rear Grip,Granulated Grip Tape,2.11,0.0,0.0,0.0,-2.11,2.11
+Marksman Rifle,Kar98k,Rear Grip,Rubberized Grip Tape,3.87,0.0,0.0,0.0,0.0,-2.11
+Marksman Rifle,Kar98k,Muzzle,Lightweight Suppressor,1.06,0.0,-3.87,0.0,-0.7,0.0
+Marksman Rifle,Kar98k,Muzzle,Breacher Device,0.0,0.0,0.0,0.0,-2.11,-2.11
+Marksman Rifle,Kar98k,Muzzle,Flash Guard,0.0,0.0,-1.06,0.0,-0.7,0.0
+Marksman Rifle,Kar98k,Muzzle,Tactical Suppressor,1.41,0.0,0.0,0.0,-1.76,-0.35
+Marksman Rifle,Kar98k,Muzzle,Muzzle Brake,3.52,0.0,0.0,0.0,-1.06,1.06
+Marksman Rifle,Kar98k,Muzzle,Compensator,2.11,0.0,0.0,0.0,-1.06,3.17
+Marksman Rifle,Kar98k,Muzzle,Monolithic Suppressor,2.11,0.0,3.17,0.0,-3.17,-1.06
+Marksman Rifle,Kar98k,Stock,Hollow Stock Mod,-1.06,0.0,0.0,0.0,3.87,-2.46
+Marksman Rifle,Kar98k,Stock,FTAC Sport Comb,-2.11,0.0,0.0,0.0,2.82,-1.06
+Marksman Rifle,Kar98k,Stock,STVOL Precision Comb,2.11,0.0,0.0,0.0,-2.11,3.17
+Marksman Rifle,Kar98k,Base,,76.06,82.04,75.0,48.94,53.17,67.96
+Marksman Rifle,EBR-14,Barrel,FORGE TAC Precision 20.,1.41,0.0,3.17,0.0,-1.06,2.11
+Marksman Rifle,EBR-14,Barrel,FORGE TAC Elite,0.0,0.0,-2.82,0.0,2.82,0.0
+Marksman Rifle,EBR-14,Barrel,FORGE TAC Precision 22.,2.11,0.0,4.23,0.0,-2.46,3.52
+Marksman Rifle,EBR-14,Perk,Presence of Mind,0.0,0.0,0.0,0.0,0.0,0.0
+Marksman Rifle,EBR-14,Perk,Mo! Money,0.0,0.0,0.0,0.0,0.0,0.0
+Marksman Rifle,EBR-14,Perk,Frangible - Disabling,0.0,0.0,0.0,0.0,0.0,0.0
+Marksman Rifle,EBR-14,Perk,FMJ,0.0,4.93,0.0,0.0,0.0,0.0
+Marksman Rifle,EBR-14,Perk,Heavy Hitter,0.0,0.0,0.0,0.0,0.0,0.0
+Marksman Rifle,EBR-14,Perk,Sleight of Hand,0.0,0.0,0.0,2.11,0.0,0.0
+Marksman Rifle,EBR-14,Perk,Fast Melee,0.0,0.0,0.0,0.0,0.0,0.0
+Marksman Rifle,EBR-14,Perk,Fully Loaded,0.0,0.0,0.0,0.0,0.0,0.0
+Marksman Rifle,EBR-14,Perk,Focus,0.0,0.0,2.11,0.0,0.0,2.11
+Marksman Rifle,EBR-14,Perk,Recon,0.0,0.0,0.0,0.0,0.0,0.0
+Marksman Rifle,EBR-14,Perk,Frangible - Wounding,0.0,0.0,0.0,0.0,0.0,0.0
+Marksman Rifle,EBR-14,Optic,4.0x Flip Hybrid,3.87,0.0,5.99,0.0,-3.17,-3.87
+Marksman Rifle,EBR-14,Optic,Variable Zoom Scope,7.04,0.0,13.03,0.0,-4.93,-6.69
+Marksman Rifle,EBR-14,Optic,VLK 3.0x Optic,4.23,0.0,4.23,0.0,-2.46,-2.46
+Marksman Rifle,EBR-14,Optic,PBX Holo 7 Sight,3.87,0.0,2.11,0.0,-2.11,-1.76
+Marksman Rifle,EBR-14,Optic,Cronen C480 Pro Optic,5.28,0.0,4.23,0.0,-3.52,-3.17
+Marksman Rifle,EBR-14,Optic,Viper Reflex Sight,2.82,0.0,0.0,0.0,-1.06,-0.7
+Marksman Rifle,EBR-14,Optic,Corp Combat Holo Sight,3.87,0.0,2.11,0.0,-2.11,-1.76
+Marksman Rifle,EBR-14,Optic,Merc Thermal Optic,4.93,0.0,4.23,0.0,-4.23,-3.87
+Marksman Rifle,EBR-14,Optic,Integral Hybrid,3.87,0.0,5.28,0.0,-2.11,-2.82
+Marksman Rifle,EBR-14,Optic,G.I. Mini Reflex,2.82,0.0,0.0,0.0,0.0,-0.7
+Marksman Rifle,EBR-14,Optic,Thermal Hybrid,4.93,0.0,5.28,0.0,-4.23,-4.93
+Marksman Rifle,EBR-14,Optic,Aim-Op Reflex Sight,2.82,0.0,0.0,0.0,-1.06,-0.7
+Marksman Rifle,EBR-14,Optic,Scout Combat Optic,4.93,0.0,4.23,0.0,-3.17,-2.82
+Marksman Rifle,EBR-14,Optic,Operator Reflex Sight,2.82,0.0,0.0,0.0,-1.06,-0.7
+Marksman Rifle,EBR-14,Optic,APXS5 Holographic Sight,3.87,0.0,2.11,0.0,-2.11,-1.76
+Marksman Rifle,EBR-14,Optic,Solozero NVG Enhanced,4.93,0.0,4.23,0.0,-4.23,-3.87
+Marksman Rifle,EBR-14,Optic,Canted Hybrid,3.87,0.0,5.28,0.0,-2.11,-2.82
+Marksman Rifle,EBR-14,Optic,Monocle Reflex Sight,2.82,0.0,0.0,0.0,-1.06,-0.7
+Marksman Rifle,EBR-14,Optic,Sniper Scope,5.99,0.0,10.21,0.0,-4.23,-5.99
+Marksman Rifle,EBR-14,Underbarrel,Ranger Foregrip,4.23,0.0,3.17,0.0,-2.46,3.17
+Marksman Rifle,EBR-14,Underbarrel,Merc Foregrip,4.93,0.0,1.06,0.0,-1.76,2.11
+Marksman Rifle,EBR-14,Underbarrel,Bipod,0.0,0.0,0.0,0.0,0.0,3.17
+Marksman Rifle,EBR-14,Underbarrel,Tactical Foregrip,1.06,0.0,1.06,0.0,-1.06,6.34
+Marksman Rifle,EBR-14,Underbarrel,Operator Foregrip,3.87,0.0,1.76,0.0,-1.06,1.06
+Marksman Rifle,EBR-14,Underbarrel,Commando Foregrip,3.87,0.0,2.11,0.0,-2.11,3.17
+Marksman Rifle,EBR-14,Laser,Tac Laser,1.76,0.0,0.0,0.0,1.76,3.17
+Marksman Rifle,EBR-14,Muzzle,Monolithic Suppressor,1.76,0.0,3.17,0.0,-3.17,-0.7
+Marksman Rifle,EBR-14,Muzzle,Breacher Device,0.0,0.0,0.0,0.0,-2.11,-1.76
+Marksman Rifle,EBR-14,Muzzle,Muzzle Brake,3.52,0.0,0.0,0.0,-1.06,1.06
+Marksman Rifle,EBR-14,Muzzle,Compensator,1.76,0.0,0.0,0.0,-1.06,3.17
+Marksman Rifle,EBR-14,Muzzle,Flash Guard,0.0,0.0,-1.06,0.0,-0.7,0.0
+Marksman Rifle,EBR-14,Muzzle,Tactical Suppressor,1.41,0.0,0.0,0.0,-1.76,-0.35
+Marksman Rifle,EBR-14,Muzzle,Lightweight Suppressor,1.06,0.0,-3.87,0.0,-0.7,0.0
+Marksman Rifle,EBR-14,Stock,FTAC Lightweight Stock,-1.06,0.0,0.0,0.0,3.87,-2.46
+Marksman Rifle,EBR-14,Stock,FSS Raider Chassis Elite,-2.46,0.0,0.0,0.0,8.8,-3.87
+Marksman Rifle,EBR-14,Stock,FTAC Precision Comb,1.76,0.0,0.0,0.0,-2.11,3.17
+Marksman Rifle,EBR-14,Stock,FSS Raider Chassis Pro,-2.11,0.0,0.0,0.0,5.99,-3.17
+Marksman Rifle,EBR-14,Ammunition,15 Round Mags,0.0,0.0,0.0,0.0,-2.11,-1.76
+Marksman Rifle,EBR-14,Ammunition,20 Round Mags,0.0,0.0,0.0,0.0,-4.23,-2.46
+Marksman Rifle,EBR-14,Base,,77.11,76.06,72.89,57.04,58.1,71.83
+Marksman Rifle,SKS,Barrel,"16"" FSS Para",-1.41,0.0,-3.17,0.0,4.23,-1.41
+Marksman Rifle,SKS,Barrel,"22"" FSS M59/66",3.17,0.0,4.93,0.0,-3.17,4.23
+Marksman Rifle,SKS,Barrel,FTAC Landmark,1.06,0.0,3.87,0.0,-2.11,0.0
+Marksman Rifle,SKS,Perk,Heavy Hitter,0.0,0.0,0.0,0.0,0.0,0.0
+Marksman Rifle,SKS,Perk,FMJ,0.0,4.93,0.0,0.0,0.0,0.0
+Marksman Rifle,SKS,Perk,Fully Loaded,0.0,0.0,0.0,0.0,0.0,0.0
+Marksman Rifle,SKS,Perk,Frangible - Disabling,0.0,0.0,0.0,0.0,0.0,0.0
+Marksman Rifle,SKS,Perk,Focus,0.0,0.0,1.76,0.0,0.0,2.11
+Marksman Rifle,SKS,Perk,Mo! Money,0.0,0.0,0.0,0.0,0.0,0.0
+Marksman Rifle,SKS,Perk,Fast Melee,0.0,0.0,0.0,0.0,0.0,0.0
+Marksman Rifle,SKS,Perk,Sleight of Hand,0.0,0.0,0.0,2.11,0.0,0.0
+Marksman Rifle,SKS,Perk,Recon,0.0,0.0,0.0,0.0,0.0,0.0
+Marksman Rifle,SKS,Perk,Presence of Mind,0.0,0.0,0.0,0.0,0.0,0.0
+Marksman Rifle,SKS,Perk,Frangible - Wounding,0.0,0.0,0.0,0.0,0.0,0.0
+Marksman Rifle,SKS,Optic,Merc Thermal Optic,4.93,0.0,3.87,0.0,-4.23,-3.87
+Marksman Rifle,SKS,Optic,Corp Combat Holo Sight,3.87,0.0,1.76,0.0,-2.11,-1.76
+Marksman Rifle,SKS,Optic,Canted Hybrid,3.87,0.0,4.93,0.0,-2.11,-2.82
+Marksman Rifle,SKS,Optic,Monocle Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-1.06
+Marksman Rifle,SKS,Optic,Aim-Op Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-1.06
+Marksman Rifle,SKS,Optic,Thermal Hybrid,4.93,0.0,4.93,0.0,-4.23,-4.93
+Marksman Rifle,SKS,Optic,4.0x Flip Hybrid,3.87,0.0,5.99,0.0,-3.17,-3.87
+Marksman Rifle,SKS,Optic,VLK 3.0x Optic,4.58,0.0,3.87,0.0,-2.82,-2.82
+Marksman Rifle,SKS,Optic,Scout Combat Optic,4.93,0.0,3.87,0.0,-3.17,-2.82
+Marksman Rifle,SKS,Optic,APXS5 Holographic Sight,3.87,0.0,1.76,0.0,-2.11,-1.76
+Marksman Rifle,SKS,Optic,PBX Holo 7 Sight,3.87,0.0,1.76,0.0,-2.11,-1.76
+Marksman Rifle,SKS,Optic,Viper Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-1.06
+Marksman Rifle,SKS,Optic,Solozero NVG Enhanced,4.93,0.0,3.87,0.0,-4.23,-3.87
+Marksman Rifle,SKS,Optic,Integral Hybrid,3.87,0.0,4.93,0.0,-2.11,-2.82
+Marksman Rifle,SKS,Optic,G.I. Mini Reflex,3.17,0.0,0.0,0.0,0.0,-1.06
+Marksman Rifle,SKS,Optic,PU Scope,5.99,0.0,9.86,0.0,-4.23,-5.99
+Marksman Rifle,SKS,Optic,Variable Zoom Scope,7.04,0.0,13.03,0.0,-5.28,-7.04
+Marksman Rifle,SKS,Optic,Cronen C480 Pro Optic,5.63,0.0,3.87,0.0,-3.52,-3.17
+Marksman Rifle,SKS,Optic,Operator Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-1.06
+Marksman Rifle,SKS,Underbarrel,Merc Foregrip,4.93,0.0,0.7,0.0,-1.76,2.11
+Marksman Rifle,SKS,Underbarrel,Bipod,0.0,0.0,0.0,0.0,0.0,3.17
+Marksman Rifle,SKS,Underbarrel,Operator Foregrip,3.87,0.0,1.41,0.0,-1.06,1.06
+Marksman Rifle,SKS,Underbarrel,Tactical Foregrip,1.06,0.0,0.7,0.0,-1.06,5.99
+Marksman Rifle,SKS,Underbarrel,Commando Foregrip,3.87,0.0,1.76,0.0,-2.11,3.17
+Marksman Rifle,SKS,Underbarrel,Ranger Foregrip,4.58,0.0,2.82,0.0,-2.82,3.17
+Marksman Rifle,SKS,Laser,Tac Laser,2.11,0.0,0.0,0.0,1.76,3.17
+Marksman Rifle,SKS,Muzzle,Compensator,2.11,0.0,0.0,0.0,-1.06,3.17
+Marksman Rifle,SKS,Muzzle,Lightweight Suppressor,1.06,0.0,-4.23,0.0,-0.7,0.0
+Marksman Rifle,SKS,Muzzle,Breacher Device,0.0,0.0,0.0,0.0,-2.11,-1.76
+Marksman Rifle,SKS,Muzzle,Muzzle Brake,3.52,0.0,0.0,0.0,-1.06,1.06
+Marksman Rifle,SKS,Muzzle,Flash Guard,0.0,0.0,-1.06,0.0,-0.7,0.0
+Marksman Rifle,SKS,Muzzle,Tactical Suppressor,1.41,0.0,0.0,0.0,-1.76,-0.35
+Marksman Rifle,SKS,Muzzle,Monolithic Suppressor,2.11,0.0,2.82,0.0,-3.17,-1.06
+Marksman Rifle,SKS,Stock,Sawed-off Stock,-3.17,0.0,-2.11,0.0,8.8,-3.87
+Marksman Rifle,SKS,Stock,SKS Rifle Stock,3.87,0.0,0.0,0.0,-3.17,4.23
+Marksman Rifle,SKS,Stock,FTAC Hunter-Scout,2.11,0.0,0.0,0.0,-2.11,3.17
+Marksman Rifle,SKS,Ammunition,10 Round Mags,0.0,0.0,0.0,0.0,3.17,2.46
+Marksman Rifle,SKS,Ammunition,30 Round Mags,0.0,0.0,0.0,0.0,-2.11,-1.76
+Marksman Rifle,SKS,Base,,75.0,76.06,71.13,61.97,59.15,72.89
+Marksman Rifle,MK2 Carbine,Perk,Presence of Mind,0.0,0.0,0.0,0.0,0.0,0.0
+Marksman Rifle,MK2 Carbine,Perk,FMJ,0.0,4.93,0.0,0.0,0.0,0.0
+Marksman Rifle,MK2 Carbine,Perk,Sleight of Hand,0.0,0.0,0.0,2.11,0.0,0.0
+Marksman Rifle,MK2 Carbine,Perk,Focus,0.0,0.0,2.11,0.0,0.0,2.11
+Marksman Rifle,MK2 Carbine,Perk,Frangible - Disabling,0.0,0.0,0.0,0.0,0.0,0.0
+Marksman Rifle,MK2 Carbine,Perk,Recon,0.0,0.0,0.0,0.0,0.0,0.0
+Marksman Rifle,MK2 Carbine,Perk,Fast Melee,0.0,0.0,0.0,0.0,0.0,0.0
+Marksman Rifle,MK2 Carbine,Perk,Frangible - Wounding,0.0,0.0,0.0,0.0,0.0,0.0
+Marksman Rifle,MK2 Carbine,Perk,Heavy Hitter,0.0,0.0,0.0,0.0,0.0,0.0
+Marksman Rifle,MK2 Carbine,Perk,Fully Loaded,0.0,0.0,0.0,0.0,0.0,0.0
+Marksman Rifle,MK2 Carbine,Perk,Mo! Money,0.0,0.0,0.0,0.0,0.0,0.0
+Marksman Rifle,MK2 Carbine,Optic,Solozero Optics Mini Reflex,2.82,0.0,0.0,0.0,0.0,-0.7
+Marksman Rifle,MK2 Carbine,Optic,Sniper Scope,5.99,0.0,10.21,0.0,-3.87,-5.99
+Marksman Rifle,MK2 Carbine,Optic,4.0x Flip Hybrid,3.87,0.0,5.99,0.0,-2.82,-3.87
+Marksman Rifle,MK2 Carbine,Optic,Operator Reflex Sight,2.82,0.0,0.0,0.0,-0.7,-0.7
+Marksman Rifle,MK2 Carbine,Optic,Variable Zoom Scope,6.69,0.0,13.03,0.0,-4.93,-6.69
+Marksman Rifle,MK2 Carbine,Optic,Thermal Hybrid,4.93,0.0,4.93,0.0,-3.87,-4.93
+Marksman Rifle,MK2 Carbine,Optic,Cronen LP945 Mini Reflex,2.82,0.0,0.0,0.0,0.0,-0.7
+Marksman Rifle,MK2 Carbine,Optic,Scout Combat Optic,4.93,0.0,3.87,0.0,-2.82,-2.82
+Marksman Rifle,MK2 Carbine,Optic,APXS5 Holographic Sight,3.87,0.0,2.11,0.0,-1.76,-1.76
+Marksman Rifle,MK2 Carbine,Optic,Corp Combat Holo Sight,3.87,0.0,2.11,0.0,-1.76,-1.76
+Marksman Rifle,MK2 Carbine,Optic,Merc Thermal Optic,4.93,0.0,3.87,0.0,-3.87,-3.87
+Marksman Rifle,MK2 Carbine,Optic,Integral Hybrid,3.87,0.0,4.93,0.0,-1.76,-2.82
+Marksman Rifle,MK2 Carbine,Optic,Viper Reflex Sight,2.82,0.0,0.0,0.0,-0.7,-0.7
+Marksman Rifle,MK2 Carbine,Optic,Monocle Reflex Sight,2.82,0.0,0.0,0.0,-0.7,-0.7
+Marksman Rifle,MK2 Carbine,Optic,PBX Holo 7 Sight,3.87,0.0,2.11,0.0,-1.76,-1.76
+Marksman Rifle,MK2 Carbine,Optic,VLK 3.0x Optic,4.23,0.0,3.87,0.0,-2.46,-2.82
+Marksman Rifle,MK2 Carbine,Optic,G.I. Mini Reflex,2.82,0.0,0.0,0.0,0.0,-0.7
+Marksman Rifle,MK2 Carbine,Optic,Aim-Op Reflex Sight,2.82,0.0,0.0,0.0,-0.7,-0.7
+Marksman Rifle,MK2 Carbine,Optic,Solozero NVG Enhanced,4.93,0.0,3.87,0.0,-3.87,-3.87
+Marksman Rifle,MK2 Carbine,Optic,Cronen C480 Pro Optic,5.28,0.0,3.87,0.0,-3.52,-3.17
+Marksman Rifle,MK2 Carbine,Laser,Tac Laser,1.76,0.0,0.0,0.0,2.11,3.17
+Marksman Rifle,MK2 Carbine,Rear Grip,Stippled Grip Tape,0.0,0.0,0.0,0.0,3.17,-1.76
+Marksman Rifle,MK2 Carbine,Rear Grip,Rubberized Grip Tape,3.87,0.0,0.0,0.0,0.0,-1.76
+Marksman Rifle,MK2 Carbine,Rear Grip,Granulated Grip Tape,1.76,0.0,0.0,0.0,-1.76,2.11
+Marksman Rifle,MK2 Carbine,Muzzle,Flash Guard,0.0,0.0,-1.06,0.0,-0.35,0.0
+Marksman Rifle,MK2 Carbine,Muzzle,Tactical Suppressor,1.41,0.0,0.0,0.0,-1.41,-0.35
+Marksman Rifle,MK2 Carbine,Muzzle,Monolithic Suppressor,1.76,0.0,3.17,0.0,-2.82,-0.7
+Marksman Rifle,MK2 Carbine,Muzzle,"FSS 18.0"" Factory",1.41,0.0,3.17,0.0,-0.7,2.11
+Marksman Rifle,MK2 Carbine,Muzzle,"FSS 20.0"" Factory",2.11,0.0,3.87,0.0,-2.46,3.52
+Marksman Rifle,MK2 Carbine,Muzzle,Lightweight Suppressor,0.7,0.0,-3.87,0.0,-0.35,0.0
+Marksman Rifle,MK2 Carbine,Muzzle,Breacher Device,0.0,0.0,0.0,0.0,-1.76,-1.76
+Marksman Rifle,MK2 Carbine,Muzzle,"FSS 24.0"" Factory",2.82,0.0,4.93,0.0,-2.82,4.23
+Marksman Rifle,MK2 Carbine,Muzzle,Muzzle Brake,3.17,0.0,0.0,0.0,-0.7,1.06
+Marksman Rifle,MK2 Carbine,Muzzle,Compensator,1.76,0.0,0.0,0.0,-0.7,3.17
+Marksman Rifle,MK2 Carbine,Stock,Cartridge Sleeve,0.7,0.0,0.0,0.0,-0.7,1.76
+Marksman Rifle,MK2 Carbine,Stock,FSS Mk2 Sport Comb,-2.11,0.0,0.0,0.0,3.17,-0.7
+Marksman Rifle,MK2 Carbine,Stock,FSS MK2 Precision Comb,1.76,0.0,0.0,0.0,-1.76,3.17
+Marksman Rifle,MK2 Carbine,Stock,Mk2 Ultralight Hollow,-1.06,0.0,0.0,0.0,4.23,-2.46
+Marksman Rifle,MK2 Carbine,Base,,78.17,79.93,67.96,63.03,65.85,59.86
+Shotgun,Origin 12,Barrel,FORGE TAC Wideshot,-1.06,1.06,-3.17,0.0,2.82,0.0
+Shotgun,Origin 12,Barrel,FORGE TAC Precision,2.11,-1.06,4.58,0.0,-2.11,0.0
+Shotgun,Origin 12,Barrel,FORGE TAC Impaler,3.17,-2.11,5.99,0.0,-3.17,-1.06
+Shotgun,Origin 12,Perk,FMJ,0.0,4.93,0.0,0.0,0.0,0.0
+Shotgun,Origin 12,Perk,Frangible - Disabling,0.0,0.0,0.0,0.0,0.0,0.0
+Shotgun,Origin 12,Perk,Recon,0.0,0.0,0.0,0.0,0.0,0.0
+Shotgun,Origin 12,Perk,Mo! Money,0.0,0.0,0.0,0.0,0.0,0.0
+Shotgun,Origin 12,Perk,Sleight of Hand,0.0,0.0,0.0,2.11,0.0,0.0
+Shotgun,Origin 12,Perk,Frangible - Wounding,0.0,0.0,0.0,0.0,0.0,0.0
+Shotgun,Origin 12,Perk,Heavy Hitter,0.0,0.0,0.0,0.0,0.0,0.0
+Shotgun,Origin 12,Perk,Fully Loaded,0.0,0.0,0.0,0.0,0.0,0.0
+Shotgun,Origin 12,Perk,Fast Melee,0.0,0.0,0.0,0.0,0.0,0.0
+Shotgun,Origin 12,Optic,Cronen C480 Pro Optic,5.63,0.0,3.87,0.0,-3.52,-3.52
+Shotgun,Origin 12,Optic,G.I. Mini Reflex,3.17,0.0,0.0,0.0,0.0,-1.06
+Shotgun,Origin 12,Optic,APXS5 Holographic Sight,3.87,0.0,2.11,0.0,-2.11,-2.11
+Shotgun,Origin 12,Optic,Scout Combat Optic,4.93,0.0,3.87,0.0,-3.17,-3.17
+Shotgun,Origin 12,Optic,Corp Combat Holo Sight,3.87,0.0,2.11,0.0,-2.11,-2.11
+Shotgun,Origin 12,Optic,Solozero Optics Mini Reflex,3.17,0.0,0.0,0.0,0.0,-1.06
+Shotgun,Origin 12,Optic,Operator Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-1.06
+Shotgun,Origin 12,Optic,Viper Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-1.06
+Shotgun,Origin 12,Optic,VLK 3.0x Optic,4.58,0.0,3.87,0.0,-2.46,-2.82
+Shotgun,Origin 12,Optic,Cronen LP945 Mini Reflex,3.17,0.0,0.0,0.0,0.0,-1.06
+Shotgun,Origin 12,Optic,Aim-Op Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-1.06
+Shotgun,Origin 12,Optic,PBX Holo 7 Sight,3.87,0.0,2.11,0.0,-2.11,-2.11
+Shotgun,Origin 12,Optic,Solozero NVG Enhanced,4.93,0.0,3.87,0.0,-4.23,-4.23
+Shotgun,Origin 12,Optic,Monocle Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-1.06
+Shotgun,Origin 12,Underbarrel,Commando Foregrip,3.87,0.0,2.11,0.0,-2.11,2.82
+Shotgun,Origin 12,Underbarrel,Merc Foregrip,2.11,0.0,1.06,0.0,-1.41,4.93
+Shotgun,Origin 12,Laser,Tac Laser,2.11,0.0,0.0,0.0,2.11,2.82
+Shotgun,Origin 12,Laser,SmW Laser,2.11,0.0,0.0,0.0,2.82,-1.06
+Shotgun,Origin 12,Laser,mW Laser,0.0,0.0,0.0,0.0,1.06,-1.06
+Shotgun,Origin 12,Rear Grip,Rubberized Grip Tape,3.87,0.0,0.0,0.0,0.0,-2.11
+Shotgun,Origin 12,Rear Grip,Stippled Grip Tape,0.0,0.0,0.0,0.0,2.82,-2.11
+Shotgun,Origin 12,Rear Grip,Granulated Grip Tape,2.11,0.0,0.0,0.0,-2.11,1.76
+Shotgun,Origin 12,Muzzle,Choke,0.0,0.0,4.58,0.0,-2.11,0.0
+Shotgun,Origin 12,Muzzle,Compensator,2.11,0.0,0.0,0.0,-1.06,2.82
+Shotgun,Origin 12,Muzzle,Muzzle Brake,3.52,0.0,0.0,0.0,-1.06,1.06
+Shotgun,Origin 12,Muzzle,Tactical Suppressor,1.41,0.0,0.0,0.0,-1.41,-0.7
+Shotgun,Origin 12,Muzzle,Flash Guard,0.0,0.0,-1.06,0.0,-0.7,0.0
+Shotgun,Origin 12,Muzzle,Breacher Device,0.0,0.0,0.0,0.0,-2.11,-2.11
+Shotgun,Origin 12,Muzzle,Monolithic Suppressor,2.11,0.0,2.82,0.0,-3.17,-1.06
+Shotgun,Origin 12,Muzzle,Lightweight Suppressor,1.06,0.0,-3.87,0.0,-0.7,0.0
+Shotgun,Origin 12,Stock,FORGE TAC Ultralight,-1.06,0.0,0.0,0.0,3.87,-2.46
+Shotgun,Origin 12,Stock,FTAC Hunter,2.11,0.0,0.0,0.0,-2.11,2.82
+Shotgun,Origin 12,Stock,FORGE TAC Dart,-2.11,0.0,0.0,0.0,2.82,-1.06
+Shotgun,Origin 12,Stock,No Stock,-3.17,0.0,-2.11,0.0,8.8,-4.23
+Shotgun,Origin 12,Ammunition,12 Round Mags,0.0,0.0,0.0,0.0,-2.11,-2.11
+Shotgun,Origin 12,Ammunition,8 Round Slug Mags,-5.99,2.82,8.1,0.0,0.0,0.0
+Shotgun,Origin 12,Ammunition,25 Round Drum Mags,0.0,0.0,0.0,0.0,-4.93,-3.17
+Shotgun,Origin 12,Base,,50.0,76.06,38.03,57.04,76.06,70.07
+Shotgun,VLK Rogue,Barrel,VLK Czar,2.82,-2.11,5.99,0.0,-3.17,-1.06
+Shotgun,VLK Rogue,Barrel,,-2.11,2.82,-2.82,0.0,4.93,-2.11
+Shotgun,VLK Rogue,Barrel,"16"" Warlord",2.11,-1.06,4.58,0.0,-2.11,0.0
+Shotgun,VLK Rogue,Perk,Heavy Hitter,0.0,0.0,0.0,0.0,0.0,0.0
+Shotgun,VLK Rogue,Perk,Fully Loaded,0.0,0.0,0.0,0.0,0.0,0.0
+Shotgun,VLK Rogue,Perk,Fast Melee,0.0,0.0,0.0,0.0,0.0,0.0
+Shotgun,VLK Rogue,Perk,FMJ,0.0,4.93,0.0,0.0,0.0,0.0
+Shotgun,VLK Rogue,Perk,Frangible - Disabling,0.0,0.0,0.0,0.0,0.0,0.0
+Shotgun,VLK Rogue,Perk,Recon,0.0,0.0,0.0,0.0,0.0,0.0
+Shotgun,VLK Rogue,Perk,Mo! Money,0.0,0.0,0.0,0.0,0.0,0.0
+Shotgun,VLK Rogue,Perk,Sleight of Hand,0.0,0.0,0.0,2.11,0.0,0.0
+Shotgun,VLK Rogue,Perk,Frangible - Wounding,0.0,0.0,0.0,0.0,0.0,0.0
+Shotgun,VLK Rogue,Optic,Operator Reflex Sight,2.82,0.0,0.0,0.0,-1.06,-1.06
+Shotgun,VLK Rogue,Optic,Solozero Optics Mini Reflex,2.82,0.0,0.0,0.0,0.0,-1.06
+Shotgun,VLK Rogue,Optic,Viper Reflex Sight,2.82,0.0,0.0,0.0,-1.06,-1.06
+Shotgun,VLK Rogue,Optic,APXS5 Holographic Sight,3.87,0.0,2.11,0.0,-2.11,-2.11
+Shotgun,VLK Rogue,Optic,Corp Combat Holo Sight,3.87,0.0,2.11,0.0,-2.11,-2.11
+Shotgun,VLK Rogue,Optic,Scout Combat Optic,4.93,0.0,4.23,0.0,-3.17,-2.82
+Shotgun,VLK Rogue,Optic,G.I. Mini Reflex,2.82,0.0,0.0,0.0,0.0,-1.06
+Shotgun,VLK Rogue,Optic,Cronen C480 Pro Optic,5.28,0.0,4.23,0.0,-3.52,-3.17
+Shotgun,VLK Rogue,Optic,Monocle Reflex Sight,2.82,0.0,0.0,0.0,-1.06,-1.06
+Shotgun,VLK Rogue,Optic,Solozero NVG Enhanced,4.93,0.0,4.23,0.0,-4.23,-3.87
+Shotgun,VLK Rogue,Optic,PBX Holo 7 Sight,3.87,0.0,2.11,0.0,-2.11,-2.11
+Shotgun,VLK Rogue,Optic,Aim-Op Reflex Sight,2.82,0.0,0.0,0.0,-1.06,-1.06
+Shotgun,VLK Rogue,Optic,Cronen LP945 Mini Reflex,2.82,0.0,0.0,0.0,0.0,-1.06
+Shotgun,VLK Rogue,Optic,VLK 3.0x Optic,4.58,0.0,4.23,0.0,-2.82,-2.82
+Shotgun,VLK Rogue,Underbarrel,XRK Race Grip,3.52,0.0,2.11,0.0,-2.11,4.93
+Shotgun,VLK Rogue,Underbarrel,XRK ReliaGrip,4.58,0.0,3.17,0.0,-2.82,3.17
+Shotgun,VLK Rogue,Underbarrel,VLK Prime Pump Grip,3.87,0.0,1.76,0.0,-1.06,1.06
+Shotgun,VLK Rogue,Laser,SmW Laser,2.11,0.0,0.0,0.0,2.82,-1.06
+Shotgun,VLK Rogue,Laser,Tac Laser,2.11,0.0,0.0,0.0,1.76,3.17
+Shotgun,VLK Rogue,Laser,mW Laser,0.0,0.0,0.0,0.0,0.7,-1.06
+Shotgun,VLK Rogue,Rear Grip,Granulated Grip Tape,2.11,0.0,0.0,0.0,-2.11,2.11
+Shotgun,VLK Rogue,Rear Grip,Stippled Grip Tape,0.0,0.0,0.0,0.0,2.82,-2.11
+Shotgun,VLK Rogue,Rear Grip,Rubberized Grip Tape,3.87,0.0,0.0,0.0,0.0,-2.11
+Shotgun,VLK Rogue,Muzzle,Tactical Suppressor,1.41,0.0,0.0,0.0,-1.76,-0.35
+Shotgun,VLK Rogue,Muzzle,Muzzle Brake,3.52,0.0,0.0,0.0,-1.06,1.06
+Shotgun,VLK Rogue,Muzzle,Compensator,2.11,0.0,0.0,0.0,-1.06,3.17
+Shotgun,VLK Rogue,Muzzle,Choke,0.0,0.0,4.58,0.0,-2.11,0.0
+Shotgun,VLK Rogue,Muzzle,FORGE TAC Marauder,3.87,0.0,5.99,0.0,-5.28,-2.11
+Shotgun,VLK Rogue,Muzzle,Monolithic Suppressor,2.11,0.0,3.17,0.0,-3.17,-1.06
+Shotgun,VLK Rogue,Muzzle,Breacher Device,0.0,0.0,0.0,0.0,-2.11,-2.11
+Shotgun,VLK Rogue,Muzzle,Flash Guard,0.0,0.0,-1.06,0.0,-0.7,0.0
+Shotgun,VLK Rogue,Stock,FSS Close Quarters Stock,-2.11,0.0,0.0,0.0,2.82,-1.06
+Shotgun,VLK Rogue,Stock,FTAC Hunter,2.11,0.0,0.0,0.0,-2.11,3.17
+Shotgun,VLK Rogue,Stock,FORGE TAC Ultralight,-1.06,0.0,0.0,0.0,3.87,-2.46
+Shotgun,VLK Rogue,Stock,No Stock,-2.46,0.0,-1.76,0.0,6.69,-3.52
+Shotgun,VLK Rogue,Ammunition,4 Round Mags,0.0,0.0,0.0,0.0,2.82,2.46
+Shotgun,VLK Rogue,Ammunition,8 Round Slug Mags,-5.99,2.82,8.1,0.0,0.0,0.0
+Shotgun,VLK Rogue,Ammunition,12 Round Mags,0.0,0.0,0.0,0.0,-2.11,-2.11
+Shotgun,VLK Rogue,Base,,57.04,78.17,41.9,51.06,78.17,67.96
+Shotgun,725,Barrel,Tempus Smooth Bore,-1.06,1.06,-2.82,0.0,3.17,0.0
+Shotgun,725,Barrel,Sawed-off Barrel,-2.11,3.17,-4.93,0.0,5.99,-1.76
+Shotgun,725,Barrel,"Tempus 32"" Competition",2.82,-1.76,5.99,0.0,-2.82,-0.7
+Shotgun,725,Perk,Fully Loaded,0.0,0.0,0.0,0.0,0.0,0.0
+Shotgun,725,Perk,FMJ,0.0,5.28,0.0,0.0,0.0,0.0
+Shotgun,725,Perk,Frangible - Disabling,0.0,0.0,0.0,0.0,0.0,0.0
+Shotgun,725,Perk,Sleight of Hand,0.0,0.0,0.0,2.11,0.0,0.0
+Shotgun,725,Perk,Mo! Money,0.0,0.0,0.0,0.0,0.0,0.0
+Shotgun,725,Perk,Recon,0.0,0.0,0.0,0.0,0.0,0.0
+Shotgun,725,Perk,Fast Melee,0.0,0.0,0.0,0.0,0.0,0.0
+Shotgun,725,Perk,Frangible - Wounding,0.0,0.0,0.0,0.0,0.0,0.0
+Shotgun,725,Perk,Heavy Hitter,0.0,0.0,0.0,0.0,0.0,0.0
+Shotgun,725,Optic,Solozero Optics Mini Reflex,2.82,0.0,0.0,0.0,0.0,-0.7
+Shotgun,725,Optic,PBX Holo 7 Sight,3.87,0.0,2.11,0.0,-2.11,-1.76
+Shotgun,725,Optic,Scout Combat Optic,4.93,0.0,3.87,0.0,-2.82,-2.82
+Shotgun,725,Optic,Corp Combat Holo Sight,3.87,0.0,2.11,0.0,-2.11,-1.76
+Shotgun,725,Optic,G.I. Mini Reflex,2.82,0.0,0.0,0.0,0.0,-0.7
+Shotgun,725,Optic,Cronen LP945 Mini Reflex,2.82,0.0,0.0,0.0,0.0,-0.7
+Shotgun,725,Optic,VLK 3.0x Optic,4.58,0.0,3.87,0.0,-2.46,-2.82
+Shotgun,725,Optic,Viper Reflex Sight,2.82,0.0,0.0,0.0,-1.06,-0.7
+Shotgun,725,Optic,Cronen C480 Pro Optic,5.28,0.0,3.87,0.0,-3.52,-3.17
+Shotgun,725,Optic,Solozero NVG Enhanced,4.93,0.0,3.87,0.0,-3.87,-3.87
+Shotgun,725,Optic,Operator Reflex Sight,2.82,0.0,0.0,0.0,-1.06,-0.7
+Shotgun,725,Optic,Aim-Op Reflex Sight,2.82,0.0,0.0,0.0,-1.06,-0.7
+Shotgun,725,Optic,Monocle Reflex Sight,2.82,0.0,0.0,0.0,-1.06,-0.7
+Shotgun,725,Optic,Brownlee 32mm Scope,5.99,0.0,9.86,0.0,-3.87,-5.99
+Shotgun,725,Optic,APXS5 Holographic Sight,3.87,0.0,2.11,0.0,-2.11,-1.76
+Shotgun,725,Underbarrel,Merc Foregrip,1.76,0.0,1.06,0.0,-1.41,5.28
+Shotgun,725,Underbarrel,Operator Foregrip,3.87,0.0,1.41,0.0,-1.06,1.06
+Shotgun,725,Underbarrel,Commando Foregrip,3.87,0.0,2.11,0.0,-2.11,3.17
+Shotgun,725,Underbarrel,Ranger Foregrip,4.58,0.0,3.17,0.0,-2.46,3.17
+Shotgun,725,Underbarrel,Tactical Foregrip,1.06,0.0,1.06,0.0,-1.06,5.99
+Shotgun,725,Laser,SmW Laser,1.76,0.0,0.0,0.0,3.17,-0.7
+Shotgun,725,Laser,Tac Laser,1.76,0.0,0.0,0.0,2.11,3.17
+Shotgun,725,Laser,mW Laser,0.0,0.0,0.0,0.0,1.06,-0.7
+Shotgun,725,Muzzle,Lightweight Suppressor,1.06,0.0,-3.87,0.0,-0.35,0.0
+Shotgun,725,Muzzle,Muzzle Brake,3.52,0.0,0.0,0.0,-1.06,1.06
+Shotgun,725,Muzzle,Breacher Device,0.0,0.0,0.0,0.0,-2.11,-1.76
+Shotgun,725,Muzzle,Compensator,1.76,0.0,0.0,0.0,-1.06,3.17
+Shotgun,725,Muzzle,Monolithic Suppressor,1.76,0.0,3.17,0.0,-2.82,-0.7
+Shotgun,725,Muzzle,Flash Guard,0.0,0.0,-1.06,0.0,-0.35,0.0
+Shotgun,725,Muzzle,Choke,0.0,0.0,4.58,0.0,-2.11,0.0
+Shotgun,725,Muzzle,Tactical Suppressor,1.41,0.0,0.0,0.0,-1.41,-0.35
+Shotgun,725,Guard,FORGE TAC Commander,3.87,0.0,0.0,0.0,0.0,-1.76
+Shotgun,725,Guard,FORGE TAC Steady Grip,1.76,0.0,0.0,0.0,-2.11,2.11
+Shotgun,725,Guard,Tempus SlimGrip,0.0,0.0,0.0,0.0,3.17,-1.76
+Shotgun,725,Stock,Cronen Equilibrium,1.76,0.0,0.0,0.0,-2.11,3.17
+Shotgun,725,Stock,Cronen Pro Light,-1.06,0.0,0.0,0.0,3.87,-2.46
+Shotgun,725,Stock,Sawed-off Stock,-3.17,0.0,-2.11,0.0,9.15,-3.87
+Shotgun,725,Stock,Tempus Sport,-2.11,0.0,0.0,0.0,3.17,-0.7
+Shotgun,725,Ammunition,Slug Rounds,-5.99,3.17,8.1,0.0,0.0,0.0
+Shotgun,725,Base,725,70.07,84.86,55.99,50.0,61.97,59.86
+Shotgun,Model 680,Barrel,"XRK 30.0"" Sport",3.17,-2.11,5.99,0.0,-3.17,-1.06
+Shotgun,Model 680,Barrel,"XRK 14.0"" SWAT",-1.76,2.11,-3.17,0.0,4.93,-2.11
+Shotgun,Model 680,Barrel,"XRK 18.0"" Liberator",2.11,-1.06,4.58,0.0,-2.11,0.0
+Shotgun,Model 680,Perk,Recon,0.0,0.0,0.0,0.0,0.0,0.0
+Shotgun,Model 680,Perk,Fully Loaded,0.0,0.0,0.0,0.0,0.0,0.0
+Shotgun,Model 680,Perk,Frangible - Wounding,0.0,0.0,0.0,0.0,0.0,0.0
+Shotgun,Model 680,Perk,Heavy Hitter,0.0,0.0,0.0,0.0,0.0,0.0
+Shotgun,Model 680,Perk,FMJ,0.0,4.93,0.0,0.0,0.0,0.0
+Shotgun,Model 680,Perk,Mo! Money,0.0,0.0,0.0,0.0,0.0,0.0
+Shotgun,Model 680,Perk,Fast Melee,0.0,0.0,0.0,0.0,0.0,0.0
+Shotgun,Model 680,Perk,Sleight of Hand,0.0,0.0,0.0,1.76,0.0,0.0
+Shotgun,Model 680,Optic,Viper Reflex Sight,3.17,0.0,-2.11,0.0,-1.06,-1.06
+Shotgun,Model 680,Optic,Aim-Op Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-1.06
+Shotgun,Model 680,Optic,PBX Holo 7 Sight,4.23,0.0,1.76,0.0,-2.11,-2.11
+Shotgun,Model 680,Optic,Solozero NVG Enhanced,5.28,0.0,3.87,0.0,-3.87,-4.23
+Shotgun,Model 680,Optic,Corp Combat Holo Sight,4.23,0.0,1.76,0.0,-2.11,-2.11
+Shotgun,Model 680,Optic,Scout Combat Optic,5.28,0.0,3.87,0.0,-3.17,-3.17
+Shotgun,Model 680,Optic,Operator Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-1.06
+Shotgun,Model 680,Optic,Cronen C480 Pro Optic,5.63,0.0,3.87,0.0,-3.52,-3.52
+Shotgun,Model 680,Optic,Monocle Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-1.06
+Shotgun,Model 680,Optic,Solozero Optics Mini Reflex,3.17,0.0,0.0,0.0,0.0,-1.06
+Shotgun,Model 680,Optic,G.I. Mini Reflex,3.17,0.0,0.0,0.0,0.0,-1.06
+Shotgun,Model 680,Optic,APXS5 Holographic Sight,4.23,0.0,1.76,0.0,-2.11,-2.11
+Shotgun,Model 680,Optic,Cronen LP945 Mini Reflex,3.17,0.0,0.0,0.0,0.0,-1.06
+Shotgun,Model 680,Optic,VLK 3.0x Optic,4.58,0.0,3.87,0.0,-2.46,-2.82
+Shotgun,Model 680,Underbarrel,Lockwood Precision Series,4.58,0.0,2.82,0.0,-2.46,2.82
+Shotgun,Model 680,Underbarrel,Operator Foregrip,4.23,0.0,1.41,0.0,-1.06,0.7
+Shotgun,Model 680,Underbarrel,XRK Truegrip Tactical,3.52,0.0,1.76,0.0,-2.11,4.93
+Shotgun,Model 680,Underbarrel,Merc Foregrip,2.11,0.0,1.06,0.0,-1.41,4.93
+Shotgun,Model 680,Underbarrel,Tactical Foregrip,1.06,0.0,1.06,0.0,-1.06,5.99
+Shotgun,Model 680,Underbarrel,Commando Foregrip,4.23,0.0,1.76,0.0,-2.11,2.82
+Shotgun,Model 680,Laser,Tac Laser,2.11,0.0,0.0,0.0,2.11,2.82
+Shotgun,Model 680,Laser,SmW Laser,2.11,0.0,0.0,0.0,2.82,-1.06
+Shotgun,Model 680,Laser,mW Laser,0.0,0.0,0.0,0.0,1.06,-1.06
+Shotgun,Model 680,Muzzle,Compensator,2.11,0.0,0.0,0.0,-1.06,2.82
+Shotgun,Model 680,Muzzle,Breacher Device,0.0,0.0,0.0,0.0,-2.11,-2.11
+Shotgun,Model 680,Muzzle,Muzzle Brake,3.52,0.0,0.0,0.0,-1.06,0.7
+Shotgun,Model 680,Muzzle,FORGE TAC Marauder,4.23,0.0,5.99,0.0,-4.93,-2.11
+Shotgun,Model 680,Muzzle,Choke,0.0,0.0,4.58,0.0,-2.11,0.0
+Shotgun,Model 680,Muzzle,Tactical Suppressor,1.76,0.0,0.0,0.0,-1.41,-0.7
+Shotgun,Model 680,Muzzle,Monolithic Suppressor,2.11,0.0,2.82,0.0,-3.17,-1.06
+Shotgun,Model 680,Muzzle,Flash Guard,0.0,0.0,-1.06,0.0,-0.35,0.0
+Shotgun,Model 680,Stock,Lockwood Precision Series,4.23,0.0,0.0,0.0,-3.17,3.87
+Shotgun,Model 680,Stock,No Stock,-2.82,0.0,-2.11,0.0,9.15,-4.23
+Shotgun,Model 680,Stock,FORGE TAC Ultralight,-0.7,0.0,0.0,0.0,3.87,-2.82
+Shotgun,Model 680,Stock,FTAC Hunter,2.11,0.0,0.0,0.0,-2.11,2.82
+Shotgun,Model 680,Stock,FTAC Stalker-12,-1.76,0.0,0.0,0.0,2.82,-1.06
+Shotgun,Model 680,Ammunition,Tube Extension,0.0,0.0,0.0,0.0,-2.11,-2.11
+Shotgun,Model 680,Ammunition,Slug Rounds,-5.99,2.82,8.1,0.0,0.0,0.0
+Shotgun,Model 680,Ammunition,Dragon's Breath Rounds,0.0,3.87,-3.17,0.0,0.0,0.0
+Shotgun,Model 680,Base,,59.86,82.04,45.07,45.07,69.01,65.14
+Shotgun,R9-0,Pumps,FSS R9-0 Bulldog,2.11,0.0,0.0,0.0,-2.11,3.17
+Shotgun,R9-0,Pumps,FTAC Close Quarters Pro,-1.76,0.0,0.0,0.0,2.82,-1.06
+Shotgun,R9-0,Pumps,FTAC Ultralight Pump,-1.06,0.0,0.0,0.0,3.87,-2.46
+Shotgun,R9-0,Barrel,FORGE TAC Gemini,-1.06,1.06,-2.82,0.0,2.82,0.0
+Shotgun,R9-0,Barrel,FORGE TAC Sentry,2.11,-0.7,4.58,0.0,-2.11,0.0
+Shotgun,R9-0,Perk,Recon,0.0,0.0,0.0,0.0,0.0,0.0
+Shotgun,R9-0,Perk,Mo! Money,0.0,0.0,0.0,0.0,0.0,0.0
+Shotgun,R9-0,Perk,FMJ,0.0,5.28,0.0,0.0,0.0,0.0
+Shotgun,R9-0,Perk,Sleight of Hand,0.0,0.0,0.0,1.76,0.0,0.0
+Shotgun,R9-0,Perk,Heavy Hitter,0.0,0.0,0.0,0.0,0.0,0.0
+Shotgun,R9-0,Perk,Frangible - Wounding,0.0,0.0,0.0,0.0,0.0,0.0
+Shotgun,R9-0,Perk,Fully Loaded,0.0,0.0,0.0,0.0,0.0,0.0
+Shotgun,R9-0,Perk,Frangible - Disabling,0.0,0.0,0.0,0.0,0.0,0.0
+Shotgun,R9-0,Perk,Fast Melee,0.0,0.0,0.0,0.0,0.0,0.0
+Shotgun,R9-0,Optic,APXS5 Holographic Sight,4.23,0.0,2.11,0.0,-2.11,-2.11
+Shotgun,R9-0,Optic,PBX Holo 7 Sight,4.23,0.0,2.11,0.0,-2.11,-2.11
+Shotgun,R9-0,Optic,Scout Combat Optic,4.93,0.0,4.23,0.0,-3.17,-3.17
+Shotgun,R9-0,Optic,Cronen LP945 Mini Reflex,3.17,0.0,0.0,0.0,0.0,-1.06
+Shotgun,R9-0,Optic,Monocle Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-1.06
+Shotgun,R9-0,Optic,Cronen C480 Pro Optic,5.63,0.0,4.23,0.0,-3.52,-3.17
+Shotgun,R9-0,Optic,Operator Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-1.06
+Shotgun,R9-0,Optic,Solozero Optics Mini Reflex,3.17,0.0,0.0,0.0,0.0,-1.06
+Shotgun,R9-0,Optic,Aim-Op Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-1.06
+Shotgun,R9-0,Optic,Viper Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-1.06
+Shotgun,R9-0,Optic,Solozero NVG Enhanced,4.93,0.0,4.23,0.0,-4.23,-3.87
+Shotgun,R9-0,Optic,G.I. Mini Reflex,3.17,0.0,0.0,0.0,0.0,-1.06
+Shotgun,R9-0,Optic,VLK 3.0x Optic,4.58,0.0,4.23,0.0,-2.46,-2.82
+Shotgun,R9-0,Optic,Corp Combat Holo Sight,4.23,0.0,2.11,0.0,-2.11,-2.11
+Shotgun,R9-0,Underbarrel,Operator Foregrip,4.23,0.0,1.76,0.0,-1.06,1.06
+Shotgun,R9-0,Underbarrel,Merc Foregrip,2.11,0.0,1.06,0.0,-1.76,4.93
+Shotgun,R9-0,Underbarrel,Ranger Foregrip,4.58,0.0,3.17,0.0,-2.46,3.17
+Shotgun,R9-0,Laser,SmW Laser,2.11,0.0,0.0,0.0,2.82,-1.06
+Shotgun,R9-0,Laser,mW Laser,0.0,0.0,0.0,0.0,0.7,-1.06
+Shotgun,R9-0,Laser,Tac Laser,2.11,0.0,0.0,0.0,1.76,3.17
+Shotgun,R9-0,Rear Grip,Rubberized Grip Tape,4.23,0.0,0.0,0.0,0.0,-2.11
+Shotgun,R9-0,Rear Grip,Stippled Grip Tape,0.0,0.0,0.0,0.0,2.82,-2.11
+Shotgun,R9-0,Rear Grip,Granulated Grip Tape,2.11,0.0,0.0,0.0,-2.11,2.11
+Shotgun,R9-0,Muzzle,Breacher Device,0.0,0.0,0.0,0.0,-2.11,-2.11
+Shotgun,R9-0,Muzzle,Flash Guard,0.0,0.0,-1.06,0.0,-0.7,0.0
+Shotgun,R9-0,Muzzle,Monolithic Suppressor,2.11,0.0,3.17,0.0,-3.17,-1.06
+Shotgun,R9-0,Muzzle,Lightweight Suppressor,1.06,0.0,-3.87,0.0,-0.7,0.0
+Shotgun,R9-0,Muzzle,Choke,0.0,0.0,4.58,0.0,-2.11,0.0
+Shotgun,R9-0,Muzzle,Compensator,2.11,0.0,0.0,0.0,-1.06,3.17
+Shotgun,R9-0,Muzzle,Muzzle Brake,3.52,0.0,0.0,0.0,-1.06,1.06
+Shotgun,R9-0,Muzzle,Tactical Suppressor,1.41,0.0,0.0,0.0,-1.76,-0.35
+Shotgun,R9-0,Ammunition,Tube Extensions,0.0,0.0,0.0,0.0,-2.11,-2.11
+Shotgun,R9-0,Ammunition,Slug Rounds,-5.99,3.17,8.1,0.0,0.0,0.0
+Shotgun,R9-0,Base,,54.93,78.87,41.9,53.17,71.13,75.0
+Sniper Rifle,Dragunov,Barrel,660mm Extended Barrel,2.11,0.0,3.87,0.0,-2.46,3.52
+Sniper Rifle,Dragunov,Barrel,510mm Compact Barrel,-1.41,0.0,-3.17,0.0,4.58,-1.76
+Sniper Rifle,Dragunov,Perk,Recon,0.0,0.0,0.0,0.0,0.0,0.0
+Sniper Rifle,Dragunov,Perk,Presence of Mind,0.0,0.0,0.0,0.0,0.0,0.0
+Sniper Rifle,Dragunov,Perk,Mo! Money,0.0,0.0,0.0,0.0,0.0,0.0
+Sniper Rifle,Dragunov,Perk,Fast Melee,0.0,0.0,0.0,0.0,0.0,0.0
+Sniper Rifle,Dragunov,Perk,Frangible - Wounding,0.0,0.0,0.0,0.0,0.0,0.0
+Sniper Rifle,Dragunov,Perk,Heavy Hitter,0.0,0.0,0.0,0.0,0.0,0.0
+Sniper Rifle,Dragunov,Perk,Fully Loaded,0.0,0.0,0.0,0.0,0.0,0.0
+Sniper Rifle,Dragunov,Perk,FMJ,0.0,4.93,0.0,0.0,0.0,0.0
+Sniper Rifle,Dragunov,Perk,Focus,0.0,0.0,2.11,0.0,0.0,1.76
+Sniper Rifle,Dragunov,Perk,Sleight of Hand,0.0,0.0,0.0,2.11,0.0,0.0
+Sniper Rifle,Dragunov,Perk,Frangible - Disabling,0.0,0.0,0.0,0.0,0.0,0.0
+Sniper Rifle,Dragunov,Optic,Merc Thermal Optic,-2.11,0.0,-3.17,0.0,3.17,2.82
+Sniper Rifle,Dragunov,Optic,VLK 3.0x Optic,-2.46,0.0,-3.52,0.0,7.04,3.17
+Sniper Rifle,Dragunov,Optic,Thermal Sniper Scope,0.0,0.0,0.0,0.0,-2.82,-2.11
+Sniper Rifle,Dragunov,Optic,Cronen C480 Pro Optic,-1.41,0.0,-2.46,0.0,5.28,2.82
+Sniper Rifle,Dragunov,Optic,Scout Combat Optic,-2.11,0.0,-3.17,0.0,6.34,3.17
+Sniper Rifle,Dragunov,Optic,Thermal Dual Power Scope,1.06,0.0,3.87,0.0,-3.87,-4.23
+Sniper Rifle,Dragunov,Optic,Variable Zoom Scope,1.06,0.0,3.87,0.0,-2.82,-2.11
+Sniper Rifle,Dragunov,Underbarrel,Bipod,0.0,0.0,0.0,0.0,0.0,2.82
+Sniper Rifle,Dragunov,Laser,Tac Laser,2.11,0.0,0.0,0.0,2.11,2.82
+Sniper Rifle,Dragunov,Muzzle,Flash Guard,0.0,0.0,-1.06,0.0,-0.35,0.0
+Sniper Rifle,Dragunov,Muzzle,Lightweight Suppressor,1.06,0.0,-3.87,0.0,-0.35,0.0
+Sniper Rifle,Dragunov,Muzzle,Breacher Device,0.0,0.0,0.0,0.0,-1.76,-2.11
+Sniper Rifle,Dragunov,Muzzle,Monolithic Suppressor,2.11,0.0,3.17,0.0,-2.82,-1.06
+Sniper Rifle,Dragunov,Muzzle,Compensator,2.11,0.0,0.0,0.0,-0.7,2.82
+Sniper Rifle,Dragunov,Muzzle,Tactical Suppressor,1.41,0.0,0.0,0.0,-1.41,-0.7
+Sniper Rifle,Dragunov,Muzzle,Muzzle Brake,3.52,0.0,0.0,0.0,-0.7,0.7
+Sniper Rifle,Dragunov,Stock,FTAC Stalker-Scout,-2.11,0.0,0.0,0.0,3.17,-1.06
+Sniper Rifle,Dragunov,Stock,VLK Lightweight Stock,-1.06,0.0,0.0,0.0,4.23,-2.82
+Sniper Rifle,Dragunov,Stock,Skeleton Stock,-2.11,0.0,0.0,0.0,6.34,-1.06
+Sniper Rifle,Dragunov,Stock,FTAC Hunter-Scout,2.11,0.0,0.0,0.0,-1.76,2.82
+Sniper Rifle,Dragunov,Ammunition,20 Round Mags,0.0,0.0,0.0,0.0,-3.87,-2.82
+Sniper Rifle,Dragunov,Ammunition,15 Round Mags,0.0,0.0,0.0,0.0,-1.76,-2.11
+Sniper Rifle,Dragunov,Base,,80.99,78.17,75.0,46.83,46.83,65.14
+Sniper Rifle,HDR,Barrel,"26.9"" HDR Pro",2.82,0.0,4.93,0.0,-2.82,3.87
+Sniper Rifle,HDR,Barrel,"26.0"" Bull Barrel",3.87,0.0,-5.99,0.0,-4.93,17.96
+Sniper Rifle,HDR,Barrel,"17.2"" Bull Barrel",1.76,0.0,-3.17,0.0,-2.46,8.8
+Sniper Rifle,HDR,Perk,Heavy Hitter,0.0,0.0,0.0,0.0,0.0,0.0
+Sniper Rifle,HDR,Perk,Fast Melee,0.0,0.0,0.0,0.0,0.0,0.0
+Sniper Rifle,HDR,Perk,Fully Loaded,0.0,0.0,0.0,0.0,0.0,0.0
+Sniper Rifle,HDR,Perk,Focus,0.0,0.0,1.76,0.0,0.0,1.76
+Sniper Rifle,HDR,Perk,Frangible - Wounding,0.0,0.0,0.0,0.0,0.0,0.0
+Sniper Rifle,HDR,Perk,Presence of Mind,0.0,0.0,0.0,0.0,0.0,0.0
+Sniper Rifle,HDR,Perk,Sleight of Hand,0.0,0.0,0.0,2.11,0.0,0.0
+Sniper Rifle,HDR,Perk,Frangible - Disabling,0.0,0.0,0.0,0.0,0.0,0.0
+Sniper Rifle,HDR,Perk,Mo! Money,0.0,0.0,0.0,0.0,0.0,0.0
+Sniper Rifle,HDR,Perk,FMJ,0.0,4.93,0.0,0.0,0.0,0.0
+Sniper Rifle,HDR,Perk,Recon,0.0,0.0,0.0,0.0,0.0,0.0
+Sniper Rifle,HDR,Optic,Thermal Dual Power Scope,1.06,0.0,3.87,0.0,-3.87,-4.23
+Sniper Rifle,HDR,Optic,Scout Combat Optic,-2.11,0.0,-3.17,0.0,5.99,3.17
+Sniper Rifle,HDR,Optic,Thermal Sniper Scope,0.0,0.0,0.0,0.0,-2.82,-2.11
+Sniper Rifle,HDR,Optic,VLK 3.0x Optic,-2.46,0.0,-3.52,0.0,7.04,3.17
+Sniper Rifle,HDR,Optic,Variable Zoom Scope,1.06,0.0,3.87,0.0,-2.82,-2.11
+Sniper Rifle,HDR,Optic,Cronen C480 Pro Optic,-1.76,0.0,-2.46,0.0,4.93,2.82
+Sniper Rifle,HDR,Optic,Merc Thermal Optic,-2.11,0.0,-3.17,0.0,3.17,2.82
+Sniper Rifle,HDR,Underbarrel,Bipod,0.0,0.0,0.0,0.0,0.0,2.82
+Sniper Rifle,HDR,Laser,Tac Laser,1.76,0.0,0.0,0.0,2.11,2.82
+Sniper Rifle,HDR,Muzzle,Tactical Suppressor,1.41,0.0,0.0,0.0,-1.41,-0.7
+Sniper Rifle,HDR,Muzzle,Breacher Device,0.0,0.0,0.0,0.0,-2.11,-2.11
+Sniper Rifle,HDR,Muzzle,Compensator,1.76,0.0,0.0,0.0,-1.06,2.82
+Sniper Rifle,HDR,Muzzle,Monolithic Suppressor,1.76,0.0,2.82,0.0,-2.82,-1.06
+Sniper Rifle,HDR,Muzzle,Muzzle Brake,3.52,0.0,0.0,0.0,-1.06,0.7
+Sniper Rifle,HDR,Muzzle,Flash Guard,0.0,0.0,-1.06,0.0,-0.35,0.0
+Sniper Rifle,HDR,Muzzle,Lightweight Suppressor,1.06,0.0,-4.23,0.0,-0.35,0.0
+Sniper Rifle,HDR,Stock,FTAC Champion,3.87,0.0,0.0,0.0,-2.82,3.87
+Sniper Rifle,HDR,Stock,FTAC Stalker-Scout,-2.11,0.0,0.0,0.0,3.17,-1.06
+Sniper Rifle,HDR,Stock,FTAC Hunter-Scout,1.76,0.0,0.0,0.0,-2.11,2.82
+Sniper Rifle,HDR,Stock,FSS Nomad Stock,-1.06,0.0,0.0,0.0,3.87,-2.82
+Sniper Rifle,HDR,Ammunition,7 Round Mags,0.0,0.0,0.0,0.0,-2.11,-2.11
+Sniper Rifle,HDR,Ammunition,9 Round Mags,0.0,0.0,0.0,0.0,-3.87,-2.82
+Sniper Rifle,HDR,Base,,83.1,79.93,83.1,42.96,42.96,65.14
+Sniper Rifle,AX-50,Barrel,"17.0"" Factory Barrel",-1.41,0.0,-2.82,0.0,4.58,-1.41
+Sniper Rifle,AX-50,Barrel,"32.0"" Factory Barrel",1.41,0.0,3.17,0.0,-1.06,1.76
+Sniper Rifle,AX-50,Barrel,Singuard Arms Pro,1.06,0.0,4.23,0.0,-2.11,0.0
+Sniper Rifle,AX-50,Perk,Presence of Mind,0.0,0.0,0.0,0.0,0.0,0.0
+Sniper Rifle,AX-50,Perk,Heavy Hitter,0.0,0.0,0.0,0.0,0.0,0.0
+Sniper Rifle,AX-50,Perk,Recon,0.0,0.0,0.0,0.0,0.0,0.0
+Sniper Rifle,AX-50,Perk,Frangible - Disabling,0.0,0.0,0.0,0.0,0.0,0.0
+Sniper Rifle,AX-50,Perk,Fully Loaded,0.0,0.0,0.0,0.0,0.0,0.0
+Sniper Rifle,AX-50,Perk,FMJ,0.0,5.28,0.0,0.0,0.0,0.0
+Sniper Rifle,AX-50,Perk,Frangible - Wounding,0.0,0.0,0.0,0.0,0.0,0.0
+Sniper Rifle,AX-50,Perk,Mo! Money,0.0,0.0,0.0,0.0,0.0,0.0
+Sniper Rifle,AX-50,Perk,Fast Melee,0.0,0.0,0.0,0.0,0.0,0.0
+Sniper Rifle,AX-50,Perk,Sleight of Hand,0.0,0.0,0.0,2.11,0.0,0.0
+Sniper Rifle,AX-50,Perk,Focus,0.0,0.0,2.11,0.0,0.0,1.76
+Sniper Rifle,AX-50,Optic,Cronen C480 Pro Optic,-1.41,0.0,-2.46,0.0,4.93,2.82
+Sniper Rifle,AX-50,Optic,Variable Zoom Scope,1.06,0.0,4.23,0.0,-3.17,-2.11
+Sniper Rifle,AX-50,Optic,Scout Combat Optic,-2.11,0.0,-2.82,0.0,5.99,3.17
+Sniper Rifle,AX-50,Optic,VLK 3.0x Optic,-2.46,0.0,-3.52,0.0,7.04,3.17
+Sniper Rifle,AX-50,Optic,Thermal Dual Power Scope,1.06,0.0,4.23,0.0,-3.87,-4.23
+Sniper Rifle,AX-50,Optic,Merc Thermal Optic,-2.11,0.0,-2.82,0.0,2.82,2.82
+Sniper Rifle,AX-50,Optic,Thermal Sniper Scope,0.0,0.0,0.0,0.0,-3.17,-2.11
+Sniper Rifle,AX-50,Underbarrel,Bipod,0.0,0.0,0.0,0.0,0.0,2.82
+Sniper Rifle,AX-50,Laser,Tac Laser,2.11,0.0,0.0,0.0,2.11,2.82
+Sniper Rifle,AX-50,Rear Grip,Stippled Grip Tape,0.0,0.0,0.0,0.0,2.82,-2.11
+Sniper Rifle,AX-50,Rear Grip,Granulated Grip Tape,2.11,0.0,0.0,0.0,-2.11,1.76
+Sniper Rifle,AX-50,Rear Grip,Rubberized Grip Tape,3.87,0.0,0.0,0.0,0.0,-2.11
+Sniper Rifle,AX-50,Muzzle,Monolithic Suppressor,2.11,0.0,3.17,0.0,-3.17,-1.06
+Sniper Rifle,AX-50,Muzzle,Flash Guard,0.0,0.0,-0.7,0.0,-0.35,0.0
+Sniper Rifle,AX-50,Muzzle,Lightweight Suppressor,1.06,0.0,-3.87,0.0,-0.35,0.0
+Sniper Rifle,AX-50,Muzzle,Compensator,2.11,0.0,0.0,0.0,-1.06,2.82
+Sniper Rifle,AX-50,Muzzle,Breacher Device,0.0,0.0,0.0,0.0,-2.11,-2.11
+Sniper Rifle,AX-50,Muzzle,Tactical Suppressor,1.41,0.0,0.0,0.0,-1.41,-0.7
+Sniper Rifle,AX-50,Muzzle,Muzzle Brake,3.52,0.0,0.0,0.0,-1.06,1.06
+Sniper Rifle,AX-50,Stock,Singuard Arms Assassin,-2.11,0.0,0.0,0.0,2.82,-1.06
+Sniper Rifle,AX-50,Stock,Singuard Arms Evader,-1.06,0.0,0.0,0.0,3.87,-2.46
+Sniper Rifle,AX-50,Stock,Singuard Arms Marksman,2.11,0.0,0.0,0.0,-2.11,2.82
+Sniper Rifle,AX-50,Ammunition,7 Round Mags,0.0,0.0,0.0,0.0,-2.11,-2.11
+Sniper Rifle,AX-50,Ammunition,9 Round Mags,0.0,0.0,0.0,0.0,-3.87,-2.46
+Sniper Rifle,AX-50,Base,,82.04,84.86,78.87,44.01,44.01,70.07
+LMG,Holger-26,Barrel,XRK Ultralight,0.0,0.0,-4.23,0.0,4.93,0.0
+LMG,Holger-26,Barrel,"FTAC 8.98"" Spitfire",-1.76,0.0,-4.23,0.0,7.75,-1.76
+LMG,Holger-26,Perk,Frangible - Disabling,0.0,0.0,0.0,0.0,0.0,0.0
+LMG,Holger-26,Perk,FMJ,0.0,5.28,0.0,0.0,0.0,0.0
+LMG,Holger-26,Perk,Sleight of Hand,0.0,0.0,0.0,1.76,0.0,0.0
+LMG,Holger-26,Perk,Frangible - Wounding,0.0,0.0,0.0,0.0,0.0,0.0
+LMG,Holger-26,Perk,Heavy Hitter,0.0,0.0,0.0,0.0,0.0,0.0
+LMG,Holger-26,Perk,Recon,0.0,0.0,0.0,0.0,0.0,0.0
+LMG,Holger-26,Perk,Fast Melee,0.0,0.0,0.0,0.0,0.0,0.0
+LMG,Holger-26,Perk,Fully Loaded,0.0,0.0,0.0,0.0,0.0,0.0
+LMG,Holger-26,Perk,Mo! Money,0.0,0.0,0.0,0.0,0.0,0.0
+LMG,Holger-26,Optic,Merc Thermal Optic,5.28,0.0,3.87,0.0,-4.23,-3.87
+LMG,Holger-26,Optic,Monocle Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-0.7
+LMG,Holger-26,Optic,Cronen C480 Pro Optic,5.63,0.0,3.87,0.0,-3.52,-3.17
+LMG,Holger-26,Optic,G.I. Mini Reflex,3.17,0.0,0.0,0.0,0.0,-0.7
+LMG,Holger-26,Optic,Integral Hybrid,4.23,0.0,4.93,0.0,-2.11,-2.82
+LMG,Holger-26,Optic,VLK 3.0x Optic,4.58,0.0,3.87,0.0,-2.46,-2.46
+LMG,Holger-26,Optic,APXS5 Holographic Sight,4.23,0.0,2.11,0.0,-2.11,-1.76
+LMG,Holger-26,Optic,Scout Combat Optic,5.28,0.0,3.87,0.0,-3.17,-2.82
+LMG,Holger-26,Optic,Operator Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-0.7
+LMG,Holger-26,Optic,Aim-Op Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-0.7
+LMG,Holger-26,Optic,Solozero Optics Mini Reflex,3.17,0.0,0.0,0.0,0.0,-0.7
+LMG,Holger-26,Optic,FSS Integral Reflex,3.17,0.0,0.0,0.0,-1.06,-0.7
+LMG,Holger-26,Optic,Viper Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-0.7
+LMG,Holger-26,Optic,Solozero NVG Enhanced,5.28,0.0,3.87,0.0,-4.23,-3.87
+LMG,Holger-26,Optic,Cronen LP945 Mini Reflex,3.17,0.0,0.0,0.0,0.0,-0.7
+LMG,Holger-26,Optic,Sniper Scope,5.99,0.0,9.86,0.0,-4.23,-5.99
+LMG,Holger-26,Optic,Thermal Hybrid,5.28,0.0,4.93,0.0,-4.23,-4.93
+LMG,Holger-26,Optic,PBX Holo 7 Sight,4.23,0.0,2.11,0.0,-2.11,-1.76
+LMG,Holger-26,Optic,Canted Hybrid,4.23,0.0,4.93,0.0,-2.11,-2.82
+LMG,Holger-26,Optic,Solozero K498 4.0x Integral,5.99,0.0,3.87,0.0,-3.87,-3.17
+LMG,Holger-26,Optic,4.0x Flip Hybrid,4.23,0.0,5.99,0.0,-3.17,-3.87
+LMG,Holger-26,Optic,Corp Combat Holo Sight,4.23,0.0,2.11,0.0,-2.11,-1.76
+LMG,Holger-26,Underbarrel,Tactical Foregrip,1.06,0.0,1.06,0.0,-1.06,6.34
+LMG,Holger-26,Underbarrel,Merc Foregrip,5.28,0.0,1.06,0.0,-1.76,2.11
+LMG,Holger-26,Underbarrel,Operator Foregrip,4.23,0.0,1.41,0.0,-1.06,1.06
+LMG,Holger-26,Underbarrel,Ranger Foregrip,4.58,0.0,2.82,0.0,-2.46,3.17
+LMG,Holger-26,Underbarrel,Commando Foregrip,4.23,0.0,2.11,0.0,-2.11,3.17
+LMG,Holger-26,Laser,SmW Laser,4.23,0.0,0.0,0.0,1.76,-0.7
+LMG,Holger-26,Laser,Tac Laser,2.11,0.0,0.0,0.0,1.76,3.17
+LMG,Holger-26,Laser,mW Laser,2.11,0.0,0.0,0.0,1.06,-0.7
+LMG,Holger-26,Rear Grip,Granulated Grip Tape,2.11,0.0,0.0,0.0,-2.11,2.11
+LMG,Holger-26,Rear Grip,Stippled Grip Tape,0.0,0.0,0.0,0.0,2.82,-1.76
+LMG,Holger-26,Rear Grip,Rubberized Grip Tape,4.23,0.0,0.0,0.0,0.0,-1.76
+LMG,Holger-26,Muzzle,Monolithic Suppressor,2.11,0.0,2.82,0.0,-3.17,-0.7
+LMG,Holger-26,Muzzle,Flash Guard,0.0,0.0,-1.06,0.0,-0.7,0.0
+LMG,Holger-26,Muzzle,Breacher Device,0.0,0.0,0.0,0.0,-2.11,-1.76
+LMG,Holger-26,Muzzle,Lightweight Suppressor,1.06,0.0,-4.23,0.0,-0.7,0.0
+LMG,Holger-26,Muzzle,Muzzle Brake,3.52,0.0,0.0,0.0,-1.06,1.06
+LMG,Holger-26,Muzzle,Compensator,2.11,0.0,0.0,0.0,-1.06,3.17
+LMG,Holger-26,Muzzle,Tactical Suppressor,1.76,0.0,0.0,0.0,-1.76,-0.35
+LMG,Holger-26,Stock,No Stock,-2.82,0.0,-2.11,0.0,10.92,-3.87
+LMG,Holger-26,Stock,XRK Axis,-1.76,0.0,0.0,0.0,2.82,-0.7
+LMG,Holger-26,Stock,FSS Ranger,2.11,0.0,0.0,0.0,-2.11,3.17
+LMG,Holger-26,Stock,FSS Infantry,-1.06,0.0,0.0,0.0,3.87,-2.46
+LMG,Holger-26,Ammunition,30 Round Mags,0.0,0.0,0.0,0.0,8.45,3.52
+LMG,Holger-26,Base,,72.89,72.89,76.06,70.07,52.11,71.83
+LMG,MG34,Barrel,FSS Brute,1.06,0.0,3.87,0.0,-1.76,0.0
+LMG,MG34,Barrel,FSS Stubby,-1.76,0.0,-4.23,0.0,5.99,-1.76
+LMG,MG34,Barrel,FSS Elite,0.0,0.0,-3.17,0.0,3.17,0.0
+LMG,MG34,Perk,Frangible - Wounding,0.0,0.0,0.0,0.0,0.0,0.0
+LMG,MG34,Perk,Fully Loaded,0.0,0.0,0.0,0.0,0.0,0.0
+LMG,MG34,Perk,Fast Melee,0.0,0.0,0.0,0.0,0.0,0.0
+LMG,MG34,Perk,Recon,0.0,0.0,0.0,0.0,0.0,0.0
+LMG,MG34,Perk,Heavy Hitter,0.0,0.0,0.0,0.0,0.0,0.0
+LMG,MG34,Perk,FMJ,0.0,4.93,0.0,0.0,0.0,0.0
+LMG,MG34,Perk,Frangible - Disabling,0.0,0.0,0.0,0.0,0.0,0.0
+LMG,MG34,Perk,Mo! Money,0.0,0.0,0.0,0.0,0.0,0.0
+LMG,MG34,Perk,Sleight of Hand,0.0,0.0,0.0,1.76,0.0,0.0
+LMG,MG34,Optic,PBX Holo 7 Sight,4.23,0.0,1.76,0.0,-1.76,-1.76
+LMG,MG34,Optic,APXS5 Holographic Sight,4.23,0.0,1.76,0.0,-1.76,-1.76
+LMG,MG34,Optic,Corp Combat Holo Sight,4.23,0.0,1.76,0.0,-1.76,-1.76
+LMG,MG34,Optic,Aim-Op Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-0.7
+LMG,MG34,Optic,Cronen LP945 Mini Reflex,3.17,0.0,0.0,0.0,0.0,-0.7
+LMG,MG34,Optic,Canted Hybrid,4.23,0.0,4.93,0.0,-1.76,-2.82
+LMG,MG34,Optic,Merc Thermal Optic,5.28,0.0,3.87,0.0,-3.87,-3.87
+LMG,MG34,Optic,Thermal Hybrid,5.28,0.0,4.93,0.0,-3.87,-4.93
+LMG,MG34,Optic,Cronen C480 Pro Optic,5.63,0.0,3.87,0.0,-3.52,-3.17
+LMG,MG34,Optic,VLK 3.0x Optic,4.58,0.0,3.87,0.0,-2.46,-2.46
+LMG,MG34,Optic,Viper Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-0.7
+LMG,MG34,Optic,Monocle Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-0.7
+LMG,MG34,Optic,Integral Hybrid,4.23,0.0,4.93,0.0,-1.76,-2.82
+LMG,MG34,Optic,Sniper Scope,6.34,0.0,9.86,0.0,-3.87,-5.99
+LMG,MG34,Optic,G.I. Mini Reflex,3.17,0.0,0.0,0.0,0.0,-0.7
+LMG,MG34,Optic,Scout Combat Optic,5.28,0.0,3.87,0.0,-2.82,-2.82
+LMG,MG34,Optic,Solozero Optics Mini Reflex,3.17,0.0,0.0,0.0,0.0,-0.7
+LMG,MG34,Optic,Solozero NVG Enhanced,5.28,0.0,3.87,0.0,-3.87,-3.87
+LMG,MG34,Optic,Operator Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-0.7
+LMG,MG34,Underbarrel,Operator Foregrip,4.23,0.0,1.41,0.0,-1.06,1.06
+LMG,MG34,Underbarrel,Tactical Foregrip,1.06,0.0,0.7,0.0,-1.06,6.34
+LMG,MG34,Underbarrel,Commando Foregrip,4.23,0.0,1.76,0.0,-1.76,3.17
+LMG,MG34,Underbarrel,Ranger Foregrip,4.58,0.0,2.82,0.0,-2.46,3.17
+LMG,MG34,Underbarrel,Bipod,-0.35,0.0,0.0,0.0,0.0,3.17
+LMG,MG34,Underbarrel,Merc Foregrip,5.28,0.0,0.7,0.0,-1.41,2.11
+LMG,MG34,Laser,Tac Laser,2.11,0.0,0.0,0.0,2.11,3.17
+LMG,MG34,Laser,SmW Laser,4.23,0.0,0.0,0.0,2.11,-0.7
+LMG,MG34,Laser,mW Laser,2.11,0.0,0.0,0.0,1.06,-0.7
+LMG,MG34,Rear Grip,Rubberized Grip Tape,4.23,0.0,0.0,0.0,0.0,-1.76
+LMG,MG34,Rear Grip,Granulated Grip Tape,2.11,0.0,0.0,0.0,-1.76,2.11
+LMG,MG34,Rear Grip,Stippled Grip Tape,0.0,0.0,0.0,0.0,3.17,-1.76
+LMG,MG34,Muzzle,Flash Guard,0.0,0.0,-1.06,0.0,-0.35,0.0
+LMG,MG34,Muzzle,CQB Breacher Device,0.0,0.0,0.0,0.0,-1.76,-1.76
+LMG,MG34,Muzzle,Lightweight Suppressor,1.06,0.0,-4.23,0.0,-0.35,0.0
+LMG,MG34,Muzzle,Monolithic Suppressor,2.11,0.0,2.82,0.0,-2.82,-0.7
+LMG,MG34,Muzzle,Muzzle Brake,3.52,0.0,0.0,0.0,-1.06,1.06
+LMG,MG34,Muzzle,Compensator,2.11,0.0,0.0,0.0,-1.06,3.17
+LMG,MG34,Muzzle,Tactical Suppressor,1.76,0.0,0.0,0.0,-1.41,-0.35
+LMG,MG34,Stock,No Stock,-2.82,0.0,-2.11,0.0,9.15,-3.87
+LMG,MG34,Stock,FORGE TAC Ultralight,-0.7,0.0,0.0,0.0,4.23,-2.46
+LMG,MG34,Stock,FORGE TAC Stalker,2.11,0.0,0.0,0.0,-1.76,3.17
+LMG,MG34,Stock,FSS Close Quarters Stock,-1.76,0.0,0.0,0.0,3.17,-0.7
+LMG,MG34,Ammunition,75 Round Belt,0.0,0.0,0.0,0.0,-1.76,-1.76
+LMG,MG34,Ammunition,100 Round Belt,0.0,0.0,0.0,0.0,-3.87,-2.46
+LMG,MG34,Base,,71.83,76.41,78.17,70.07,47.89,71.83
+LMG,M91,Barrel,M91 Infantry,-1.06,0.0,-2.11,0.0,2.82,-1.06
+LMG,M91,Barrel,M91 Heavy,1.41,0.0,2.82,0.0,-1.06,1.76
+LMG,M91,Barrel,M91 Special Forces,1.06,0.0,3.87,0.0,-2.11,0.0
+LMG,M91,Perk,FMJ,0.0,4.93,0.0,0.0,0.0,0.0
+LMG,M91,Perk,Recon,0.0,0.0,0.0,0.0,0.0,0.0
+LMG,M91,Perk,Frangible - Disabling,0.0,0.0,0.0,0.0,0.0,0.0
+LMG,M91,Perk,Frangible - Wounding,0.0,0.0,0.0,0.0,0.0,0.0
+LMG,M91,Perk,Sleight of Hand,0.0,0.0,0.0,2.11,0.0,0.0
+LMG,M91,Perk,Mo! Money,0.0,0.0,0.0,0.0,0.0,0.0
+LMG,M91,Perk,Fully Loaded,0.0,0.0,0.0,0.0,0.0,0.0
+LMG,M91,Perk,Fast Melee,0.0,0.0,0.0,0.0,0.0,0.0
+LMG,M91,Perk,Heavy Hitter,0.0,0.0,0.0,0.0,0.0,0.0
+LMG,M91,Optic,Cronen C480 Pro Optic,5.63,0.0,3.87,0.0,-3.52,-3.52
+LMG,M91,Optic,Corp Combat Holo Sight,4.23,0.0,1.76,0.0,-2.11,-2.11
+LMG,M91,Optic,APXS5 Holographic Sight,4.23,0.0,1.76,0.0,-2.11,-2.11
+LMG,M91,Optic,Operator Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-1.06
+LMG,M91,Optic,Aim-Op Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-1.06
+LMG,M91,Optic,Monocle Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-1.06
+LMG,M91,Optic,Solozero NVG Enhanced,4.93,0.0,3.87,0.0,-4.23,-4.23
+LMG,M91,Optic,Canted Hybrid,4.23,0.0,4.93,0.0,-2.11,-3.17
+LMG,M91,Optic,Sniper Scope,5.99,0.0,9.86,0.0,-4.23,-5.99
+LMG,M91,Optic,4.0x Flip Hybrid,4.23,0.0,5.99,0.0,-3.17,-4.23
+LMG,M91,Optic,PBX Holo 7 Sight,4.23,0.0,1.76,0.0,-2.11,-2.11
+LMG,M91,Optic,Integral Hybrid,4.23,0.0,4.93,0.0,-2.11,-3.17
+LMG,M91,Optic,Scout Combat Optic,4.93,0.0,3.87,0.0,-3.17,-3.17
+LMG,M91,Optic,G.I. Mini Reflex,3.17,0.0,0.0,0.0,0.0,-1.06
+LMG,M91,Optic,Merc Thermal Optic,4.93,0.0,3.87,0.0,-4.23,-4.23
+LMG,M91,Optic,Solozero Optics Mini Reflex,3.17,0.0,0.0,0.0,0.0,-1.06
+LMG,M91,Optic,Viper Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-1.06
+LMG,M91,Optic,Cronen LP945 Mini Reflex,3.17,0.0,0.0,0.0,0.0,-1.06
+LMG,M91,Optic,VLK 3.0x Optic,4.58,0.0,3.87,0.0,-2.46,-2.82
+LMG,M91,Optic,Thermal Hybrid,4.93,0.0,4.93,0.0,-4.23,-5.28
+LMG,M91,Underbarrel,Ranger Foregrip,4.58,0.0,2.82,0.0,-2.46,2.82
+LMG,M91,Underbarrel,Commando Foregrip,4.23,0.0,1.76,0.0,-2.11,2.82
+LMG,M91,Underbarrel,Bipod,0.0,0.0,0.0,0.0,0.0,2.82
+LMG,M91,Underbarrel,Tactical Foregrip,1.06,0.0,1.06,0.0,-1.06,5.99
+LMG,M91,Underbarrel,Operator Foregrip,4.23,0.0,1.41,0.0,-1.06,0.7
+LMG,M91,Underbarrel,Merc Foregrip,4.93,0.0,1.06,0.0,-1.41,1.76
+LMG,M91,Laser,mW Laser,2.11,0.0,0.0,0.0,1.06,-1.06
+LMG,M91,Laser,SmW Laser,4.23,0.0,0.0,0.0,2.11,-1.06
+LMG,M91,Laser,Tac Laser,2.11,0.0,0.0,0.0,2.11,2.82
+LMG,M91,Rear Grip,Rubberized Grip Tape,4.23,0.0,0.0,0.0,0.0,-2.11
+LMG,M91,Rear Grip,Stippled Grip Tape,0.0,0.0,0.0,0.0,2.82,-2.11
+LMG,M91,Rear Grip,Granulated Grip Tape,2.11,0.0,0.0,0.0,-2.11,1.76
+LMG,M91,Muzzle,Tactical Suppressor,1.41,0.0,0.0,0.0,-1.41,-0.7
+LMG,M91,Muzzle,Breacher Device,0.0,0.0,0.0,0.0,-2.11,-2.11
+LMG,M91,Muzzle,Flash Guard,0.0,0.0,-1.06,0.0,-0.7,0.0
+LMG,M91,Muzzle,Compensator,2.11,0.0,0.0,0.0,-1.06,2.82
+LMG,M91,Muzzle,Monolithic Suppressor,2.11,0.0,2.82,0.0,-3.17,-1.06
+LMG,M91,Muzzle,Muzzle Brake,3.52,0.0,0.0,0.0,-1.06,0.7
+LMG,M91,Muzzle,Lightweight Suppressor,1.06,0.0,-4.23,0.0,-0.7,0.0
+LMG,M91,Stock,No Stock,-2.82,0.0,-2.11,0.0,8.8,-4.23
+LMG,M91,Stock,FORGE TAC Ultralight,-1.06,0.0,0.0,0.0,3.87,-2.82
+LMG,M91,Stock,FORGE TAC Stalker,2.11,0.0,0.0,0.0,-2.11,2.82
+LMG,M91,Stock,XRK Striker,-2.11,0.0,0.0,0.0,2.82,-1.06
+LMG,M91,Ammunition,150 Round HE! Belt,0.0,0.0,0.0,0.0,-4.23,-2.82
+LMG,M91,Ammunition,120 Round Belt,0.0,0.0,0.0,0.0,-2.11,-2.11
+LMG,M91,Base,,73.94,76.06,77.11,65.85,51.06,65.14
+LMG,SA87,Barrel,"SA87 12.4"" Factory",-1.76,0.0,-4.23,0.0,5.99,-2.11
+LMG,SA87,Barrel,"SA87 25.4"" Factory",1.76,0.0,2.82,0.0,-1.06,1.76
+LMG,SA87,Barrel,"SA87 18.2"" Factory",-1.06,0.0,-2.11,0.0,2.82,-1.06
+LMG,SA87,Perk,Recon,0.0,0.0,0.0,0.0,0.0,0.0
+LMG,SA87,Perk,Fast Melee,0.0,0.0,0.0,0.0,0.0,0.0
+LMG,SA87,Perk,FMJ,0.0,4.93,0.0,0.0,0.0,0.0
+LMG,SA87,Perk,Frangible - Disabling,0.0,0.0,0.0,0.0,0.0,0.0
+LMG,SA87,Perk,Heavy Hitter,0.0,0.0,0.0,0.0,0.0,0.0
+LMG,SA87,Perk,Fully Loaded,0.0,0.0,0.0,0.0,0.0,0.0
+LMG,SA87,Perk,Frangible - Wounding,0.0,0.0,0.0,0.0,0.0,0.0
+LMG,SA87,Perk,Sleight of Hand,0.0,0.0,0.0,1.76,0.0,0.0
+LMG,SA87,Perk,Mo! Money,0.0,0.0,0.0,0.0,0.0,0.0
+LMG,SA87,Optic,Cronen LP945 Mini Reflex,3.17,0.0,0.0,0.0,0.0,-1.06
+LMG,SA87,Optic,Solozero Optics Mini Reflex,3.17,0.0,0.0,0.0,0.0,-1.06
+LMG,SA87,Optic,APXS5 Holographic Sight,4.23,0.0,1.76,0.0,-2.11,-2.11
+LMG,SA87,Optic,Sniper Scope,5.99,0.0,9.86,0.0,-4.23,-5.99
+LMG,SA87,Optic,Monocle Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-1.06
+LMG,SA87,Optic,G.I. Mini Reflex,3.17,0.0,0.0,0.0,0.0,-1.06
+LMG,SA87,Optic,Merc Thermal Optic,5.28,0.0,3.87,0.0,-4.23,-4.23
+LMG,SA87,Optic,PBX Holo 7 Sight,4.23,0.0,1.76,0.0,-2.11,-2.11
+LMG,SA87,Optic,Canted Hybrid,4.23,0.0,4.93,0.0,-2.11,-3.17
+LMG,SA87,Optic,Operator Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-1.06
+LMG,SA87,Optic,Cronen C480 Pro Optic,5.63,0.0,3.87,0.0,-3.52,-3.52
+LMG,SA87,Optic,Thermal Hybrid,5.28,0.0,4.93,0.0,-4.23,-4.93
+LMG,SA87,Optic,Corp Combat Holo Sight,4.23,0.0,1.76,0.0,-2.11,-2.11
+LMG,SA87,Optic,Integral Hybrid,4.23,0.0,4.93,0.0,-2.11,-3.17
+LMG,SA87,Optic,VLK 3.0x Optic,4.58,0.0,3.87,0.0,-2.82,-2.82
+LMG,SA87,Optic,Scout Combat Optic,5.28,0.0,3.87,0.0,-3.17,-3.17
+LMG,SA87,Optic,Viper Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-1.06
+LMG,SA87,Optic,Aim-Op Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-1.06
+LMG,SA87,Optic,Solozero NVG Enhanced,5.28,0.0,3.87,0.0,-4.23,-4.23
+LMG,SA87,Underbarrel,Ranger Foregrip,4.58,0.0,2.82,0.0,-2.82,2.82
+LMG,SA87,Underbarrel,Merc Foregrip,5.28,0.0,1.06,0.0,-1.76,1.76
+LMG,SA87,Underbarrel,Tactical Foregrip,1.06,0.0,1.06,0.0,-1.06,5.99
+LMG,SA87,Underbarrel,Operator Foregrip,4.23,0.0,1.41,0.0,-1.06,1.06
+LMG,SA87,Underbarrel,Bipod,0.0,0.0,0.0,0.0,0.0,2.82
+LMG,SA87,Underbarrel,Commando Foregrip,4.23,0.0,1.76,0.0,-2.11,2.82
+LMG,SA87,Laser,Tac Laser,2.11,0.0,0.0,0.0,1.76,2.82
+LMG,SA87,Laser,mW Laser,2.11,0.0,0.0,0.0,0.7,-1.06
+LMG,SA87,Laser,SmW Laser,4.23,0.0,0.0,0.0,1.76,-1.06
+LMG,SA87,Rear Grip,Stippled Grip Tape,0.0,0.0,0.0,0.0,2.82,-2.11
+LMG,SA87,Rear Grip,Rubberized Grip Tape,4.23,0.0,0.0,0.0,0.0,-2.11
+LMG,SA87,Rear Grip,Granulated Grip Tape,2.11,0.0,0.0,0.0,-2.11,1.76
+LMG,SA87,Muzzle,CQB Breacher Device,0.0,0.0,0.0,0.0,-2.11,-2.11
+LMG,SA87,Muzzle,Muzzle Brake,3.52,0.0,0.0,0.0,-1.06,1.06
+LMG,SA87,Muzzle,Monolithic Suppressor,2.11,0.0,2.82,0.0,-3.17,-1.06
+LMG,SA87,Muzzle,Compensator,2.11,0.0,0.0,0.0,-1.06,2.82
+LMG,SA87,Muzzle,Tactical Suppressor,1.76,0.0,0.0,0.0,-1.76,-0.7
+LMG,SA87,Muzzle,Flash Guard,0.0,0.0,-1.06,0.0,-0.7,0.0
+LMG,SA87,Muzzle,Lightweight Suppressor,1.06,0.0,-4.23,0.0,-0.7,0.0
+LMG,SA87,Stock,FORGE TAC CQB Comb,-1.76,0.0,0.0,0.0,2.82,-1.06
+LMG,SA87,Stock,XRK SA87 Heavy Stock Pro,2.11,0.0,0.0,0.0,-2.11,2.82
+LMG,SA87,Stock,SA87 Ultralight Hollow,-1.06,0.0,0.0,0.0,3.87,-2.46
+LMG,SA87,Ammunition,50 Round Mags,0.0,0.0,0.0,0.0,-2.11,-2.11
+LMG,SA87,Ammunition,60 Round Mags,0.0,0.0,0.0,0.0,-4.23,-2.46
+LMG,SA87,Base,,72.89,73.94,77.11,64.08,53.17,70.07
+LMG,PKM,Barrel,"25.9"" Heavy Barrel",1.06,0.0,3.87,0.0,-2.11,0.0
+LMG,PKM,Barrel,"18.2"" Compact Barrel",-1.06,0.0,-2.11,0.0,3.17,-1.06
+LMG,PKM,Barrel,"26.9"" Extended Barrel",1.41,0.0,2.82,0.0,-1.06,1.76
+LMG,PKM,Perk,Mo! Money,0.0,0.0,0.0,0.0,0.0,0.0
+LMG,PKM,Perk,Heavy Hitter,0.0,0.0,0.0,0.0,0.0,0.0
+LMG,PKM,Perk,Fast Melee,0.0,0.0,0.0,0.0,0.0,0.0
+LMG,PKM,Perk,Frangible - Disabling,0.0,0.0,0.0,0.0,0.0,0.0
+LMG,PKM,Perk,FMJ,0.0,4.93,0.0,0.0,0.0,0.0
+LMG,PKM,Perk,Recon,0.0,0.0,0.0,0.0,0.0,0.0
+LMG,PKM,Perk,Sleight of Hand,0.0,0.0,0.0,2.11,0.0,0.0
+LMG,PKM,Perk,Fully Loaded,0.0,0.0,0.0,0.0,0.0,0.0
+LMG,PKM,Perk,Frangible - Wounding,0.0,0.0,0.0,0.0,0.0,0.0
+LMG,PKM,Optic,Aim-Op Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-1.06
+LMG,PKM,Optic,Cronen LP945 Mini Reflex,3.17,0.0,0.0,0.0,0.0,-1.06
+LMG,PKM,Optic,Integral Hybrid,3.87,0.0,4.93,0.0,-2.11,-3.17
+LMG,PKM,Optic,VLK 3.0x Optic,4.58,0.0,3.87,0.0,-2.46,-2.82
+LMG,PKM,Optic,Canted Hybrid,3.87,0.0,4.93,0.0,-2.11,-3.17
+LMG,PKM,Optic,APXS5 Holographic Sight,3.87,0.0,2.11,0.0,-2.11,-2.11
+LMG,PKM,Optic,G.I. Mini Reflex,3.17,0.0,0.0,0.0,0.0,-1.06
+LMG,PKM,Optic,Viper Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-1.06
+LMG,PKM,Optic,Monocle Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-1.06
+LMG,PKM,Optic,Thermal Hybrid,4.93,0.0,4.93,0.0,-3.87,-5.28
+LMG,PKM,Optic,Cronen C480 Pro Optic,5.63,0.0,3.87,0.0,-3.52,-3.52
+LMG,PKM,Optic,Merc Thermal Optic,4.93,0.0,3.87,0.0,-3.87,-4.23
+LMG,PKM,Optic,Sniper Scope,5.99,0.0,9.86,0.0,-3.87,-5.99
+LMG,PKM,Optic,Operator Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-1.06
+LMG,PKM,Optic,Solozero NVG Enhanced,4.93,0.0,3.87,0.0,-3.87,-4.23
+LMG,PKM,Optic,Solozero Optics Mini Reflex,3.17,0.0,0.0,0.0,0.0,-1.06
+LMG,PKM,Optic,PBX Holo 7 Sight,3.87,0.0,2.11,0.0,-2.11,-2.11
+LMG,PKM,Optic,Scout Combat Optic,4.93,0.0,3.87,0.0,-3.17,-3.17
+LMG,PKM,Optic,Corp Combat Holo Sight,3.87,0.0,2.11,0.0,-2.11,-2.11
+LMG,PKM,Underbarrel,Operator Foregrip,3.87,0.0,1.41,0.0,-1.06,0.7
+LMG,PKM,Underbarrel,Commando Foregrip,3.87,0.0,2.11,0.0,-2.11,2.82
+LMG,PKM,Underbarrel,Tactical Foregrip,1.06,0.0,1.06,0.0,-1.06,5.99
+LMG,PKM,Underbarrel,Merc Foregrip,4.93,0.0,1.06,0.0,-1.41,1.76
+LMG,PKM,Underbarrel,Snatch Grip,3.52,0.0,2.11,0.0,-2.11,4.93
+LMG,PKM,Underbarrel,Bipod,0.0,0.0,0.0,0.0,0.0,2.82
+LMG,PKM,Laser,mW Laser,2.11,0.0,0.0,0.0,1.06,-1.06
+LMG,PKM,Laser,SmW Laser,3.87,0.0,0.0,0.0,2.11,-1.06
+LMG,PKM,Laser,Tac Laser,2.11,0.0,0.0,0.0,2.11,2.82
+LMG,PKM,Rear Grip,Rubberized Grip Tape,3.87,0.0,0.0,0.0,0.0,-2.11
+LMG,PKM,Rear Grip,Stippled Grip Tape,0.0,0.0,0.0,0.0,3.17,-2.11
+LMG,PKM,Rear Grip,Granulated Grip Tape,2.11,0.0,0.0,0.0,-2.11,1.76
+LMG,PKM,Muzzle,Flash Guard,0.0,0.0,-1.06,0.0,-0.35,0.0
+LMG,PKM,Muzzle,Compensator,2.11,0.0,0.0,0.0,-1.06,2.82
+LMG,PKM,Muzzle,Tactical Suppressor,1.41,0.0,0.0,0.0,-1.41,-0.7
+LMG,PKM,Muzzle,CQB Breacher Device,0.0,0.0,0.0,0.0,-2.11,-2.11
+LMG,PKM,Muzzle,Lightweight Suppressor,1.06,0.0,-4.23,0.0,-0.35,0.0
+LMG,PKM,Muzzle,Monolithic Suppressor,2.11,0.0,2.82,0.0,-3.17,-1.06
+LMG,PKM,Muzzle,Muzzle Brake,3.52,0.0,0.0,0.0,-1.06,0.7
+LMG,PKM,Stock,No Stock,-3.17,0.0,-2.11,0.0,9.15,-4.23
+LMG,PKM,Stock,FORGE TAC Stalker,2.11,0.0,0.0,0.0,-2.11,2.82
+LMG,PKM,Stock,FORGE TAC Ultralight,-1.06,0.0,0.0,0.0,3.87,-2.82
+LMG,PKM,Stock,FSS Close Quarters Stock,-2.11,0.0,0.0,0.0,3.17,-1.06
+LMG,PKM,Ammunition,200 Round Belt,0.0,0.0,0.0,0.0,-4.93,-3.17
+LMG,PKM,Ammunition,150 Round Belt,0.0,0.0,0.0,0.0,-3.87,-2.82
+LMG,PKM,Base,,75.0,77.11,76.06,67.96,50.0,65.14
+LMG,Bruen MK9,Barrel,,2.11,0.0,4.23,0.0,-2.46,3.52
+LMG,Bruen MK9,Barrel,,0.7,0.0,4.23,0.0,-2.11,0.0
+LMG,Bruen MK9,Barrel,"Bruen 18.0"" Para",-1.06,0.0,-2.11,0.0,2.82,-1.06
+LMG,Bruen MK9,Perk,Frangible - Wounding,0.0,0.0,0.0,0.0,0.0,0.0
+LMG,Bruen MK9,Perk,Heavy Hitter,0.0,0.0,0.0,0.0,0.0,0.0
+LMG,Bruen MK9,Perk,Frangible - Disabling,0.0,0.0,0.0,0.0,0.0,0.0
+LMG,Bruen MK9,Perk,Fully Loaded,0.0,0.0,0.0,0.0,0.0,0.0
+LMG,Bruen MK9,Perk,Sleight of Hand,0.0,0.0,0.0,2.11,0.0,0.0
+LMG,Bruen MK9,Perk,Mo! Money,0.0,0.0,0.0,0.0,0.0,0.0
+LMG,Bruen MK9,Perk,FMJ,0.0,5.28,0.0,0.0,0.0,0.0
+LMG,Bruen MK9,Perk,Recon,0.0,0.0,0.0,0.0,0.0,0.0
+LMG,Bruen MK9,Perk,Fast Melee,0.0,0.0,0.0,0.0,0.0,0.0
+LMG,Bruen MK9,Optic,Merc Thermal Optic,4.93,0.0,4.23,0.0,-4.23,-3.87
+LMG,Bruen MK9,Optic,APXS5 Holographic Sight,3.87,0.0,2.11,0.0,-2.11,-2.11
+LMG,Bruen MK9,Optic,Scout Combat Optic,4.93,0.0,4.23,0.0,-3.17,-3.17
+LMG,Bruen MK9,Optic,Integral Hybrid,3.87,0.0,4.93,0.0,-2.11,-3.17
+LMG,Bruen MK9,Optic,VLK 3.0x Optic,4.23,0.0,4.23,0.0,-2.46,-2.82
+LMG,Bruen MK9,Optic,4.0x Flip Hybrid,3.87,0.0,5.99,0.0,-3.17,-3.87
+LMG,Bruen MK9,Optic,Thermal Hybrid,4.93,0.0,4.93,0.0,-4.23,-4.93
+LMG,Bruen MK9,Optic,PBX Holo 7 Sight,3.87,0.0,2.11,0.0,-2.11,-2.11
+LMG,Bruen MK9,Optic,Viper Reflex Sight,2.82,0.0,0.0,0.0,-1.06,-1.06
+LMG,Bruen MK9,Optic,Aim-Op Reflex Sight,2.82,0.0,0.0,0.0,-1.06,-1.06
+LMG,Bruen MK9,Optic,Cronen LP945 Mini Reflex,2.82,0.0,0.0,0.0,0.0,-1.06
+LMG,Bruen MK9,Optic,Cronen C480 Pro Optic,5.28,0.0,4.23,0.0,-3.52,-3.17
+LMG,Bruen MK9,Optic,Corp Combat Holo Sight,3.87,0.0,2.11,0.0,-2.11,-2.11
+LMG,Bruen MK9,Optic,Monocle Reflex Sight,2.82,0.0,0.0,0.0,-1.06,-1.06
+LMG,Bruen MK9,Optic,Canted Hybrid,3.87,0.0,4.93,0.0,-2.11,-3.17
+LMG,Bruen MK9,Optic,G.I. Mini Reflex,2.82,0.0,0.0,0.0,0.0,-1.06
+LMG,Bruen MK9,Optic,Solozero NVG Enhanced,4.93,0.0,4.23,0.0,-4.23,-3.87
+LMG,Bruen MK9,Optic,Sniper Scope,5.99,0.0,10.21,0.0,-4.23,-5.99
+LMG,Bruen MK9,Optic,Solozero Optics Mini Reflex,2.82,0.0,0.0,0.0,0.0,-1.06
+LMG,Bruen MK9,Optic,Operator Reflex Sight,2.82,0.0,0.0,0.0,-1.06,-1.06
+LMG,Bruen MK9,Underbarrel,Operator Foregrip,3.87,0.0,1.41,0.0,-1.06,1.06
+LMG,Bruen MK9,Underbarrel,Tactical Foregrip,0.7,0.0,1.06,0.0,-1.06,5.99
+LMG,Bruen MK9,Underbarrel,Commando Foregrip,3.87,0.0,2.11,0.0,-2.11,2.82
+LMG,Bruen MK9,Underbarrel,Ranger Foregrip,4.23,0.0,3.17,0.0,-2.46,2.82
+LMG,Bruen MK9,Underbarrel,Merc Foregrip,4.93,0.0,1.06,0.0,-1.76,2.11
+LMG,Bruen MK9,Underbarrel,Bipod,0.0,0.0,0.0,0.0,0.0,2.82
+LMG,Bruen MK9,Laser,Tac Laser,1.76,0.0,0.0,0.0,1.76,2.82
+LMG,Bruen MK9,Laser,SmW Laser,3.87,0.0,0.0,0.0,1.76,-1.06
+LMG,Bruen MK9,Laser,mW Laser,1.76,0.0,0.0,0.0,1.06,-1.06
+LMG,Bruen MK9,Rear Grip,Stippled Grip Tape,0.0,0.0,0.0,0.0,2.82,-2.11
+LMG,Bruen MK9,Rear Grip,Granulated Grip Tape,1.76,0.0,0.0,0.0,-2.11,2.11
+LMG,Bruen MK9,Rear Grip,Rubberized Grip Tape,3.87,0.0,0.0,0.0,0.0,-2.11
+LMG,Bruen MK9,Muzzle,Muzzle Brake,3.17,0.0,0.0,0.0,-1.06,1.06
+LMG,Bruen MK9,Muzzle,Monolithic Suppressor,1.76,0.0,3.17,0.0,-3.17,-1.06
+LMG,Bruen MK9,Muzzle,Compensator,1.76,0.0,0.0,0.0,-1.06,2.82
+LMG,Bruen MK9,Muzzle,Breacher Device,0.0,0.0,0.0,0.0,-2.11,-2.11
+LMG,Bruen MK9,Muzzle,Tactical Suppressor,1.41,0.0,0.0,0.0,-1.76,-0.35
+LMG,Bruen MK9,Muzzle,Flash Guard,0.0,0.0,-1.06,0.0,-0.7,0.0
+LMG,Bruen MK9,Muzzle,Lightweight Suppressor,0.7,0.0,-3.87,0.0,-0.7,0.0
+LMG,Bruen MK9,Stock,Skeleton Stock,-2.11,0.0,0.0,0.0,5.99,-1.06
+LMG,Bruen MK9,Stock,No Stock,-3.17,0.0,-2.11,0.0,8.8,-3.87
+LMG,Bruen MK9,Stock,FSS Close Quarters Stock,-2.11,0.0,0.0,0.0,2.82,-1.06
+LMG,Bruen MK9,Stock,FORGE TAC Ultralight,-1.06,0.0,0.0,0.0,3.87,-2.46
+LMG,Bruen MK9,Stock,FORGE TAC Stalker,1.76,0.0,0.0,0.0,-2.11,2.82
+LMG,Bruen MK9,Ammunition,60 Round Mags,0.0,0.0,0.0,0.0,3.52,2.46
+LMG,Bruen MK9,Ammunition,200 Round Belt,0.0,0.0,0.0,0.0,-5.28,-3.17
+LMG,Bruen MK9,Base,,78.17,72.89,73.94,66.9,52.11,69.01
+Assault Rifle,Kilo,Barrel,"Singuard Arms 19.8"" Prowler",3.87,0.0,7.04,0.0,-5.99,5.28
+Assault Rifle,Kilo,Barrel,"Singuard Arms 16.6"" SOCOM",1.76,0.0,3.87,0.0,-1.41,2.11
+Assault Rifle,Kilo,Barrel,Singuard Arms Whisper,1.06,0.0,3.87,0.0,-2.82,0.0
+Assault Rifle,Kilo,Perk,FMJ,0.0,5.28,0.0,0.0,0.0,0.0
+Assault Rifle,Kilo,Perk,Frangible - Disabling,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,Kilo,Perk,Sleight of Hand,0.0,0.0,0.0,2.11,0.0,0.0
+Assault Rifle,Kilo,Perk,Fully Loaded,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,Kilo,Perk,Presence of Mind,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,Kilo,Perk,Burst,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,Kilo,Perk,Mo! Money,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,Kilo,Perk,Frangible - Wounding,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,Kilo,Perk,Fast Melee,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,Kilo,Perk,Recon,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,Kilo,Perk,Heavy Hitter,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,Kilo,Optic,Operator Reflex Sight,2.82,0.0,0.0,0.0,-1.06,-1.06
+Assault Rifle,Kilo,Optic,Variable Zoom Scope,7.04,0.0,13.03,0.0,-4.93,-7.04
+Assault Rifle,Kilo,Optic,Scout Combat Optic,4.93,0.0,3.87,0.0,-2.82,-2.82
+Assault Rifle,Kilo,Optic,G.I. Mini Reflex,2.82,0.0,0.0,0.0,0.0,-1.06
+Assault Rifle,Kilo,Optic,Canted Hybrid,3.87,0.0,4.93,0.0,-1.76,-2.82
+Assault Rifle,Kilo,Optic,Sniper Scope,5.99,0.0,9.86,0.0,-3.87,-5.99
+Assault Rifle,Kilo,Optic,Viper Reflex Sight,2.82,0.0,0.0,0.0,-1.06,-1.06
+Assault Rifle,Kilo,Optic,Integral Hybrid,3.87,0.0,4.93,0.0,-1.76,-2.82
+Assault Rifle,Kilo,Optic,Monocle Reflex Sight,2.82,0.0,0.0,0.0,-1.06,-1.06
+Assault Rifle,Kilo,Optic,VLK 3.0x Optic,4.58,0.0,3.87,0.0,-2.46,-2.82
+Assault Rifle,Kilo,Optic,PBX Holo 7 Sight,3.87,0.0,1.76,0.0,-1.76,-1.76
+Assault Rifle,Kilo,Optic,Solozero NVG Enhanced,4.93,0.0,3.87,0.0,-3.87,-3.87
+Assault Rifle,Kilo,Optic,Cronen C480 Pro Optic,5.28,0.0,3.87,0.0,-3.52,-3.17
+Assault Rifle,Kilo,Optic,Merc Thermal Optic,4.93,0.0,3.87,0.0,-3.87,-3.87
+Assault Rifle,Kilo,Optic,4.0x Flip Hybrid,3.87,0.0,5.99,0.0,-2.82,-3.87
+Assault Rifle,Kilo,Optic,Aim-Op Reflex Sight,2.82,0.0,0.0,0.0,-1.06,-1.06
+Assault Rifle,Kilo,Optic,Cronen LP945 Mini Reflex,2.82,0.0,0.0,0.0,0.0,-1.06
+Assault Rifle,Kilo,Optic,Solozero Optics Mini Reflex,2.82,0.0,0.0,0.0,0.0,-1.06
+Assault Rifle,Kilo,Optic,Thermal Hybrid,4.93,0.0,4.93,0.0,-7.04,-4.93
+Assault Rifle,Kilo,Optic,APXS5 Holographic Sight,3.87,0.0,1.76,0.0,-1.76,-1.76
+Assault Rifle,Kilo,Optic,Corp Combat Holo Sight,3.87,0.0,1.76,0.0,-1.76,-1.76
+Assault Rifle,Kilo,Underbarrel,M203 40mm Incendiary,0.0,0.0,0.0,0.0,-1.76,-2.82
+Assault Rifle,Kilo,Underbarrel,Bipod,0.0,0.0,0.0,0.0,0.0,3.17
+Assault Rifle,Kilo,Underbarrel,Tactical Foregrip,1.06,0.0,1.06,0.0,-1.06,5.99
+Assault Rifle,Kilo,Underbarrel,M203 40mm Smokescreen,0.0,0.0,0.0,0.0,-1.76,-2.82
+Assault Rifle,Kilo,Underbarrel,Merc Foregrip,4.93,0.0,1.06,0.0,-1.41,2.11
+Assault Rifle,Kilo,Underbarrel,M203 40mm Recon,0.0,0.0,0.0,0.0,-1.76,-2.82
+Assault Rifle,Kilo,Underbarrel,M203 40mm Concussive,0.0,0.0,0.0,0.0,-1.76,-2.82
+Assault Rifle,Kilo,Underbarrel,Commando Foregrip,3.87,0.0,1.76,0.0,-1.76,3.17
+Assault Rifle,Kilo,Underbarrel,12-Gauge Deputy,0.0,0.0,0.0,0.0,-0.35,-1.76
+Assault Rifle,Kilo,Underbarrel,M203 40mm Flash,0.0,0.0,0.0,0.0,-1.76,-2.82
+Assault Rifle,Kilo,Underbarrel,Ranger Foregrip,4.58,0.0,2.82,0.0,-2.46,3.17
+Assault Rifle,Kilo,Underbarrel,Operator Foregrip,3.87,0.0,1.41,0.0,-1.06,1.06
+Assault Rifle,Kilo,Underbarrel,M203 40mm High-explosive,0.0,0.0,0.0,0.0,-1.76,-2.82
+Assault Rifle,Kilo,Laser,Tac Laser,1.76,0.0,0.0,0.0,2.11,3.17
+Assault Rifle,Kilo,Laser,SmW Laser,3.87,0.0,0.0,0.0,2.11,-1.06
+Assault Rifle,Kilo,Laser,mW Laser,1.76,0.0,0.0,0.0,1.06,-1.06
+Assault Rifle,Kilo,Rear Grip,Stippled Grip Tape,0.0,0.0,0.0,0.0,3.17,-1.76
+Assault Rifle,Kilo,Rear Grip,Rubberized Grip Tape,3.87,0.0,0.0,0.0,0.0,-1.76
+Assault Rifle,Kilo,Rear Grip,Granulated Grip Tape,1.76,0.0,-2.11,0.0,-1.76,2.11
+Assault Rifle,Kilo,Muzzle,Flash Guard,0.0,0.0,-1.06,0.0,-0.35,0.0
+Assault Rifle,Kilo,Muzzle,Compensator,1.76,0.0,0.0,0.0,-1.06,3.17
+Assault Rifle,Kilo,Muzzle,Tactical Suppressor,1.41,0.0,0.0,0.0,-1.41,-0.35
+Assault Rifle,Kilo,Muzzle,Breacher Device,0.0,0.0,0.0,0.0,-1.76,-1.76
+Assault Rifle,Kilo,Muzzle,Monolithic Suppressor,1.76,0.0,2.82,0.0,-2.82,-1.06
+Assault Rifle,Kilo,Muzzle,Muzzle Brake,3.52,0.0,0.0,0.0,-1.06,1.06
+Assault Rifle,Kilo,Muzzle,Lightweight Suppressor,1.06,0.0,-4.23,0.0,-0.35,0.0
+Assault Rifle,Kilo,Stock,FSS Close Quarters Stock,-2.11,0.0,0.0,0.0,3.17,-1.06
+Assault Rifle,Kilo,Stock,No Stock,-3.17,0.0,-2.11,0.0,9.15,-3.87
+Assault Rifle,Kilo,Stock,Singuard Arms Sniper Pro,1.76,0.0,0.0,0.0,-1.76,3.17
+Assault Rifle,Kilo,Stock,FORGE TAC Ultralight,-1.06,0.0,0.0,0.0,4.23,-2.46
+Assault Rifle,Kilo,Ammunition,100 Round Drums,0.0,0.0,0.0,0.0,-4.93,-2.82
+Assault Rifle,Kilo,Ammunition,60 Round Mags,0.0,0.0,0.0,0.0,-3.87,-2.46
+Assault Rifle,Kilo,Ammunition,50 Round Mags,0.0,0.0,0.0,0.0,-1.76,-1.76
+Assault Rifle,Kilo,Base,,70.07,72.89,64.08,65.85,60.92,72.89
+Assault Rifle,CR-56 AMAX,Barrel,"FSS 11.8"" Squall",0.0,0.0,-3.17,0.0,2.82,0.0
+Assault Rifle,CR-56 AMAX,Barrel,"FSS 8.3"" Intruder",-1.41,0.0,-3.17,0.0,4.23,-1.41
+Assault Rifle,CR-56 AMAX,Barrel,XRK Zodiac S440,3.17,0.0,4.93,0.0,-3.17,3.87
+Assault Rifle,CR-56 AMAX,Perk,Mo! Money,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,CR-56 AMAX,Perk,Heavy Hitter,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,CR-56 AMAX,Perk,Sleight of Hand,0.0,0.0,0.0,1.76,0.0,0.0
+Assault Rifle,CR-56 AMAX,Perk,FMJ,0.0,4.93,0.0,0.0,0.0,0.0
+Assault Rifle,CR-56 AMAX,Perk,Fully Loaded,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,CR-56 AMAX,Perk,Presence of Mind,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,CR-56 AMAX,Perk,Frangible - Wounding,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,CR-56 AMAX,Perk,Frangible - Disabling,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,CR-56 AMAX,Perk,Fast Melee,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,CR-56 AMAX,Perk,Recon,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,CR-56 AMAX,Optic,Viper Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-1.06
+Assault Rifle,CR-56 AMAX,Optic,Operator Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-1.06
+Assault Rifle,CR-56 AMAX,Optic,Sniper Scope,5.99,0.0,9.86,0.0,-4.23,-5.99
+Assault Rifle,CR-56 AMAX,Optic,PBX Holo 7 Sight,4.23,0.0,1.76,0.0,-2.11,-2.11
+Assault Rifle,CR-56 AMAX,Optic,Cronen LP945 Mini Reflex,3.17,0.0,0.0,0.0,0.0,-1.06
+Assault Rifle,CR-56 AMAX,Optic,Aim-Op Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-1.06
+Assault Rifle,CR-56 AMAX,Optic,Scout Combat Optic,4.93,0.0,3.87,0.0,-3.17,-3.17
+Assault Rifle,CR-56 AMAX,Optic,Merc Thermal Optic,4.93,0.0,3.87,0.0,-4.23,-4.23
+Assault Rifle,CR-56 AMAX,Optic,APXS5 Holographic Sight,4.23,0.0,1.76,0.0,-2.11,-2.11
+Assault Rifle,CR-56 AMAX,Optic,Variable Zoom Scope,7.04,0.0,13.03,0.0,-5.28,-7.04
+Assault Rifle,CR-56 AMAX,Optic,G.I. Mini Reflex,3.17,0.0,0.0,0.0,0.0,-1.06
+Assault Rifle,CR-56 AMAX,Optic,Thermal Hybrid,4.93,0.0,4.93,0.0,-4.23,-4.93
+Assault Rifle,CR-56 AMAX,Optic,Corp Combat Holo Sight,4.23,0.0,1.76,0.0,-2.11,-2.11
+Assault Rifle,CR-56 AMAX,Optic,Cronen C480 Pro Optic,5.63,0.0,3.87,0.0,-3.52,-3.52
+Assault Rifle,CR-56 AMAX,Optic,4.0x Flip Hybrid,4.23,0.0,5.99,0.0,-3.17,-4.23
+Assault Rifle,CR-56 AMAX,Optic,Solozero NVG Enhanced,4.93,0.0,3.87,0.0,-4.23,-5.99
+Assault Rifle,CR-56 AMAX,Optic,Solozero Optics Mini Reflex,3.17,0.0,0.0,0.0,0.0,-1.06
+Assault Rifle,CR-56 AMAX,Optic,Monocle Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-1.06
+Assault Rifle,CR-56 AMAX,Optic,Canted Hybrid,4.23,0.0,4.93,0.0,-2.11,-3.17
+Assault Rifle,CR-56 AMAX,Optic,VLK 3.0x Optic,4.58,0.0,3.87,0.0,-2.46,-2.82
+Assault Rifle,CR-56 AMAX,Optic,Integral Hybrid,4.23,0.0,4.93,0.0,-2.11,-3.17
+Assault Rifle,CR-56 AMAX,Underbarrel,Bipod,0.0,0.0,0.0,0.0,0.0,2.82
+Assault Rifle,CR-56 AMAX,Underbarrel,12-Gauge Deputy,0.0,0.0,0.0,0.0,-0.7,-2.11
+Assault Rifle,CR-56 AMAX,Underbarrel,Tactical Foregrip,1.06,0.0,0.7,0.0,-1.06,5.99
+Assault Rifle,CR-56 AMAX,Underbarrel,M203 40mm Concussive,0.0,0.0,0.0,0.0,-2.11,-3.17
+Assault Rifle,CR-56 AMAX,Underbarrel,Operator Foregrip,4.23,0.0,1.41,0.0,-1.06,1.06
+Assault Rifle,CR-56 AMAX,Underbarrel,M203 40mm Recon,0.0,0.0,0.0,0.0,-2.11,-3.17
+Assault Rifle,CR-56 AMAX,Underbarrel,M203 40mm Smokescreen,0.0,0.0,0.0,0.0,-2.11,-3.17
+Assault Rifle,CR-56 AMAX,Underbarrel,M203 40mm High-explosive,0.0,0.0,0.0,0.0,-2.11,-3.17
+Assault Rifle,CR-56 AMAX,Underbarrel,M203 40mm Flash,0.0,0.0,0.0,0.0,-2.11,-3.17
+Assault Rifle,CR-56 AMAX,Underbarrel,Ranger Foregrip,4.58,0.0,2.82,0.0,-2.46,2.82
+Assault Rifle,CR-56 AMAX,Underbarrel,M203 40mm Incendiary,0.0,0.0,0.0,0.0,-2.11,-3.17
+Assault Rifle,CR-56 AMAX,Underbarrel,Merc Foregrip,4.93,0.0,0.7,0.0,-1.76,1.76
+Assault Rifle,CR-56 AMAX,Underbarrel,Commando Foregrip,4.23,0.0,1.76,0.0,-2.11,2.82
+Assault Rifle,CR-56 AMAX,Laser,mW Laser,2.11,0.0,0.0,0.0,0.7,-1.06
+Assault Rifle,CR-56 AMAX,Laser,Tac Laser,2.11,0.0,0.0,0.0,1.76,2.82
+Assault Rifle,CR-56 AMAX,Laser,SmW Laser,4.23,0.0,0.0,0.0,1.76,-1.06
+Assault Rifle,CR-56 AMAX,Rear Grip,XRK CR-56 Granulated Wrap,2.11,0.0,0.0,0.0,-2.11,1.76
+Assault Rifle,CR-56 AMAX,Rear Grip,XRK CR-56 Rubberized Wrap,4.23,0.0,0.0,0.0,0.0,-2.11
+Assault Rifle,CR-56 AMAX,Rear Grip,XRK CR-56 Stippled Wrap,0.0,0.0,0.0,0.0,2.82,-2.11
+Assault Rifle,CR-56 AMAX,Muzzle,Muzzle Brake,3.52,0.0,0.0,0.0,-1.06,1.06
+Assault Rifle,CR-56 AMAX,Muzzle,Compensator,2.11,0.0,-2.46,0.0,-1.06,2.82
+Assault Rifle,CR-56 AMAX,Muzzle,Monolithic Suppressor,2.11,0.0,2.82,0.0,-3.17,-1.06
+Assault Rifle,CR-56 AMAX,Muzzle,Flash Guard,0.0,0.0,-1.06,0.0,-0.7,0.0
+Assault Rifle,CR-56 AMAX,Muzzle,Tactical Suppressor,1.76,0.0,0.0,0.0,-1.76,-0.7
+Assault Rifle,CR-56 AMAX,Muzzle,Lightweight Suppressor,1.06,0.0,-4.23,0.0,-0.7,0.0
+Assault Rifle,CR-56 AMAX,Stock,CR-56 EXO,-1.76,0.0,0.0,0.0,5.99,-1.06
+Assault Rifle,CR-56 AMAX,Stock,XRK Gatekeeper,4.23,0.0,0.0,0.0,-3.17,3.87
+Assault Rifle,CR-56 AMAX,Stock,FTAC Spartan,-1.06,0.0,0.0,0.0,3.87,-2.46
+Assault Rifle,CR-56 AMAX,Stock,No Stock,-2.82,0.0,-2.11,0.0,8.8,-4.23
+Assault Rifle,CR-56 AMAX,Stock,FSS Close Quarters Stock,-1.76,0.0,0.0,0.0,2.82,-1.06
+Assault Rifle,CR-56 AMAX,Stock,FTAC Hunter,2.11,0.0,0.0,0.0,-2.11,2.82
+Assault Rifle,CR-56 AMAX,Ammunition,M67 10-R Mags,2.11,3.17,2.82,-3.17,1.76,1.76
+Assault Rifle,CR-56 AMAX,Ammunition,45 Round Mags,0.0,0.0,0.0,0.0,-2.11,-2.11
+Assault Rifle,CR-56 AMAX,Base,,66.9,75.0,65.14,64.08,61.62,70.07
+Assault Rifle,RAM-7,Barrel,,-1.06,0.0,-1.76,0.0,3.17,-1.06
+Assault Rifle,RAM-7,Barrel,FSS Ranger,3.87,0.0,7.04,0.0,-5.99,4.93
+Assault Rifle,RAM-7,Barrel,FORGE TAC Eclipse,1.06,0.0,5.99,0.0,-3.87,0.0
+Assault Rifle,RAM-7,Perk,Recon,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,RAM-7,Perk,Presence of Mind,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,RAM-7,Perk,Frangible - Wounding,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,RAM-7,Perk,Heavy Hitter,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,RAM-7,Perk,Mo! Money,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,RAM-7,Perk,FMJ,0.0,4.93,0.0,0.0,0.0,0.0
+Assault Rifle,RAM-7,Perk,Sleight of Hand,0.0,0.0,0.0,2.11,0.0,0.0
+Assault Rifle,RAM-7,Perk,Fast Melee,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,RAM-7,Perk,Fully Loaded,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,RAM-7,Perk,Burst,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,RAM-7,Perk,Frangible - Disabling,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,RAM-7,Optic,APXS5 Holographic Sight,3.87,0.0,2.11,0.0,-1.76,-2.11
+Assault Rifle,RAM-7,Optic,PBX Holo 7 Sight,3.87,0.0,2.11,0.0,-1.76,-2.11
+Assault Rifle,RAM-7,Optic,Sniper Scope,5.99,0.0,10.21,0.0,-3.87,-5.99
+Assault Rifle,RAM-7,Optic,VLK 3.0x Optic,4.58,0.0,4.23,0.0,-2.46,-2.82
+Assault Rifle,RAM-7,Optic,Cronen 2x2 Elite,5.99,0.0,4.23,0.0,-3.52,-3.52
+Assault Rifle,RAM-7,Optic,Aim-Op Reflex Sight,2.82,0.0,0.0,0.0,-0.7,-1.06
+Assault Rifle,RAM-7,Optic,Monocle Reflex Sight,2.82,0.0,0.0,0.0,-0.7,-1.06
+Assault Rifle,RAM-7,Optic,Cronen LP945 Mini Reflex,2.82,0.0,0.0,0.0,0.0,-1.06
+Assault Rifle,RAM-7,Optic,Thermal Hybrid,4.93,0.0,5.28,0.0,-3.87,-4.93
+Assault Rifle,RAM-7,Optic,4.0x Flip Hybrid,3.87,0.0,5.99,0.0,-2.82,-3.87
+Assault Rifle,RAM-7,Optic,Scout Combat Optic,4.93,0.0,4.23,0.0,-2.82,-2.82
+Assault Rifle,RAM-7,Optic,Variable Zoom Scope,7.04,0.0,13.03,0.0,-4.93,-7.04
+Assault Rifle,RAM-7,Optic,Canted Hybrid,3.87,0.0,5.28,0.0,-1.76,-2.82
+Assault Rifle,RAM-7,Optic,Operator Reflex Sight,2.82,0.0,0.0,0.0,-0.7,-1.06
+Assault Rifle,RAM-7,Optic,Corp Combat Holo Sight,3.87,0.0,2.11,0.0,-1.76,-2.11
+Assault Rifle,RAM-7,Optic,Merc Thermal Optic,4.93,0.0,4.23,0.0,-3.87,-3.87
+Assault Rifle,RAM-7,Optic,Solozero NVG Enhanced,4.93,0.0,4.23,0.0,-3.87,-3.87
+Assault Rifle,RAM-7,Optic,Viper Reflex Sight,2.82,0.0,0.0,0.0,-0.7,-1.06
+Assault Rifle,RAM-7,Optic,G.I. Mini Reflex,2.82,0.0,0.0,0.0,0.0,-1.76
+Assault Rifle,RAM-7,Optic,Integral Hybrid,3.87,0.0,5.28,0.0,-1.76,-2.82
+Assault Rifle,RAM-7,Underbarrel,M203 40mm Recon,0.0,0.0,0.0,0.0,-1.76,-2.82
+Assault Rifle,RAM-7,Underbarrel,Operator Foregrip,3.87,0.0,1.76,0.0,-0.7,1.06
+Assault Rifle,RAM-7,Underbarrel,M203 40mm Flash,0.0,0.0,0.0,0.0,-1.76,-2.82
+Assault Rifle,RAM-7,Underbarrel,M203 40mm High-explosive,0.0,0.0,0.0,0.0,-1.76,-2.82
+Assault Rifle,RAM-7,Underbarrel,M203 40mm Smokescreen,0.0,0.0,0.0,0.0,-1.76,-2.82
+Assault Rifle,RAM-7,Underbarrel,Tactical Foregrip,1.06,0.0,1.06,0.0,-0.7,5.99
+Assault Rifle,RAM-7,Underbarrel,M203 40mm Incendiary,0.0,0.0,0.0,0.0,-1.76,-2.82
+Assault Rifle,RAM-7,Underbarrel,12-Gauge Deputy,0.0,0.0,0.0,0.0,-0.35,-2.11
+Assault Rifle,RAM-7,Underbarrel,Merc Foregrip,4.93,0.0,1.06,0.0,-1.41,2.11
+Assault Rifle,RAM-7,Underbarrel,Commando Foregrip,3.87,0.0,2.11,0.0,-1.76,3.17
+Assault Rifle,RAM-7,Underbarrel,Ranger Foregrip,4.58,0.0,3.17,0.0,-2.46,3.17
+Assault Rifle,RAM-7,Underbarrel,M203 40mm Concussive,0.0,0.0,0.0,0.0,-1.76,-2.82
+Assault Rifle,RAM-7,Laser,Tac Laser,1.76,0.0,0.0,0.0,2.11,3.17
+Assault Rifle,RAM-7,Laser,SmW Laser,3.87,0.0,0.0,0.0,2.11,-1.06
+Assault Rifle,RAM-7,Laser,mW Laser,1.76,0.0,0.0,0.0,1.06,-1.06
+Assault Rifle,RAM-7,Rear Grip,Granulated Grip Tape,1.76,0.0,0.0,0.0,-1.76,2.11
+Assault Rifle,RAM-7,Rear Grip,Rubberized Grip Tape,3.87,0.0,0.0,0.0,0.0,-2.11
+Assault Rifle,RAM-7,Rear Grip,Stippled Grip Tape,0.0,0.0,0.0,0.0,3.17,-2.11
+Assault Rifle,RAM-7,Muzzle,Lightweight Suppressor,1.06,0.0,-3.87,0.0,-0.35,0.0
+Assault Rifle,RAM-7,Muzzle,Flash Guard,0.0,0.0,-0.7,0.0,-0.35,0.0
+Assault Rifle,RAM-7,Muzzle,Muzzle Brake,3.52,0.0,0.0,0.0,-0.7,1.06
+Assault Rifle,RAM-7,Muzzle,Monolithic Suppressor,1.76,0.0,3.17,0.0,-2.82,-1.06
+Assault Rifle,RAM-7,Muzzle,Tactical Suppressor,1.41,0.0,0.0,0.0,-1.41,-0.35
+Assault Rifle,RAM-7,Muzzle,Breacher Device,0.0,0.0,0.0,0.0,-1.76,-2.11
+Assault Rifle,RAM-7,Muzzle,Compensator,1.76,0.0,0.0,0.0,-0.7,3.17
+Assault Rifle,RAM-7,Stock,FTAC Equilibrium,1.76,0.0,0.0,0.0,-1.76,3.17
+Assault Rifle,RAM-7,Stock,XRK Ultralight Hollow,-1.06,0.0,0.0,0.0,4.23,-2.46
+Assault Rifle,RAM-7,Stock,XRK Close Quarters Stock,-2.11,0.0,0.0,0.0,3.17,-1.06
+Assault Rifle,RAM-7,Ammunition,50 Round Mags,0.0,0.0,0.0,0.0,-1.76,-2.11
+Assault Rifle,RAM-7,Base,,70.07,72.54,59.86,69.01,65.85,73.94
+Assault Rifle,GRAU 5.56,Barrel,ZLR Drifter A-08,1.76,0.0,-5.99,0.0,5.99,1.76
+Assault Rifle,GRAU 5.56,Barrel,"FSS 20.8"" Nexus",2.82,0.0,5.28,0.0,-3.17,3.87
+Assault Rifle,GRAU 5.56,Barrel,XRK CZEN mk2,1.06,0.0,4.23,0.0,-2.11,0.0
+Assault Rifle,GRAU 5.56,Barrel,"Tempus 26.4"" Archangel",3.87,0.0,7.04,0.0,-5.99,4.93
+Assault Rifle,GRAU 5.56,Perk,Presence of Mind,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,GRAU 5.56,Perk,Frangible - Disabling,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,GRAU 5.56,Perk,Fully Loaded,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,GRAU 5.56,Perk,FMJ,0.0,5.28,0.0,0.0,0.0,0.0
+Assault Rifle,GRAU 5.56,Perk,Heavy Hitter,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,GRAU 5.56,Perk,Recon,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,GRAU 5.56,Perk,Frangible - Wounding,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,GRAU 5.56,Perk,Sleight of Hand,0.0,0.0,0.0,1.76,0.0,0.0
+Assault Rifle,GRAU 5.56,Perk,Burst,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,GRAU 5.56,Perk,Fast Melee,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,GRAU 5.56,Perk,Mo! Money,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,GRAU 5.56,Optic,Canted Hybrid,3.87,0.0,5.28,0.0,-2.11,-3.17
+Assault Rifle,GRAU 5.56,Optic,PBX Holo 7 Sight,3.87,0.0,2.11,0.0,-2.11,-2.11
+Assault Rifle,GRAU 5.56,Optic,Scout Combat Optic,4.93,0.0,4.23,0.0,-3.17,-3.17
+Assault Rifle,GRAU 5.56,Optic,Operator Reflex Sight,2.82,0.0,0.0,0.0,-1.06,-1.06
+Assault Rifle,GRAU 5.56,Optic,G.I. Mini Reflex,2.82,0.0,0.0,0.0,0.0,-1.06
+Assault Rifle,GRAU 5.56,Optic,Variable Zoom Scope,7.04,0.0,13.03,0.0,-5.28,-7.04
+Assault Rifle,GRAU 5.56,Optic,Integral Hybrid,3.87,0.0,5.28,0.0,-2.11,-3.17
+Assault Rifle,GRAU 5.56,Optic,APXS5 Holographic Sight,3.87,0.0,2.11,0.0,-2.11,-2.11
+Assault Rifle,GRAU 5.56,Optic,VLK 3.0x Optic,4.58,0.0,4.23,0.0,-2.82,-2.82
+Assault Rifle,GRAU 5.56,Optic,Solozero NVG Enhanced,4.93,0.0,4.23,0.0,-4.23,-4.23
+Assault Rifle,GRAU 5.56,Optic,Aim-Op Reflex Sight,2.82,0.0,0.0,0.0,-1.06,-1.06
+Assault Rifle,GRAU 5.56,Optic,Viper Reflex Sight,2.82,0.0,0.0,0.0,-1.06,-1.06
+Assault Rifle,GRAU 5.56,Optic,Thermal Hybrid,4.93,0.0,5.28,0.0,-4.23,-5.28
+Assault Rifle,GRAU 5.56,Optic,Corp Combat Holo Sight,3.87,0.0,2.11,0.0,-2.11,-2.11
+Assault Rifle,GRAU 5.56,Optic,Monocle Reflex Sight,2.82,0.0,0.0,0.0,-1.06,-1.06
+Assault Rifle,GRAU 5.56,Optic,Cronen C480 Pro Optic,5.28,0.0,4.23,0.0,-3.52,-3.52
+Assault Rifle,GRAU 5.56,Optic,Cronen LP945 Mini Reflex,2.82,0.0,0.0,0.0,0.0,-1.06
+Assault Rifle,GRAU 5.56,Optic,Merc Thermal Optic,4.93,0.0,4.23,0.0,-4.23,-4.23
+Assault Rifle,GRAU 5.56,Optic,Sniper Scope,5.99,0.0,10.21,0.0,-4.23,-5.99
+Assault Rifle,GRAU 5.56,Optic,4.0x Flip Hybrid,3.87,0.0,5.99,0.0,-3.17,-4.23
+Assault Rifle,GRAU 5.56,Underbarrel,Merc Foregrip,4.93,0.0,1.06,0.0,-1.76,1.76
+Assault Rifle,GRAU 5.56,Underbarrel,M203 40mm Recon,0.0,0.0,0.0,0.0,-2.11,-3.17
+Assault Rifle,GRAU 5.56,Underbarrel,M203 40mm Flash,0.0,0.0,0.0,0.0,-2.11,-3.17
+Assault Rifle,GRAU 5.56,Underbarrel,12-Gauge Deputy,0.0,0.0,0.0,0.0,-0.7,-2.11
+Assault Rifle,GRAU 5.56,Underbarrel,M203 40mm Incendiary,0.0,0.0,0.0,0.0,-2.11,-3.17
+Assault Rifle,GRAU 5.56,Underbarrel,Cronen Shark II,1.41,0.0,1.76,0.0,-1.06,6.34
+Assault Rifle,GRAU 5.56,Underbarrel,Ranger Foregrip,4.58,0.0,3.17,0.0,-2.82,2.82
+Assault Rifle,GRAU 5.56,Underbarrel,M203 40mm Concussive,0.0,0.0,0.0,0.0,-2.11,-3.17
+Assault Rifle,GRAU 5.56,Underbarrel,M203 40mm Smokescreen,0.0,0.0,0.0,0.0,-2.11,-3.17
+Assault Rifle,GRAU 5.56,Underbarrel,M203 40mm High-explosive,0.0,0.0,0.0,0.0,-2.11,-3.17
+Assault Rifle,GRAU 5.56,Underbarrel,Operator Foregrip,3.87,0.0,1.76,0.0,-1.06,0.7
+Assault Rifle,GRAU 5.56,Underbarrel,Commando Foregrip,3.87,0.0,2.11,0.0,-2.11,2.82
+Assault Rifle,GRAU 5.56,Laser,mW Laser,1.76,0.0,0.0,0.0,0.7,-1.06
+Assault Rifle,GRAU 5.56,Laser,Tac Laser,1.76,0.0,0.0,0.0,1.76,2.82
+Assault Rifle,GRAU 5.56,Laser,SmW Laser,3.87,0.0,0.0,0.0,1.76,-1.06
+Assault Rifle,GRAU 5.56,Rear Grip,FTAC R-89 Rubber,3.87,0.0,0.0,0.0,0.0,-2.11
+Assault Rifle,GRAU 5.56,Rear Grip,Cronen Sniper Elite,3.52,0.0,0.0,0.0,-2.82,3.52
+Assault Rifle,GRAU 5.56,Rear Grip,XRK Void II,-1.76,0.0,0.0,0.0,3.87,-2.82
+Assault Rifle,GRAU 5.56,Muzzle,Breacher Device,0.0,0.0,0.0,0.0,-2.11,-2.11
+Assault Rifle,GRAU 5.56,Muzzle,Flash Guard,0.0,0.0,-0.7,0.0,-0.7,0.0
+Assault Rifle,GRAU 5.56,Muzzle,Monolithic Suppressor,1.76,0.0,3.17,0.0,-3.17,-1.06
+Assault Rifle,GRAU 5.56,Muzzle,Compensator,1.76,0.0,0.0,0.0,-1.06,2.82
+Assault Rifle,GRAU 5.56,Muzzle,Lightweight Suppressor,1.06,0.0,-3.87,0.0,-0.7,0.0
+Assault Rifle,GRAU 5.56,Muzzle,Muzzle Brake,3.52,0.0,0.0,0.0,-1.06,0.7
+Assault Rifle,GRAU 5.56,Muzzle,Tactical Suppressor,1.41,0.0,0.0,0.0,-1.76,-0.7
+Assault Rifle,GRAU 5.56,Stock,No Stock,-3.17,0.0,-1.76,0.0,8.8,-4.23
+Assault Rifle,GRAU 5.56,Stock,XRK StrikeLite II],-1.06,0.0,0.0,0.0,3.87,-2.46
+Assault Rifle,GRAU 5.56,Stock,FSS Blackjack,1.76,0.0,0.0,0.0,-2.11,2.82
+Assault Rifle,GRAU 5.56,Ammunition,50 Round Mags,0.0,0.0,0.0,0.0,-2.11,-2.11
+Assault Rifle,GRAU 5.56,Ammunition,60 Round Mags,0.0,0.0,0.0,0.0,-4.23,-2.46
+Assault Rifle,GRAU 5.56,Base,,70.07,71.83,65.85,65.14,65.14,71.13
+Assault Rifle,AK-47,Barrel,"8.1"" Compact Barrel",-2.11,0.0,-3.87,0.0,5.99,-2.11
+Assault Rifle,AK-47,Barrel,"23.0"" Romanian",4.93,0.0,5.99,0.0,-5.28,3.87
+Assault Rifle,AK-47,Barrel,Spetsnaz Elite,1.06,0.0,4.23,0.0,-2.11,0.0
+Assault Rifle,AK-47,Barrel,"23.0"" RPK Barrel",3.17,0.0,4.93,0.0,-3.17,3.87
+Assault Rifle,AK-47,Perk,Recon,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,AK-47,Perk,Fast Melee,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,AK-47,Perk,FMJ,0.0,4.93,0.0,0.0,0.0,0.0
+Assault Rifle,AK-47,Perk,Heavy Hitter,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,AK-47,Perk,Sleight of Hand,0.0,0.0,0.0,2.11,-1.76,0.0
+Assault Rifle,AK-47,Perk,Presence of Mind,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,AK-47,Perk,Frangible - Disabling,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,AK-47,Perk,Frangible - Wounding,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,AK-47,Perk,Fully Loaded,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,AK-47,Perk,Mo! Money,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,AK-47,Optic,Solozero Optics Mini Reflex,3.17,0.0,0.0,0.0,0.0,-1.06
+Assault Rifle,AK-47,Optic,Viper Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-1.06
+Assault Rifle,AK-47,Optic,G.I. Mini Reflex,3.17,0.0,0.0,0.0,0.0,-1.06
+Assault Rifle,AK-47,Optic,Integral Hybrid,3.87,0.0,4.93,0.0,-2.11,-2.82
+Assault Rifle,AK-47,Optic,Cronen C480 Pro Optic,5.63,0.0,4.23,0.0,-3.52,-3.17
+Assault Rifle,AK-47,Optic,Merc Thermal Optic,4.93,0.0,4.23,0.0,-4.23,-3.87
+Assault Rifle,AK-47,Optic,Operator Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-1.06
+Assault Rifle,AK-47,Optic,Variable Zoom Scope,7.04,0.0,13.03,0.0,-5.28,-7.04
+Assault Rifle,AK-47,Optic,Cronen LP945 Mini Reflex,3.17,0.0,0.0,0.0,0.0,-1.06
+Assault Rifle,AK-47,Optic,Corp Combat Holo Sight,3.87,0.0,2.11,0.0,-2.11,-2.11
+Assault Rifle,AK-47,Optic,Aim-Op Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-1.06
+Assault Rifle,AK-47,Optic,Canted Hybrid,3.87,0.0,4.93,0.0,-2.11,-2.82
+Assault Rifle,AK-47,Optic,Thermal Hybrid,4.93,0.0,4.93,0.0,-4.23,-4.93
+Assault Rifle,AK-47,Optic,Solozero NVG Enhanced,4.93,0.0,4.23,0.0,-4.23,-3.87
+Assault Rifle,AK-47,Optic,Scout Combat Optic,4.93,0.0,4.23,0.0,-3.17,-2.82
+Assault Rifle,AK-47,Optic,VLK 3.0x Optic,4.58,0.0,4.23,0.0,-2.82,-2.82
+Assault Rifle,AK-47,Optic,Sniper Scope,5.99,0.0,10.21,0.0,-4.23,-5.99
+Assault Rifle,AK-47,Optic,APXS5 Holographic Sight,3.87,0.0,2.11,0.0,-2.11,-2.11
+Assault Rifle,AK-47,Optic,Monocle Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-1.06
+Assault Rifle,AK-47,Underbarrel,GP25 40mm High-explosive,0.0,0.0,0.0,0.0,-2.11,-2.82
+Assault Rifle,AK-47,Underbarrel,Commando Foregrip,3.87,0.0,2.11,0.0,-2.11,3.17
+Assault Rifle,AK-47,Underbarrel,GP25 40mm Recon,0.0,0.0,0.0,0.0,-2.11,-2.82
+Assault Rifle,AK-47,Underbarrel,GP25 40mm Smokescreen,0.0,0.0,0.0,0.0,-2.11,-2.82
+Assault Rifle,AK-47,Underbarrel,Operator Foregrip,3.87,0.0,1.76,0.0,-1.06,1.06
+Assault Rifle,AK-47,Underbarrel,GP25 40mm Concussive,0.0,0.0,0.0,0.0,-2.11,-2.82
+Assault Rifle,AK-47,Underbarrel,Merc Foregrip,4.93,0.0,1.06,0.0,-1.76,2.11
+Assault Rifle,AK-47,Underbarrel,12-Gauge Deputy,0.0,0.0,0.0,0.0,-0.7,-2.11
+Assault Rifle,AK-47,Underbarrel,Tactical Foregrip,1.06,0.0,1.06,0.0,-1.06,5.99
+Assault Rifle,AK-47,Underbarrel,GP25 40mm Flash,0.0,0.0,0.0,0.0,-2.11,-2.82
+Assault Rifle,AK-47,Underbarrel,Ranger Foregrip,4.58,0.0,3.17,0.0,-2.82,3.17
+Assault Rifle,AK-47,Underbarrel,GP25 40mm Incendiary,0.0,0.0,0.0,0.0,-2.11,-2.82
+Assault Rifle,AK-47,Underbarrel,Bipod,0.0,0.0,0.0,0.0,0.0,3.17
+Assault Rifle,AK-47,Laser,Tac Laser,2.11,0.0,0.0,0.0,1.76,3.17
+Assault Rifle,AK-47,Laser,mW Laser,2.11,0.0,0.0,0.0,0.7,-1.06
+Assault Rifle,AK-47,Laser,SmW Laser,3.87,0.0,0.0,0.0,1.76,-1.06
+Assault Rifle,AK-47,Rear Grip,Granulated Grip Tape,2.11,0.0,0.0,0.0,-2.11,2.11
+Assault Rifle,AK-47,Rear Grip,Rubberized Grip Tape,3.87,0.0,0.0,0.0,0.0,-2.11
+Assault Rifle,AK-47,Rear Grip,Stippled Grip Tape,0.0,0.0,0.0,0.0,2.82,-2.11
+Assault Rifle,AK-47,Muzzle,Compensator,2.11,0.0,0.0,0.0,-1.06,3.17
+Assault Rifle,AK-47,Muzzle,Flash Guard,0.0,0.0,-1.06,0.0,-0.7,0.0
+Assault Rifle,AK-47,Muzzle,Lightweight Suppressor,1.06,0.0,-3.87,0.0,-0.7,0.0
+Assault Rifle,AK-47,Muzzle,Muzzle Brake,3.52,0.0,0.0,0.0,-1.06,1.06
+Assault Rifle,AK-47,Muzzle,Bayonet,0.0,0.0,0.0,0.0,-2.11,-2.11
+Assault Rifle,AK-47,Muzzle,Monolithic Suppressor,2.11,0.0,3.17,0.0,-3.17,-1.06
+Assault Rifle,AK-47,Muzzle,Tactical Suppressor,1.41,0.0,0.0,0.0,-1.76,-0.35
+Assault Rifle,AK-47,Stock,FORGE TAC Ultralight,-1.06,0.0,0.0,0.0,3.87,-2.46
+Assault Rifle,AK-47,Stock,FSS Close Quarters Stock,-2.11,0.0,0.0,0.0,2.82,-1.06
+Assault Rifle,AK-47,Stock,No Stock,-2.82,0.0,-1.76,0.0,8.8,-3.87
+Assault Rifle,AK-47,Stock,Skeleton Stock,-2.11,0.0,0.0,0.0,5.99,-1.06
+Assault Rifle,AK-47,Stock,Field LMG Stock,2.11,0.0,0.0,0.0,-2.11,3.17
+Assault Rifle,AK-47,Ammunition,5.45x39mm 30-Round Mags,0.0,-4.93,-3.87,9.15,1.76,3.17
+Assault Rifle,AK-47,Ammunition,40 Round Mags,0.0,0.0,0.0,0.0,-2.11,-2.11
+Assault Rifle,AK-47,Ammunition,75 Round Drum Mags,0.0,0.0,0.0,0.0,-5.28,-2.82
+Assault Rifle,AK-47,Base,,67.96,76.06,66.9,60.92,59.15,67.96
+Assault Rifle,FR 5.56,Barrel,"FR 24.4"" Sniper",3.17,0.0,4.93,0.0,-3.17,4.23
+Assault Rifle,FR 5.56,Barrel,FORGE TAC Ultralight,0.0,0.0,-2.82,0.0,2.82,0.0
+Assault Rifle,FR 5.56,Barrel,"FR 15.9"" Commando",-1.06,0.0,-2.11,0.0,2.82,-0.7
+Assault Rifle,FR 5.56,Perk,Frangible - Disabling,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,FR 5.56,Perk,Presence of Mind,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,FR 5.56,Perk,Frangible - Wounding,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,FR 5.56,Perk,Fully Loaded,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,FR 5.56,Perk,Recon,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,FR 5.56,Perk,Fast Melee,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,FR 5.56,Perk,Mo! Money,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,FR 5.56,Perk,Heavy Hitter,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,FR 5.56,Perk,FMJ,0.0,4.93,0.0,0.0,0.0,0.0
+Assault Rifle,FR 5.56,Perk,Sleight of Hand,0.0,0.0,0.0,2.11,0.0,0.0
+Assault Rifle,FR 5.56,Optic,G.I. Mini Reflex,3.17,0.0,0.0,0.0,0.0,-0.7
+Assault Rifle,FR 5.56,Optic,Scout Combat Optic,5.28,0.0,3.87,0.0,-3.17,-2.82
+Assault Rifle,FR 5.56,Optic,Sniper Scope,5.99,0.0,9.86,0.0,-4.23,-5.99
+Assault Rifle,FR 5.56,Optic,Cronen LP945 Mini Reflex,3.17,0.0,0.0,0.0,0.0,-0.7
+Assault Rifle,FR 5.56,Optic,Aim-Op Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-0.7
+Assault Rifle,FR 5.56,Optic,Variable Zoom Scope,7.04,0.0,13.03,0.0,-4.93,-6.69
+Assault Rifle,FR 5.56,Optic,Solozero Optics Mini Reflex,3.17,0.0,0.0,0.0,0.0,-0.7
+Assault Rifle,FR 5.56,Optic,VLK 3.0x Optic,4.58,0.0,3.87,0.0,-2.46,-2.46
+Assault Rifle,FR 5.56,Optic,4.0x Flip Hybrid,4.23,0.0,5.99,0.0,-3.17,-3.87
+Assault Rifle,FR 5.56,Optic,Canted Hybrid,4.23,0.0,4.93,0.0,-2.11,-2.82
+Assault Rifle,FR 5.56,Optic,Viper Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-0.7
+Assault Rifle,FR 5.56,Optic,Monocle Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-0.7
+Assault Rifle,FR 5.56,Optic,Integral Hybrid,4.23,0.0,4.93,0.0,-2.11,-2.82
+Assault Rifle,FR 5.56,Optic,PBX Holo 7 Sight,4.23,0.0,2.11,0.0,-2.11,-1.76
+Assault Rifle,FR 5.56,Optic,Corp Combat Holo Sight,4.23,0.0,2.11,0.0,-2.11,-1.76
+Assault Rifle,FR 5.56,Optic,Thermal Hybrid,5.28,0.0,4.93,0.0,-4.23,-4.93
+Assault Rifle,FR 5.56,Optic,Merc Thermal Optic,5.28,0.0,3.87,0.0,-4.23,-3.87
+Assault Rifle,FR 5.56,Optic,Operator Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-0.7
+Assault Rifle,FR 5.56,Optic,Solozero NVG Enhanced,5.28,0.0,3.87,0.0,-4.23,-3.87
+Assault Rifle,FR 5.56,Optic,APXS5 Holographic Sight,4.23,0.0,2.11,0.0,-2.11,-1.76
+Assault Rifle,FR 5.56,Optic,Cronen C480 Pro Optic,5.63,0.0,3.87,0.0,-3.52,-3.17
+Assault Rifle,FR 5.56,Underbarrel,M203 40mm Flash,0.0,0.0,0.0,0.0,-2.11,-2.82
+Assault Rifle,FR 5.56,Underbarrel,Merc Foregrip,5.28,0.0,1.06,0.0,-1.76,2.11
+Assault Rifle,FR 5.56,Underbarrel,M203 40mm High-explosive,0.0,0.0,0.0,0.0,-2.11,-2.82
+Assault Rifle,FR 5.56,Underbarrel,Bipod,0.0,0.0,0.0,0.0,0.0,3.17
+Assault Rifle,FR 5.56,Underbarrel,Operator Foregrip,4.23,0.0,1.41,0.0,-1.06,1.06
+Assault Rifle,FR 5.56,Underbarrel,M203 40mm Concussive,0.0,0.0,0.0,0.0,-2.11,-2.82
+Assault Rifle,FR 5.56,Underbarrel,M203 40mm Smokescreen,0.0,0.0,0.0,0.0,-2.11,-2.82
+Assault Rifle,FR 5.56,Underbarrel,M203 40mm Incendiary,0.0,0.0,0.0,0.0,-2.11,-2.82
+Assault Rifle,FR 5.56,Underbarrel,Tactical Foregrip,1.06,0.0,1.06,0.0,-1.06,6.34
+Assault Rifle,FR 5.56,Underbarrel,12-Gauge Deputy,0.0,0.0,0.0,0.0,-0.7,-1.76
+Assault Rifle,FR 5.56,Underbarrel,Ranger Foregrip,4.58,0.0,3.17,0.0,-2.46,3.17
+Assault Rifle,FR 5.56,Underbarrel,M203 40mm Recon,0.0,0.0,0.0,0.0,-2.11,-2.82
+Assault Rifle,FR 5.56,Underbarrel,Commando Foregrip,4.23,0.0,2.11,0.0,-2.11,3.17
+Assault Rifle,FR 5.56,Laser,mW Laser,2.11,0.0,0.0,0.0,1.06,-0.7
+Assault Rifle,FR 5.56,Laser,Tac Laser,2.11,0.0,0.0,0.0,1.76,3.17
+Assault Rifle,FR 5.56,Laser,SmW Laser,4.23,0.0,0.0,0.0,-1.76,-0.7
+Assault Rifle,FR 5.56,Rear Grip,Rubberized Grip Tape,4.23,0.0,0.0,0.0,0.0,-1.76
+Assault Rifle,FR 5.56,Rear Grip,Stippled Grip Tape,0.0,0.0,0.0,0.0,2.82,-1.76
+Assault Rifle,FR 5.56,Rear Grip,Granulated Grip Tape,2.11,0.0,0.0,0.0,-2.11,2.11
+Assault Rifle,FR 5.56,Muzzle,Monolithic Suppressor,2.11,0.0,3.17,0.0,-3.17,-0.7
+Assault Rifle,FR 5.56,Muzzle,Lightweight Suppressor,1.06,0.0,-3.87,0.0,-0.7,0.0
+Assault Rifle,FR 5.56,Muzzle,Compensator,2.11,0.0,0.0,0.0,-1.06,3.17
+Assault Rifle,FR 5.56,Muzzle,Tactical Suppressor,1.76,0.0,0.0,0.0,-1.76,-0.35
+Assault Rifle,FR 5.56,Muzzle,Muzzle Brake,3.52,0.0,0.0,0.0,-1.06,1.06
+Assault Rifle,FR 5.56,Muzzle,Flash Guard,0.0,0.0,-1.06,0.0,-0.7,0.0
+Assault Rifle,FR 5.56,Stock,FORGE TAC Ballast Pack,2.11,0.0,0.0,0.0,-2.11,3.17
+Assault Rifle,FR 5.56,Stock,FSS Tac-Wrap,-1.76,0.0,0.0,0.0,2.82,-0.7
+Assault Rifle,FR 5.56,Stock,FR Ultralight Hollow,-1.06,0.0,0.0,0.0,3.87,-2.46
+Assault Rifle,FR 5.56,Ammunition,50 Round Mags,0.0,0.0,0.0,0.0,-2.11,-1.76
+Assault Rifle,FR 5.56,Ammunition,60 Round Mags,0.0,0.0,0.0,0.0,-4.23,-2.46
+Assault Rifle,FR 5.56,Base,,72.89,75.0,61.97,71.83,58.1,71.83
+Assault Rifle,Oden,Barrel,Oden Factory 420mm,-1.76,0.0,-2.82,0.0,4.58,-1.41
+Assault Rifle,Oden,Barrel,Oden Factory 730mm,1.41,0.0,3.17,0.0,-1.06,2.11
+Assault Rifle,Oden,Barrel,Oden Factory 810mm,2.82,0.0,4.93,0.0,-2.82,4.23
+Assault Rifle,Oden,Perk,Heavy Hitter,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,Oden,Perk,Burst Fire (x2),0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,Oden,Perk,FMJ,0.0,5.28,0.0,0.0,0.0,0.0
+Assault Rifle,Oden,Perk,Recon,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,Oden,Perk,Presence of Mind,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,Oden,Perk,Mo! Money,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,Oden,Perk,Fast Melee,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,Oden,Perk,Frangible - Wounding,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,Oden,Perk,Frangible - Disabling,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,Oden,Perk,Fully Loaded,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,Oden,Perk,Sleight of Hand,0.0,0.0,0.0,1.76,0.0,0.0
+Assault Rifle,Oden,Optic,G.I. Mini Reflex,2.82,0.0,0.0,0.0,0.0,-0.7
+Assault Rifle,Oden,Optic,Sniper Scope,5.99,0.0,10.21,0.0,-3.87,-5.99
+Assault Rifle,Oden,Optic,Viper Reflex Sight,2.82,0.0,0.0,0.0,-1.06,-0.7
+Assault Rifle,Oden,Optic,Monocle Reflex Sight,2.82,0.0,0.0,0.0,-1.06,-0.7
+Assault Rifle,Oden,Optic,Canted Hybrid,3.87,0.0,4.93,0.0,-2.11,-2.82
+Assault Rifle,Oden,Optic,Corp Combat Holo Sight,3.87,0.0,2.11,0.0,-2.11,-1.76
+Assault Rifle,Oden,Optic,Operator Reflex Sight,2.82,0.0,0.0,0.0,-1.06,-0.7
+Assault Rifle,Oden,Optic,Cronen C480 Pro Optic,5.28,0.0,3.87,0.0,-3.52,-3.17
+Assault Rifle,Oden,Optic,Cronen LP945 Mini Reflex,2.82,0.0,0.0,0.0,0.0,-0.7
+Assault Rifle,Oden,Optic,Aim-Op Reflex Sight,2.82,0.0,0.0,0.0,-1.06,-0.7
+Assault Rifle,Oden,Optic,Thermal Hybrid,4.93,0.0,4.93,0.0,-3.87,-4.93
+Assault Rifle,Oden,Optic,Merc Thermal Optic,4.93,0.0,3.87,0.0,-3.87,-3.87
+Assault Rifle,Oden,Optic,Solozero Optics Mini Reflex,2.82,0.0,0.0,0.0,0.0,-0.7
+Assault Rifle,Oden,Optic,Variable Zoom Scope,6.69,0.0,13.03,0.0,-4.93,-6.69
+Assault Rifle,Oden,Optic,VLK 3.0x Optic,4.23,0.0,3.87,0.0,-2.46,-2.82
+Assault Rifle,Oden,Optic,Scout Combat Optic,4.93,0.0,3.87,0.0,-2.82,-2.82
+Assault Rifle,Oden,Optic,PBX Holo 7 Sight,3.87,0.0,2.11,0.0,-2.11,-1.76
+Assault Rifle,Oden,Optic,Solozero NVG Enhanced,4.93,0.0,3.87,0.0,-3.87,-3.87
+Assault Rifle,Oden,Optic,Integral Hybrid,3.87,0.0,4.93,0.0,-2.11,-2.82
+Assault Rifle,Oden,Optic,APXS5 Holographic Sight,3.87,0.0,2.11,0.0,-2.11,-1.76
+Assault Rifle,Oden,Underbarrel,M203 40mm Concussive,0.0,0.0,0.0,0.0,-2.11,-2.82
+Assault Rifle,Oden,Underbarrel,M203 40mm Smokescreen,0.0,0.0,0.0,0.0,-2.11,-2.82
+Assault Rifle,Oden,Underbarrel,Bipod,0.0,0.0,0.0,0.0,0.0,3.17
+Assault Rifle,Oden,Underbarrel,M203 40mm High-explosive,0.0,0.0,0.0,0.0,-2.11,-2.82
+Assault Rifle,Oden,Underbarrel,12-Gauge Deputy,0.0,0.0,0.0,0.0,-0.35,-1.76
+Assault Rifle,Oden,Underbarrel,Commando Foregrip,3.87,0.0,2.11,0.0,-2.11,3.17
+Assault Rifle,Oden,Underbarrel,Tactical Foregrip,0.7,0.0,1.06,0.0,-1.06,5.99
+Assault Rifle,Oden,Underbarrel,M203 40mm Recon,0.0,0.0,0.0,0.0,-2.11,-2.82
+Assault Rifle,Oden,Underbarrel,Ranger Foregrip,4.23,0.0,3.17,0.0,-2.46,3.17
+Assault Rifle,Oden,Underbarrel,M203 40mm Incendiary,0.0,0.0,0.0,0.0,-2.11,-2.82
+Assault Rifle,Oden,Underbarrel,Operator Foregrip,3.87,0.0,1.41,0.0,-1.06,1.06
+Assault Rifle,Oden,Underbarrel,M203 40mm Flash,0.0,0.0,0.0,0.0,-2.11,-2.82
+Assault Rifle,Oden,Underbarrel,Merc Foregrip,4.93,0.0,1.06,0.0,-1.41,2.11
+Assault Rifle,Oden,Laser,SmW Laser,3.87,0.0,0.0,0.0,2.11,-0.7
+Assault Rifle,Oden,Laser,Tac Laser,1.76,0.0,0.0,0.0,2.11,3.17
+Assault Rifle,Oden,Laser,mW Laser,1.76,0.0,0.0,0.0,1.06,-0.7
+Assault Rifle,Oden,Rear Grip,Stippled Grip Tape,0.0,0.0,0.0,0.0,3.17,-1.76
+Assault Rifle,Oden,Rear Grip,Granulated Grip Tape,1.76,0.0,0.0,0.0,-2.11,2.11
+Assault Rifle,Oden,Rear Grip,Rubberized Grip Tape,3.87,0.0,0.0,0.0,0.0,-1.76
+Assault Rifle,Oden,Muzzle,Flash Guard,0.0,0.0,-1.06,0.0,-0.35,0.0
+Assault Rifle,Oden,Muzzle,Compensator,1.76,0.0,0.0,0.0,-1.06,3.17
+Assault Rifle,Oden,Muzzle,Colossus Suppressor,3.87,0.0,5.99,0.0,-4.93,-1.76
+Assault Rifle,Oden,Muzzle,CQB Breacher Device,0.0,0.0,0.0,0.0,-2.11,-1.76
+Assault Rifle,Oden,Muzzle,Monolithic Suppressor,1.76,0.0,3.17,0.0,-2.82,-0.7
+Assault Rifle,Oden,Muzzle,Muzzle Brake,3.52,0.0,0.0,0.0,-1.06,1.06
+Assault Rifle,Oden,Muzzle,Tactical Suppressor,1.41,0.0,0.0,0.0,-1.41,-0.35
+Assault Rifle,Oden,Stock,FTAC XL Elite Comb,-2.11,0.0,0.0,0.0,3.17,-0.7
+Assault Rifle,Oden,Stock,FORGE TAC Ballast Pack,1.76,0.0,0.0,0.0,-2.11,3.17
+Assault Rifle,Oden,Stock,Oden Ultralight Hollow,-1.06,0.0,0.0,0.0,3.87,-2.46
+Assault Rifle,Oden,Ammunition,30 Round Mags,0.0,0.0,0.0,0.0,-3.87,-2.46
+Assault Rifle,Oden,Ammunition,25 Round Mags,0.0,0.0,0.0,0.0,-2.11,-1.76
+Assault Rifle,Oden,Base,,65.14,78.87,67.96,58.1,55.99,59.86
+Assault Rifle,FAL,Barrel,XRK Marksman,2.46,0.0,3.87,0.0,-2.46,3.52
+Assault Rifle,FAL,Barrel,"13.0"" OSW Para",-1.06,0.0,-2.11,0.0,3.17,-1.06
+Assault Rifle,FAL,Barrel,,0.0,0.0,-3.17,0.0,3.17,0.0
+Assault Rifle,FAL,Perk,Burst,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,FAL,Perk,Sleight of Hand,0.0,0.0,0.0,1.76,0.0,0.0
+Assault Rifle,FAL,Perk,FMJ,0.0,4.93,0.0,0.0,0.0,0.0
+Assault Rifle,FAL,Perk,Fully Loaded,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,FAL,Perk,Frangible - Wounding,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,FAL,Perk,Recon,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,FAL,Perk,Heavy Hitter,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,FAL,Perk,Frangible - Disabling,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,FAL,Perk,Presence of Mind,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,FAL,Perk,Mo! Money,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,FAL,Perk,Fast Melee,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,FAL,Optic,Monocle Reflex Sight,3.17,0.0,0.0,0.0,-0.7,-1.06
+Assault Rifle,FAL,Optic,Solozero NVG Enhanced,4.93,0.0,3.87,0.0,-3.87,-3.87
+Assault Rifle,FAL,Optic,Integral Hybrid,4.23,0.0,4.93,0.0,-1.76,-2.82
+Assault Rifle,FAL,Optic,Canted Hybrid,4.23,0.0,4.93,0.0,-1.76,-2.82
+Assault Rifle,FAL,Optic,G.I. Mini Reflex,3.17,0.0,0.0,0.0,0.0,-1.06
+Assault Rifle,FAL,Optic,Thermal Hybrid,4.93,0.0,4.93,0.0,-3.87,-4.93
+Assault Rifle,FAL,Optic,APXS5 Holographic Sight,4.23,0.0,1.76,0.0,-1.76,-2.11
+Assault Rifle,FAL,Optic,4.0x Flip Hybrid,4.23,0.0,5.99,0.0,-2.82,-3.87
+Assault Rifle,FAL,Optic,Corp Combat Holo Sight,4.23,0.0,1.76,0.0,-1.76,-2.11
+Assault Rifle,FAL,Optic,Solozero Optics Mini Reflex,3.17,0.0,0.0,0.0,0.0,-1.06
+Assault Rifle,FAL,Optic,Cronen LP945 Mini Reflex,3.17,0.0,0.0,0.0,0.0,-1.06
+Assault Rifle,FAL,Optic,Aim-Op Reflex Sight,3.17,0.0,0.0,0.0,-0.7,-1.06
+Assault Rifle,FAL,Optic,Scout Combat Optic,4.93,0.0,3.87,0.0,-2.82,-2.82
+Assault Rifle,FAL,Optic,Merc Thermal Optic,4.93,0.0,3.87,0.0,-3.87,-3.87
+Assault Rifle,FAL,Optic,VLK 3.0x Optic,4.58,0.0,3.87,0.0,-2.46,-2.82
+Assault Rifle,FAL,Optic,Operator Reflex Sight,3.17,0.0,0.0,0.0,-0.7,-1.06
+Assault Rifle,FAL,Optic,Variable Zoom Scope,7.04,0.0,13.03,0.0,-4.93,-7.04
+Assault Rifle,FAL,Optic,Viper Reflex Sight,3.17,0.0,0.0,0.0,-0.7,-1.06
+Assault Rifle,FAL,Optic,PBX Holo 7 Sight,4.23,0.0,1.76,0.0,-1.76,-2.11
+Assault Rifle,FAL,Optic,Cronen C480 Pro Optic,5.63,0.0,3.87,0.0,-3.52,-3.17
+Assault Rifle,FAL,Optic,Sniper Scope,5.99,0.0,9.86,0.0,-3.87,-5.99
+Assault Rifle,FAL,Underbarrel,Ranger Foregrip,4.58,0.0,2.82,0.0,-2.46,3.17
+Assault Rifle,FAL,Underbarrel,M203 40mm High-explosive,0.0,0.0,0.0,0.0,-1.76,-2.82
+Assault Rifle,FAL,Underbarrel,M203 40mm Smokescreen,0.0,0.0,0.0,0.0,-1.76,-2.82
+Assault Rifle,FAL,Underbarrel,Operator Foregrip,4.23,0.0,1.41,0.0,-0.7,1.06
+Assault Rifle,FAL,Underbarrel,12-Gauge Deputy,0.0,0.0,0.0,0.0,-0.35,-2.11
+Assault Rifle,FAL,Underbarrel,Merc Foregrip,4.93,0.0,1.06,0.0,-1.41,2.11
+Assault Rifle,FAL,Underbarrel,M203 40mm Concussive,0.0,0.0,0.0,0.0,-1.76,-2.82
+Assault Rifle,FAL,Underbarrel,M203 40mm Flash,0.0,0.0,0.0,0.0,-1.76,-2.82
+Assault Rifle,FAL,Underbarrel,Commando Foregrip,4.23,0.0,1.76,0.0,-1.76,3.17
+Assault Rifle,FAL,Underbarrel,M203 40mm Incendiary,0.0,0.0,0.0,0.0,-1.76,-2.82
+Assault Rifle,FAL,Underbarrel,Tactical Foregrip,1.06,0.0,1.06,0.0,-0.7,5.99
+Assault Rifle,FAL,Underbarrel,M203 40mm Recon,0.0,0.0,0.0,0.0,-1.76,-2.82
+Assault Rifle,FAL,Underbarrel,Bipod,0.0,0.0,0.0,0.0,0.0,3.17
+Assault Rifle,FAL,Laser,mW Laser,2.11,0.0,0.0,0.0,1.06,-1.06
+Assault Rifle,FAL,Laser,Tac Laser,2.11,0.0,0.0,0.0,2.11,3.17
+Assault Rifle,FAL,Laser,SmW Laser,4.23,0.0,0.0,0.0,2.11,-1.06
+Assault Rifle,FAL,Rear Grip,Stippled Grip Tape,0.0,0.0,0.0,0.0,3.17,-2.11
+Assault Rifle,FAL,Rear Grip,Granulated Grip Tape,2.11,0.0,0.0,0.0,-1.76,2.11
+Assault Rifle,FAL,Rear Grip,Rubberized Grip Tape,4.23,0.0,0.0,0.0,0.0,-2.11
+Assault Rifle,FAL,Muzzle,Lightweight Suppressor,1.06,0.0,-4.23,0.0,-0.35,0.0
+Assault Rifle,FAL,Muzzle,Compensator,2.11,0.0,0.0,0.0,-0.7,3.17
+Assault Rifle,FAL,Muzzle,Muzzle Brake,3.52,0.0,0.0,0.0,-0.7,1.06
+Assault Rifle,FAL,Muzzle,Monolithic Suppressor,2.11,0.0,2.82,0.0,-2.82,-1.06
+Assault Rifle,FAL,Muzzle,Flash Guard,0.0,0.0,-1.06,0.0,-0.35,0.0
+Assault Rifle,FAL,Muzzle,Tactical Suppressor,1.41,0.0,0.0,0.0,-1.41,-0.35
+Assault Rifle,FAL,Stock,"Factory 18"" Aluminum Stock",-1.06,0.0,0.0,0.0,4.23,-2.46
+Assault Rifle,FAL,Stock,No Stock,-2.82,0.0,-2.11,0.0,9.15,-3.87
+Assault Rifle,FAL,Stock,FSS Close Quarters Stock,-2.11,0.0,0.0,0.0,3.17,-1.06
+Assault Rifle,FAL,Stock,FORGE TAC Stalker,2.11,0.0,0.0,0.0,-1.76,3.17
+Assault Rifle,FAL,Ammunition,24 Round Mags,0.0,0.0,0.0,0.0,-1.76,-2.11
+Assault Rifle,FAL,Ammunition,30 Round Mags,0.0,0.0,0.0,0.0,-3.87,-2.46
+Assault Rifle,FAL,Base,,73.94,77.11,70.07,65.14,59.86,67.96
+Assault Rifle,M13,Barrel,Tempus Marksman,3.17,0.0,4.93,0.0,-2.82,3.87
+Assault Rifle,M13,Barrel,Tempus Mini,-1.76,0.0,-4.23,0.0,5.99,-2.11
+Assault Rifle,M13,Barrel,Tempus Cyclone,1.06,0.0,3.87,0.0,-2.82,0.0
+Assault Rifle,M13,Perk,Recon,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,M13,Perk,Burst,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,M13,Perk,Sleight of Hand,0.0,0.0,0.0,1.76,0.0,0.0
+Assault Rifle,M13,Perk,Frangible - Disabling,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,M13,Perk,Fully Loaded,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,M13,Perk,Frangible - Wounding,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,M13,Perk,Heavy Hitter,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,M13,Perk,Presence of Mind,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,M13,Perk,Fast Melee,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,M13,Perk,Mo! Money,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,M13,Perk,FMJ,0.0,4.93,0.0,0.0,0.0,0.0
+Assault Rifle,M13,Optic,G.I. Mini Reflex,3.17,0.0,0.0,0.0,0.0,-1.06
+Assault Rifle,M13,Optic,Sniper Scope,6.34,0.0,9.86,0.0,-3.87,-5.99
+Assault Rifle,M13,Optic,Canted Hybrid,4.23,0.0,4.93,0.0,-2.11,-3.17
+Assault Rifle,M13,Optic,Merc Thermal Optic,5.28,0.0,3.87,0.0,-3.87,-3.87
+Assault Rifle,M13,Optic,Solozero NVG Enhanced,5.28,0.0,3.87,0.0,-3.87,-3.87
+Assault Rifle,M13,Optic,VLK 3.0x Optic,4.58,0.0,3.87,0.0,-2.46,-2.82
+Assault Rifle,M13,Optic,Corp Combat Holo Sight,4.23,0.0,1.76,0.0,-2.11,-2.11
+Assault Rifle,M13,Optic,Thermal Hybrid,5.28,0.0,4.93,0.0,-3.87,-4.93
+Assault Rifle,M13,Optic,APXS5 Holographic Sight,4.23,0.0,1.76,0.0,-2.11,-2.11
+Assault Rifle,M13,Optic,Integral Hybrid,4.23,0.0,4.93,0.0,-2.11,-3.17
+Assault Rifle,M13,Optic,PBX Holo 7 Sight,4.23,0.0,1.76,0.0,-2.11,-2.11
+Assault Rifle,M13,Optic,Scout Combat Optic,5.28,0.0,3.87,0.0,-2.82,-3.17
+Assault Rifle,M13,Optic,Solozero Optics Mini Reflex,3.17,0.0,0.0,0.0,0.0,-1.06
+Assault Rifle,M13,Optic,Operator Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-1.06
+Assault Rifle,M13,Optic,4.0x Flip Hybrid,4.23,0.0,5.99,0.0,-2.82,-3.87
+Assault Rifle,M13,Optic,Aim-Op Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-1.06
+Assault Rifle,M13,Optic,Variable Zoom Scope,7.04,0.0,13.03,0.0,-4.93,-7.04
+Assault Rifle,M13,Optic,Cronen LP945 Mini Reflex,3.17,0.0,0.0,0.0,0.0,-1.06
+Assault Rifle,M13,Optic,Cronen C480 Pro Optic,5.63,0.0,3.87,0.0,-3.52,-3.17
+Assault Rifle,M13,Optic,Monocle Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-1.06
+Assault Rifle,M13,Optic,Viper Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-1.06
+Assault Rifle,M13,Underbarrel,Tactical Foregrip,1.06,0.0,1.06,0.0,-1.06,5.99
+Assault Rifle,M13,Underbarrel,12-Gauge Deputy,0.0,0.0,0.0,0.0,-0.35,-2.11
+Assault Rifle,M13,Underbarrel,Operator Foregrip,4.23,0.0,1.41,0.0,-1.06,1.06
+Assault Rifle,M13,Underbarrel,M203 40mm Recon,0.0,0.0,0.0,0.0,-2.11,-3.17
+Assault Rifle,M13,Underbarrel,M203 40mm High-explosive,0.0,0.0,0.0,0.0,-2.11,-3.17
+Assault Rifle,M13,Underbarrel,M203 40mm Smokescreen,0.0,0.0,0.0,0.0,-2.11,-3.17
+Assault Rifle,M13,Underbarrel,Bipod,0.0,0.0,0.0,0.0,0.0,3.17
+Assault Rifle,M13,Underbarrel,M203 40mm Flash,0.0,0.0,0.0,0.0,-2.11,-3.17
+Assault Rifle,M13,Underbarrel,Merc Foregrip,5.28,0.0,1.06,0.0,-1.41,2.11
+Assault Rifle,M13,Underbarrel,M203 40mm Incendiary,0.0,0.0,0.0,0.0,-2.11,-3.17
+Assault Rifle,M13,Underbarrel,Commando Foregrip,4.23,0.0,1.76,0.0,-2.11,3.17
+Assault Rifle,M13,Underbarrel,Ranger Foregrip,4.58,0.0,2.82,0.0,-2.46,3.17
+Assault Rifle,M13,Underbarrel,M203 40mm Concussive,0.0,0.0,0.0,0.0,-2.11,-3.17
+Assault Rifle,M13,Laser,mW Laser,2.11,0.0,0.0,0.0,1.06,-1.06
+Assault Rifle,M13,Laser,Tac Laser,2.11,0.0,0.0,0.0,2.11,3.17
+Assault Rifle,M13,Laser,SmW Laser,4.23,0.0,0.0,0.0,2.11,-1.06
+Assault Rifle,M13,Rear Grip,Stippled Grip Tape,0.0,0.0,0.0,0.0,3.17,-2.11
+Assault Rifle,M13,Rear Grip,Granulated Grip Tape,2.11,0.0,0.0,0.0,-2.11,2.11
+Assault Rifle,M13,Rear Grip,Rubberized Grip Tape,4.23,0.0,0.0,0.0,0.0,-2.11
+Assault Rifle,M13,Muzzle,Compensator,2.11,0.0,0.0,0.0,-1.06,3.17
+Assault Rifle,M13,Muzzle,Flash Guard,0.0,0.0,-1.06,0.0,-0.35,0.0
+Assault Rifle,M13,Muzzle,Muzzle Brake,3.52,0.0,0.0,0.0,-1.06,1.06
+Assault Rifle,M13,Muzzle,Monolithic Suppressor,2.11,0.0,2.82,0.0,-2.82,-1.06
+Assault Rifle,M13,Muzzle,Tactical Suppressor,1.76,0.0,0.0,0.0,-1.41,-0.35
+Assault Rifle,M13,Muzzle,Breacher Device,0.0,0.0,0.0,0.0,-2.11,-2.11
+Assault Rifle,M13,Muzzle,Lightweight Suppressor,1.06,0.0,-4.23,0.0,-0.35,0.0
+Assault Rifle,M13,Stock,FSS Close Quarters Stock,-1.76,0.0,0.0,0.0,3.17,-1.06
+Assault Rifle,M13,Stock,No Stock,-2.82,0.0,-2.11,0.0,9.15,-3.87
+Assault Rifle,M13,Stock,FORGE TAC Stalker,2.11,0.0,0.0,0.0,-2.11,3.17
+Assault Rifle,M13,Stock,M13 Skeleton Stock,-1.76,0.0,0.0,0.0,5.99,-1.06
+Assault Rifle,M13,Ammunition,50 Round Mags,0.0,0.0,0.0,0.0,-2.11,-2.11
+Assault Rifle,M13,Ammunition,60 Round Mags,0.0,0.0,0.0,0.0,-3.87,-2.46
+Assault Rifle,M13,Ammunition,.300 Blackout 30-Round Mags,-3.87,2.82,3.87,0.0,0.0,0.0
+Assault Rifle,M13,Base,,71.83,71.13,64.08,70.07,61.97,75.0
+Assault Rifle,FN SCAR 17,Barrel,FORGE TAC 20.,3.87,0.0,7.04,0.0,-5.99,4.93
+Assault Rifle,FN SCAR 17,Barrel,FORGE TAC CQC Pro,-2.11,0.0,-3.87,0.0,5.99,-2.11
+Assault Rifle,FN SCAR 17,Barrel,FORGE TAC 17.,2.11,0.0,3.87,0.0,-2.46,3.52
+Assault Rifle,FN SCAR 17,Perk,Frangible - Disabling,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,FN SCAR 17,Perk,Heavy Hitter,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,FN SCAR 17,Perk,Fully Loaded,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,FN SCAR 17,Perk,Fast Melee,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,FN SCAR 17,Perk,Sleight of Hand,0.0,0.0,0.0,2.11,0.0,0.0
+Assault Rifle,FN SCAR 17,Perk,Frangible - Wounding,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,FN SCAR 17,Perk,Mo! Money,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,FN SCAR 17,Perk,FMJ,0.0,4.93,0.0,0.0,0.0,0.0
+Assault Rifle,FN SCAR 17,Perk,Recon,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,FN SCAR 17,Optic,PBX Holo 7 Sight,3.87,0.0,2.11,0.0,-2.11,-2.11
+Assault Rifle,FN SCAR 17,Optic,Corp Combat Holo Sight,3.87,0.0,2.11,0.0,-2.11,-2.11
+Assault Rifle,FN SCAR 17,Optic,Cronen LP945 Mini Reflex,2.82,0.0,0.0,0.0,0.0,-1.06
+Assault Rifle,FN SCAR 17,Optic,Monocle Reflex Sight,2.82,0.0,0.0,0.0,-1.06,-1.06
+Assault Rifle,FN SCAR 17,Optic,G.I. Mini Reflex,2.82,0.0,0.0,0.0,0.0,-1.06
+Assault Rifle,FN SCAR 17,Optic,Viper Reflex Sight,2.82,0.0,0.0,0.0,-1.06,-1.06
+Assault Rifle,FN SCAR 17,Optic,Aim-Op Reflex Sight,2.82,0.0,0.0,0.0,-1.06,-1.06
+Assault Rifle,FN SCAR 17,Optic,Scout Combat Optic,4.93,0.0,3.87,0.0,-3.17,-3.17
+Assault Rifle,FN SCAR 17,Optic,Canted Hybrid,3.87,0.0,4.93,0.0,-2.11,-3.17
+Assault Rifle,FN SCAR 17,Optic,Thermal Hybrid,4.93,0.0,4.93,0.0,-3.87,-5.28
+Assault Rifle,FN SCAR 17,Optic,VLK 3.0x Optic,4.58,0.0,3.87,0.0,-2.46,-2.82
+Assault Rifle,FN SCAR 17,Optic,Variable Zoom Scope,7.04,0.0,13.03,0.0,-4.93,-7.04
+Assault Rifle,FN SCAR 17,Optic,4.0x Flip Hybrid,3.87,0.0,5.99,0.0,-3.17,-4.23
+Assault Rifle,FN SCAR 17,Optic,Solozero NVG Enhanced,4.93,0.0,3.87,0.0,-3.87,-4.23
+Assault Rifle,FN SCAR 17,Optic,Integral Hybrid,3.87,0.0,4.93,0.0,-2.11,-3.17
+Assault Rifle,FN SCAR 17,Optic,Sniper Scope,5.99,0.0,10.21,0.0,-3.87,-5.99
+Assault Rifle,FN SCAR 17,Optic,Solozero Optics Mini Reflex,2.82,0.0,0.0,0.0,0.0,-1.06
+Assault Rifle,FN SCAR 17,Optic,Operator Reflex Sight,2.82,0.0,0.0,0.0,-1.06,-1.06
+Assault Rifle,FN SCAR 17,Optic,Merc Thermal Optic,4.93,0.0,3.87,0.0,-3.87,-4.23
+Assault Rifle,FN SCAR 17,Optic,Cronen C480 Pro Optic,5.63,0.0,3.87,0.0,-3.52,-3.52
+Assault Rifle,FN SCAR 17,Optic,APXS5 Holographic Sight,3.87,0.0,2.11,0.0,-2.11,-2.11
+Assault Rifle,FN SCAR 17,Underbarrel,Tactical Foregrip,1.06,0.0,1.06,0.0,-1.06,5.99
+Assault Rifle,FN SCAR 17,Underbarrel,40mm High-explosive,0.0,0.0,0.0,0.0,-2.11,-3.17
+Assault Rifle,FN SCAR 17,Underbarrel,Merc Foregrip,4.93,0.0,1.06,0.0,-1.41,1.76
+Assault Rifle,FN SCAR 17,Underbarrel,40mm Smokescreen,0.0,0.0,0.0,0.0,-2.11,-3.17
+Assault Rifle,FN SCAR 17,Underbarrel,40mm Flash,0.0,0.0,0.0,0.0,-2.11,-3.17
+Assault Rifle,FN SCAR 17,Underbarrel,12-Gauge Deputy,0.0,0.0,0.0,0.0,-0.7,-2.11
+Assault Rifle,FN SCAR 17,Underbarrel,40mm Concussive,0.0,0.0,0.0,0.0,-2.11,-3.17
+Assault Rifle,FN SCAR 17,Underbarrel,Commando Foregrip,3.87,0.0,2.11,0.0,-2.11,2.82
+Assault Rifle,FN SCAR 17,Underbarrel,Bipod Foregrip,4.93,0.0,2.11,0.0,-3.87,0.7
+Assault Rifle,FN SCAR 17,Underbarrel,40mm Incendiary,0.0,0.0,0.0,0.0,-2.11,-3.17
+Assault Rifle,FN SCAR 17,Underbarrel,40mm Recon,0.0,0.0,0.0,0.0,-2.11,-3.17
+Assault Rifle,FN SCAR 17,Underbarrel,Operator Foregrip,3.87,0.0,1.41,0.0,-1.06,0.7
+Assault Rifle,FN SCAR 17,Laser,mW Laser,2.11,0.0,0.0,0.0,1.06,-1.06
+Assault Rifle,FN SCAR 17,Laser,SmW Laser,3.87,0.0,0.0,0.0,2.11,-1.06
+Assault Rifle,FN SCAR 17,Laser,Tac Laser,2.11,0.0,0.0,0.0,2.11,2.82
+Assault Rifle,FN SCAR 17,Rear Grip,Rubberized Grip Tape,3.87,0.0,0.0,0.0,0.0,-2.11
+Assault Rifle,FN SCAR 17,Rear Grip,Granulated Grip Tape,2.11,0.0,0.0,0.0,-2.11,1.76
+Assault Rifle,FN SCAR 17,Rear Grip,Stippled Grip Tape,0.0,0.0,0.0,0.0,2.82,-2.11
+Assault Rifle,FN SCAR 17,Muzzle,Breacher Device,0.0,0.0,0.0,0.0,-2.11,-2.11
+Assault Rifle,FN SCAR 17,Muzzle,Compensator,2.11,0.0,0.0,0.0,-1.06,2.82
+Assault Rifle,FN SCAR 17,Muzzle,Muzzle Brake,3.52,0.0,0.0,0.0,-1.06,0.7
+Assault Rifle,FN SCAR 17,Muzzle,Monolithic Suppressor,2.11,0.0,3.17,0.0,-3.17,-1.06
+Assault Rifle,FN SCAR 17,Muzzle,Lightweight Suppressor,1.06,0.0,-3.87,0.0,-0.7,0.0
+Assault Rifle,FN SCAR 17,Muzzle,Flash Guard,0.0,0.0,-1.06,0.0,-0.7,0.0
+Assault Rifle,FN SCAR 17,Muzzle,Tactical Suppressor,1.41,0.0,0.0,0.0,-1.41,-0.7
+Assault Rifle,FN SCAR 17,Stock,FTAC Collapsible Stock,-3.17,0.0,-2.11,0.0,8.8,-4.23
+Assault Rifle,FN SCAR 17,Stock,FTAC Hunter,2.11,0.0,0.0,0.0,-2.11,2.82
+Assault Rifle,FN SCAR 17,Stock,XRK Obelisk Pro,3.87,0.0,0.0,0.0,-3.17,3.87
+Assault Rifle,FN SCAR 17,Stock,FSS Close Quarters Stock,-2.11,0.0,0.0,0.0,2.82,-1.06
+Assault Rifle,FN SCAR 17,Ammunition,30 Round Mags,0.0,0.0,0.0,0.0,-3.87,-2.82
+Assault Rifle,FN SCAR 17,Ammunition,25 Round Mags,0.0,0.0,0.0,0.0,-2.11,-2.11
+Assault Rifle,FN SCAR 17,Base,,69.01,76.06,67.96,63.03,57.04,65.14
+Assault Rifle,M4A1,Barrel,Stock M16 Grenadier,3.87,0.0,7.04,0.0,-5.99,5.28
+Assault Rifle,M4A1,Barrel,"FSS 12.4"" Predator",1.76,0.0,-5.99,0.0,2.82,0.0
+Assault Rifle,M4A1,Barrel,"FSS 11.5"" Commando",-2.11,0.0,-3.87,0.0,5.99,-1.76
+Assault Rifle,M4A1,Barrel,Corvus Custom Marksman,2.82,0.0,4.93,0.0,-3.17,4.23
+Assault Rifle,M4A1,Barrel,"FSS 14.5"" Tac Lite",0.0,0.0,-3.17,0.0,2.82,0.0
+Assault Rifle,M4A1,Perk,Fast Melee,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,M4A1,Perk,Fully Loaded,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,M4A1,Perk,Burst,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,M4A1,Perk,Frangible - Disabling,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,M4A1,Perk,Frangible - Wounding,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,M4A1,Perk,Heavy Hitter,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,M4A1,Perk,FMJ,0.0,5.28,0.0,0.0,0.0,0.0
+Assault Rifle,M4A1,Perk,Sleight of Hand,0.0,0.0,0.0,2.11,0.0,0.0
+Assault Rifle,M4A1,Perk,Presence of Mind,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,M4A1,Perk,Recon,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,M4A1,Perk,Mo! Money,0.0,0.0,0.0,0.0,0.0,0.0
+Assault Rifle,M4A1,Optic,VLK 3.0x Optic,4.23,0.0,3.87,0.0,-2.46,-2.46
+Assault Rifle,M4A1,Optic,Variable Zoom Scope,7.04,0.0,13.03,0.0,-4.93,-6.69
+Assault Rifle,M4A1,Optic,PBX Holo 7 Sight,3.87,0.0,2.11,0.0,-2.11,-1.76
+Assault Rifle,M4A1,Optic,G.I. Mini Reflex,2.82,0.0,0.0,0.0,0.0,-0.7
+Assault Rifle,M4A1,Optic,Canted Hybrid,3.87,0.0,4.93,0.0,-2.11,-2.82
+Assault Rifle,M4A1,Optic,Solozero NVG Enhanced,4.93,0.0,3.87,0.0,-3.87,-3.87
+Assault Rifle,M4A1,Optic,Merc Thermal Optic,4.93,0.0,3.87,0.0,-3.87,-3.87
+Assault Rifle,M4A1,Optic,Scout Combat Optic,4.93,0.0,3.87,0.0,-3.17,-2.82
+Assault Rifle,M4A1,Optic,Integral Hybrid,3.87,0.0,4.93,0.0,-2.11,-2.82
+Assault Rifle,M4A1,Optic,APXS5 Holographic Sight,3.87,0.0,2.11,0.0,-2.11,-1.76
+Assault Rifle,M4A1,Optic,Operator Reflex Sight,2.82,0.0,0.0,0.0,-1.06,-0.7
+Assault Rifle,M4A1,Optic,Thermal Hybrid,4.93,0.0,4.93,0.0,-3.87,-4.93
+Assault Rifle,M4A1,Optic,Corp Combat Holo Sight,3.87,0.0,2.11,0.0,-2.11,-1.76
+Assault Rifle,M4A1,Optic,Aim-Op Reflex Sight,2.82,0.0,0.0,0.0,-1.06,-0.7
+Assault Rifle,M4A1,Optic,4.0x Flip Hybrid,3.87,0.0,5.99,0.0,-3.17,-3.87
+Assault Rifle,M4A1,Optic,Cronen LP945 Mini Reflex,2.82,0.0,0.0,0.0,0.0,-0.7
+Assault Rifle,M4A1,Optic,Viper Reflex Sight,2.82,0.0,0.0,0.0,-1.06,-0.7
+Assault Rifle,M4A1,Optic,Cronen C480 Pro Optic,5.28,0.0,3.87,0.0,-3.52,-3.17
+Assault Rifle,M4A1,Optic,Monocle Reflex Sight,2.82,0.0,0.0,0.0,-1.06,-0.7
+Assault Rifle,M4A1,Optic,Sniper Scope,5.99,0.0,9.86,0.0,-3.87,-5.99
+Assault Rifle,M4A1,Underbarrel,Tactical Foregrip,0.7,0.0,1.06,0.0,-1.06,6.34
+Assault Rifle,M4A1,Underbarrel,Ranger Foregrip,4.23,0.0,2.82,0.0,-2.46,3.17
+Assault Rifle,M4A1,Underbarrel,M203 40mm Concussive,0.0,0.0,0.0,0.0,-2.11,-2.82
+Assault Rifle,M4A1,Underbarrel,Operator Foregrip,3.87,0.0,1.41,0.0,-1.06,1.06
+Assault Rifle,M4A1,Underbarrel,M203 40mm Recon,0.0,0.0,0.0,0.0,-2.11,-2.82
+Assault Rifle,M4A1,Underbarrel,Commando Foregrip,3.87,0.0,2.11,0.0,-2.11,3.17
+Assault Rifle,M4A1,Underbarrel,Merc Foregrip,4.93,0.0,1.06,0.0,-1.41,2.11
+Assault Rifle,M4A1,Underbarrel,M203 40mm Smokescreen,0.0,0.0,0.0,0.0,-2.11,-2.82
+Assault Rifle,M4A1,Underbarrel,M203 40mm High-explosive,0.0,0.0,0.0,0.0,-2.11,-2.82
+Assault Rifle,M4A1,Underbarrel,M203 40mm Incendiary,0.0,0.0,0.0,0.0,-2.11,-2.82
+Assault Rifle,M4A1,Underbarrel,12-Gauge Deputy,0.0,0.0,0.0,0.0,-0.7,-1.76
+Assault Rifle,M4A1,Underbarrel,Bipod,0.0,0.0,0.0,0.0,0.0,3.17
+Assault Rifle,M4A1,Underbarrel,M203 40mm Flash,0.0,0.0,0.0,0.0,-2.11,-2.82
+Assault Rifle,M4A1,Laser,mW Laser,1.76,0.0,0.0,0.0,1.06,-0.7
+Assault Rifle,M4A1,Laser,Tac Laser,1.76,0.0,0.0,0.0,2.11,3.17
+Assault Rifle,M4A1,Laser,SmW Laser,3.87,0.0,0.0,0.0,2.11,-0.7
+Assault Rifle,M4A1,Rear Grip,Rubberized Grip Tape,3.87,0.0,0.0,0.0,0.0,-1.76
+Assault Rifle,M4A1,Rear Grip,Stippled Grip Tape,0.0,0.0,0.0,0.0,2.82,-1.76
+Assault Rifle,M4A1,Rear Grip,Granulated Grip Tape,1.76,0.0,0.0,0.0,-2.11,2.11
+Assault Rifle,M4A1,Muzzle,Lightweight Suppressor,0.7,0.0,-3.87,0.0,-0.7,0.0
+Assault Rifle,M4A1,Muzzle,Muzzle Brake,3.52,0.0,0.0,0.0,-1.06,1.06
+Assault Rifle,M4A1,Muzzle,Tactical Suppressor,1.41,0.0,0.0,0.0,-1.41,-0.35
+Assault Rifle,M4A1,Muzzle,Breacher Device,0.0,0.0,0.0,0.0,-2.11,-1.76
+Assault Rifle,M4A1,Muzzle,Flash Guard,0.0,0.0,-1.06,0.0,-0.7,0.0
+Assault Rifle,M4A1,Muzzle,Monolithic Suppressor,1.76,0.0,2.82,0.0,-3.17,-0.7
+Assault Rifle,M4A1,Muzzle,Compensator,1.76,0.0,0.0,0.0,-1.06,3.17
+Assault Rifle,M4A1,Stock,No Stock,-3.17,0.0,-2.11,0.0,8.8,-3.87
+Assault Rifle,M4A1,Stock,FORGE TAC CQs,-2.11,0.0,0.0,0.0,2.82,-0.7
+Assault Rifle,M4A1,Stock,M-16 Stock,1.76,0.0,0.0,0.0,-2.11,3.17
+Assault Rifle,M4A1,Stock,Singuard Arms Invader,-1.06,0.0,0.0,0.0,3.87,-2.46
+Assault Rifle,M4A1,Ammunition,50 Round Mags,0.0,0.0,0.0,0.0,-2.11,-1.76
+Assault Rifle,M4A1,Ammunition,60 Round Mags,0.0,0.0,0.0,0.0,-3.87,-2.46
+Assault Rifle,M4A1,Ammunition,9mm Para 32-Round Mags,3.87,-2.82,-3.17,7.04,0.0,3.17
+Assault Rifle,M4A1,Ammunition,.458 SOCOM 10-Round Mags,3.87,5.28,2.82,-2.82,0.0,-1.76
+Assault Rifle,M4A1,Base,,71.13,71.83,63.03,67.96,63.03,71.83
+Sub Machine Gun,Uzi,Barrel,"13.1"" First Responder",1.06,0.0,4.23,0.0,-2.11,0.0
+Sub Machine Gun,Uzi,Barrel,FSS Carbine Pro,3.87,0.0,7.04,0.0,-6.34,4.93
+Sub Machine Gun,Uzi,Barrel,"8.5"" Factory Mini",-1.06,0.0,-2.11,0.0,2.82,-1.06
+Sub Machine Gun,Uzi,Barrel,"16.5"" Factory Carbine",2.11,0.0,4.23,0.0,-2.82,3.17
+Sub Machine Gun,Uzi,Perk,Sleight of Hand,0.0,0.0,0.0,1.76,0.0,0.0
+Sub Machine Gun,Uzi,Perk,FMJ,0.0,4.93,0.0,0.0,0.0,0.0
+Sub Machine Gun,Uzi,Perk,Fully Loaded,0.0,0.0,0.0,0.0,0.0,0.0
+Sub Machine Gun,Uzi,Perk,Fast Melee,0.0,0.0,0.0,0.0,0.0,0.0
+Sub Machine Gun,Uzi,Perk,Heavy Hitter,0.0,0.0,0.0,0.0,0.0,0.0
+Sub Machine Gun,Uzi,Perk,Frangible - Wounding,0.0,0.0,0.0,0.0,0.0,0.0
+Sub Machine Gun,Uzi,Perk,Frangible - Disabling,0.0,0.0,0.0,0.0,0.0,0.0
+Sub Machine Gun,Uzi,Perk,Mo! Money,0.0,0.0,0.0,0.0,0.0,0.0
+Sub Machine Gun,Uzi,Perk,Recon,0.0,0.0,0.0,0.0,0.0,0.0
+Sub Machine Gun,Uzi,Optic,Monocle Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-1.06
+Sub Machine Gun,Uzi,Optic,VLK 3.0x Optic,4.58,0.0,4.23,0.0,-2.82,-2.82
+Sub Machine Gun,Uzi,Optic,Cronen LP945 Mini Reflex,3.17,0.0,0.0,0.0,0.0,-1.06
+Sub Machine Gun,Uzi,Optic,Scout Combat Optic,4.93,0.0,4.23,0.0,-3.17,-3.17
+Sub Machine Gun,Uzi,Optic,Thermal Hybrid,4.93,0.0,4.93,0.0,-4.23,-5.28
+Sub Machine Gun,Uzi,Optic,Operator Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-1.06
+Sub Machine Gun,Uzi,Optic,Solozero NVG Enhanced,4.93,0.0,4.23,0.0,-4.23,-4.23
+Sub Machine Gun,Uzi,Optic,Canted Hybrid,3.87,0.0,4.93,0.0,-2.11,-3.17
+Sub Machine Gun,Uzi,Optic,Corp Combat Holo Sight,3.87,0.0,2.11,0.0,-2.11,-2.11
+Sub Machine Gun,Uzi,Optic,Cronen C480 Pro Optic,5.63,0.0,4.23,0.0,-3.52,-3.52
+Sub Machine Gun,Uzi,Optic,APXS5 Holographic Sight,3.87,0.0,2.11,0.0,-2.11,-2.11
+Sub Machine Gun,Uzi,Optic,Merc Thermal Optic,4.93,0.0,4.23,0.0,-4.23,-4.23
+Sub Machine Gun,Uzi,Optic,Aim-Op Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-1.06
+Sub Machine Gun,Uzi,Optic,Viper Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-1.06
+Sub Machine Gun,Uzi,Optic,Solozero Optics Mini Reflex,3.17,0.0,0.0,0.0,0.0,-1.06
+Sub Machine Gun,Uzi,Optic,PBX Holo 7 Sight,3.87,0.0,2.11,0.0,-2.11,-2.11
+Sub Machine Gun,Uzi,Optic,Integral Hybrid,3.87,0.0,4.93,0.0,-2.11,-3.17
+Sub Machine Gun,Uzi,Optic,G.I. Mini Reflex,3.17,0.0,0.0,0.0,0.0,-1.06
+Sub Machine Gun,Uzi,Underbarrel,Ranger Foregrip,4.58,0.0,3.17,0.0,-2.82,2.82
+Sub Machine Gun,Uzi,Underbarrel,Operator Foregrip,3.87,0.0,1.41,0.0,-1.06,0.7
+Sub Machine Gun,Uzi,Underbarrel,Tactical Foregrip,1.06,0.0,1.06,0.0,-1.06,5.99
+Sub Machine Gun,Uzi,Underbarrel,Merc Foregrip,4.93,0.0,1.06,0.0,-1.76,1.76
+Sub Machine Gun,Uzi,Underbarrel,Commando Foregrip,3.87,0.0,2.11,0.0,-2.11,2.82
+Sub Machine Gun,Uzi,Laser,Tac Laser,2.11,0.0,0.0,0.0,1.76,2.82
+Sub Machine Gun,Uzi,Laser,mW Laser,2.11,0.0,0.0,0.0,0.7,-1.06
+Sub Machine Gun,Uzi,Laser,SmW Laser,3.87,0.0,0.0,0.0,1.76,-1.06
+Sub Machine Gun,Uzi,Rear Grip,Granulated Grip Tape,2.11,0.0,0.0,0.0,-2.11,1.76
+Sub Machine Gun,Uzi,Rear Grip,Stippled Grip Tape,0.0,0.0,0.0,0.0,2.82,-2.11
+Sub Machine Gun,Uzi,Rear Grip,Rubberized Grip Tape,3.87,0.0,0.0,0.0,0.0,-2.11
+Sub Machine Gun,Uzi,Muzzle,Compensator,2.11,0.0,0.0,0.0,-1.06,2.82
+Sub Machine Gun,Uzi,Muzzle,Monolithic Suppressor,2.11,0.0,3.17,0.0,-3.17,-1.06
+Sub Machine Gun,Uzi,Muzzle,Lightweight Suppressor,1.06,0.0,-3.87,0.0,-0.7,0.0
+Sub Machine Gun,Uzi,Muzzle,CQB Breacher Device,0.0,0.0,0.0,0.0,-2.11,-2.11
+Sub Machine Gun,Uzi,Muzzle,Muzzle Brake,3.52,0.0,0.0,0.0,-1.06,0.7
+Sub Machine Gun,Uzi,Muzzle,Flash Guard,0.0,0.0,-1.06,0.0,-0.7,0.0
+Sub Machine Gun,Uzi,Muzzle,Tactical Suppressor,1.41,0.0,0.0,0.0,-1.76,-0.7
+Sub Machine Gun,Uzi,Stock,FSS Close Quarters Stock,-2.11,0.0,0.0,0.0,2.82,-1.06
+Sub Machine Gun,Uzi,Stock,Standard-Issue Wood Stock,2.11,0.0,0.0,0.0,-2.11,2.82
+Sub Machine Gun,Uzi,Stock,No Stock,-2.82,0.0,-2.11,0.0,8.8,-4.23
+Sub Machine Gun,Uzi,Stock,FORGE TAC Ultralight,-1.06,0.0,0.0,0.0,3.87,-2.82
+Sub Machine Gun,Uzi,Ammunition,50 Round Mags,0.0,0.0,0.0,0.0,-4.23,-2.82
+Sub Machine Gun,Uzi,Ammunition,.41 AE 32-Round Mags,-2.11,4.93,3.17,0.0,0.0,-2.11
+Sub Machine Gun,Uzi,Ammunition,40 Round Mags,0.0,0.0,0.0,0.0,-2.11,-2.11
+Sub Machine Gun,Uzi,Base,,55.99,50.0,48.94,70.07,78.17,78.17
+Sub Machine Gun,Striker 45,Barrel,300mm Poly Barrel,0.7,0.0,4.23,0.0,-1.76,0.0
+Sub Machine Gun,Striker 45,Barrel,150mm Stainless Steel,-2.11,0.0,-3.87,0.0,6.34,-2.11
+Sub Machine Gun,Striker 45,Barrel,400mm Stainless Steel,2.82,0.0,4.93,0.0,-2.82,3.87
+Sub Machine Gun,Striker 45,Perk,Sleight of Hand,0.0,0.0,0.0,1.76,0.0,0.0
+Sub Machine Gun,Striker 45,Perk,Recon,0.0,0.0,0.0,0.0,0.0,0.0
+Sub Machine Gun,Striker 45,Perk,Fast Melee,0.0,0.0,0.0,0.0,0.0,0.0
+Sub Machine Gun,Striker 45,Perk,Heavy Hitter,0.0,0.0,0.0,0.0,0.0,0.0
+Sub Machine Gun,Striker 45,Perk,Mo! Money,0.0,0.0,0.0,0.0,0.0,0.0
+Sub Machine Gun,Striker 45,Perk,Frangible - Wounding,0.0,0.0,0.0,0.0,0.0,0.0
+Sub Machine Gun,Striker 45,Perk,Frangible - Disabling,0.0,0.0,0.0,0.0,0.0,0.0
+Sub Machine Gun,Striker 45,Perk,FMJ,0.0,4.93,0.0,0.0,0.0,0.0
+Sub Machine Gun,Striker 45,Perk,Fully Loaded,0.0,0.0,0.0,0.0,0.0,0.0
+Sub Machine Gun,Striker 45,Optic,VLK 3.0x Optic,4.23,0.0,4.23,0.0,-2.46,-2.82
+Sub Machine Gun,Striker 45,Optic,Monocle Reflex Sight,2.82,0.0,0.0,0.0,-0.7,-1.06
+Sub Machine Gun,Striker 45,Optic,Scout Combat Optic,4.93,0.0,4.23,0.0,-2.82,-3.17
+Sub Machine Gun,Striker 45,Optic,Cronen LP945 Mini Reflex,2.82,0.0,0.0,0.0,0.0,-1.06
+Sub Machine Gun,Striker 45,Optic,Thermal Hybrid,4.93,0.0,4.93,0.0,-3.87,-4.93
+Sub Machine Gun,Striker 45,Optic,Solozero Optics Mini Reflex,2.82,0.0,0.0,0.0,0.0,-1.06
+Sub Machine Gun,Striker 45,Optic,Integral Hybrid,3.87,0.0,4.93,0.0,-1.76,-3.17
+Sub Machine Gun,Striker 45,Optic,Cronen C480 Pro Optic,5.28,0.0,4.23,0.0,-3.17,-3.52
+Sub Machine Gun,Striker 45,Optic,PBX Holo 7 Sight,3.87,0.0,2.11,0.0,-1.76,-2.11
+Sub Machine Gun,Striker 45,Optic,Canted Hybrid,3.87,0.0,4.93,0.0,-1.76,-3.17
+Sub Machine Gun,Striker 45,Optic,Aim-Op Reflex Sight,2.82,0.0,0.0,0.0,-0.7,-1.06
+Sub Machine Gun,Striker 45,Optic,Merc Thermal Optic,4.93,0.0,4.23,0.0,-3.87,-4.23
+Sub Machine Gun,Striker 45,Optic,Viper Reflex Sight,2.82,0.0,0.0,0.0,-0.7,-1.06
+Sub Machine Gun,Striker 45,Optic,Operator Reflex Sight,2.82,0.0,0.0,0.0,-0.7,-1.06
+Sub Machine Gun,Striker 45,Optic,Solozero NVG Enhanced,4.93,0.0,4.23,0.0,-3.87,-4.23
+Sub Machine Gun,Striker 45,Optic,G.I. Mini Reflex,2.82,0.0,0.0,0.0,0.0,-1.06
+Sub Machine Gun,Striker 45,Optic,APXS5 Holographic Sight,3.87,0.0,2.11,0.0,-1.76,-2.11
+Sub Machine Gun,Striker 45,Optic,4.0x Flip Hybrid,3.87,0.0,5.99,0.0,-2.82,-4.23
+Sub Machine Gun,Striker 45,Optic,Corp Combat Holo Sight,3.87,0.0,2.11,0.0,-1.76,-2.11
+Sub Machine Gun,Striker 45,Underbarrel,Ranger Foregrip,4.23,0.0,3.17,0.0,-2.46,2.82
+Sub Machine Gun,Striker 45,Underbarrel,Operator Foregrip,3.87,0.0,1.41,0.0,-0.7,1.06
+Sub Machine Gun,Striker 45,Underbarrel,Commando Foregrip,3.87,0.0,2.11,0.0,-1.76,2.82
+Sub Machine Gun,Striker 45,Underbarrel,Merc Foregrip,4.93,0.0,1.06,0.0,-1.41,1.76
+Sub Machine Gun,Striker 45,Underbarrel,Tactical Foregrip,0.7,0.0,1.06,0.0,-0.7,5.99
+Sub Machine Gun,Striker 45,Laser,SmW Laser,3.87,0.0,0.0,0.0,2.11,-1.06
+Sub Machine Gun,Striker 45,Laser,mW Laser,1.76,0.0,0.0,0.0,1.06,-1.06
+Sub Machine Gun,Striker 45,Laser,Tac Laser,1.76,0.0,0.0,0.0,2.11,2.82
+Sub Machine Gun,Striker 45,Rear Grip,FTAC 60 Series Polymer,1.76,0.0,0.0,0.0,-1.76,1.76
+Sub Machine Gun,Striker 45,Rear Grip,FTAC G-5 EXO,-1.76,0.0,0.0,0.0,5.28,-2.82
+Sub Machine Gun,Striker 45,Rear Grip,FTAC 60 Series Rubber,3.87,0.0,0.0,0.0,0.0,-2.11
+Sub Machine Gun,Striker 45,Muzzle,Tactical Suppressor,1.41,0.0,0.0,0.0,-1.41,-0.7
+Sub Machine Gun,Striker 45,Muzzle,Flash Guard,0.0,0.0,-1.06,0.0,-0.35,0.0
+Sub Machine Gun,Striker 45,Muzzle,Monolithic Suppressor,1.76,0.0,3.17,0.0,-2.82,-1.06
+Sub Machine Gun,Striker 45,Muzzle,Compensator,1.76,0.0,0.0,0.0,-0.7,2.82
+Sub Machine Gun,Striker 45,Muzzle,Lightweight Suppressor,0.7,0.0,-3.87,0.0,-0.35,0.0
+Sub Machine Gun,Striker 45,Muzzle,Breacher Device,0.0,0.0,0.0,0.0,-1.76,-2.11
+Sub Machine Gun,Striker 45,Muzzle,Muzzle Brake,3.52,0.0,0.0,0.0,-0.7,1.06
+Sub Machine Gun,Striker 45,Stock,FTAC Precision Fixed Stock,1.76,0.0,0.0,0.0,-1.76,2.82
+Sub Machine Gun,Striker 45,Stock,FSS Guardian,1.41,0.0,0.0,0.0,4.23,-3.17
+Sub Machine Gun,Striker 45,Stock,XRK Gen III Survivalist Series,-2.11,0.0,0.0,0.0,3.17,-1.06
+Sub Machine Gun,Striker 45,Ammunition,45 Round Mags,0.0,0.0,0.0,0.0,-1.76,-2.11
+Sub Machine Gun,Striker 45,Ammunition,.45 Hollow Point 12-R Mags,0.0,3.17,-1.76,0.0,4.23,1.76
+Sub Machine Gun,Striker 45,Base,,65.14,60.92,60.92,70.07,71.83,70.07
+Sub Machine Gun,MP7,Barrel,FSS STRIKE,1.06,0.0,4.23,0.0,-2.11,0.0
+Sub Machine Gun,MP7,Barrel,FSS RECON,2.46,0.0,4.23,0.0,-2.46,3.52
+Sub Machine Gun,MP7,Barrel,FSS SWAT,0.0,0.0,-2.82,0.0,3.17,0.0
+Sub Machine Gun,MP7,Perk,Frangible - Disabling,0.0,0.0,0.0,0.0,0.0,0.0
+Sub Machine Gun,MP7,Perk,Fast Melee,0.0,0.0,0.0,0.0,0.0,0.0
+Sub Machine Gun,MP7,Perk,Fully Loaded,0.0,0.0,0.0,0.0,0.0,0.0
+Sub Machine Gun,MP7,Perk,Sleight of Hand,0.0,0.0,0.0,2.11,0.0,0.0
+Sub Machine Gun,MP7,Perk,Frangible - Wounding,0.0,0.0,0.0,0.0,0.0,0.0
+Sub Machine Gun,MP7,Perk,Heavy Hitter,0.0,0.0,0.0,0.0,0.0,0.0
+Sub Machine Gun,MP7,Perk,Mo! Money,0.0,0.0,0.0,0.0,0.0,0.0
+Sub Machine Gun,MP7,Perk,Recon,0.0,0.0,0.0,0.0,0.0,0.0
+Sub Machine Gun,MP7,Perk,FMJ,0.0,5.28,0.0,0.0,0.0,0.0
+Sub Machine Gun,MP7,Optic,Corp Combat Holo Sight,4.23,0.0,2.11,0.0,-2.11,-2.11
+Sub Machine Gun,MP7,Optic,Operator Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-1.06
+Sub Machine Gun,MP7,Optic,PBX Holo 7 Sight,4.23,0.0,2.11,0.0,-2.11,-2.11
+Sub Machine Gun,MP7,Optic,Scout Combat Optic,5.28,0.0,4.23,0.0,-3.17,-2.82
+Sub Machine Gun,MP7,Optic,Monocle Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-1.06
+Sub Machine Gun,MP7,Optic,4.0x Flip Hybrid,4.23,0.0,6.34,0.0,-3.17,-3.87
+Sub Machine Gun,MP7,Optic,Solozero NVG Enhanced,5.28,0.0,4.23,0.0,-3.87,-3.87
+Sub Machine Gun,MP7,Optic,APXS5 Holographic Sight,4.23,0.0,2.11,0.0,-2.11,-2.11
+Sub Machine Gun,MP7,Optic,Solozero Optics Mini Reflex,3.17,0.0,0.0,0.0,0.0,-1.06
+Sub Machine Gun,MP7,Optic,Merc Thermal Optic,5.28,0.0,4.23,0.0,-3.87,-3.87
+Sub Machine Gun,MP7,Optic,G.I. Mini Reflex,3.17,0.0,0.0,0.0,0.0,-1.06
+Sub Machine Gun,MP7,Optic,Viper Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-1.06
+Sub Machine Gun,MP7,Optic,Cronen LP945 Mini Reflex,3.17,0.0,0.0,0.0,0.0,-1.06
+Sub Machine Gun,MP7,Optic,Cronen C480 Pro Optic,5.63,0.0,4.23,0.0,-3.52,-3.17
+Sub Machine Gun,MP7,Optic,Aim-Op Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-1.06
+Sub Machine Gun,MP7,Optic,Thermal Hybrid,5.28,0.0,5.28,0.0,-3.87,-4.93
+Sub Machine Gun,MP7,Optic,VLK 3.0x Optic,4.58,0.0,4.23,0.0,-2.46,-2.82
+Sub Machine Gun,MP7,Underbarrel,Tactical Foregrip,1.06,0.0,1.06,0.0,-1.06,5.99
+Sub Machine Gun,MP7,Underbarrel,Ranger Foregrip,4.58,0.0,3.17,0.0,-2.46,3.17
+Sub Machine Gun,MP7,Underbarrel,Operator Foregrip,4.23,0.0,1.76,0.0,-1.06,1.06
+Sub Machine Gun,MP7,Underbarrel,Commando Foregrip,4.23,0.0,2.11,0.0,-2.11,3.17
+Sub Machine Gun,MP7,Underbarrel,Merc Foregrip,5.28,0.0,1.06,0.0,-1.41,2.11
+Sub Machine Gun,MP7,Laser,mW Laser,2.11,0.0,0.0,0.0,1.06,-1.06
+Sub Machine Gun,MP7,Laser,SmW Laser,4.23,0.0,0.0,0.0,2.11,-1.06
+Sub Machine Gun,MP7,Laser,Tac Laser,2.11,0.0,0.0,0.0,2.11,3.17
+Sub Machine Gun,MP7,Rear Grip,Stippled Grip Tape,0.0,0.0,0.0,0.0,3.17,-2.11
+Sub Machine Gun,MP7,Rear Grip,Rubberized Grip Tape,4.23,0.0,0.0,0.0,0.0,-2.11
+Sub Machine Gun,MP7,Rear Grip,Granulated Grip Tape,2.11,0.0,0.0,0.0,-2.11,2.11
+Sub Machine Gun,MP7,Muzzle,Flash Guard,0.0,0.0,-0.7,0.0,-0.35,0.0
+Sub Machine Gun,MP7,Muzzle,Lightweight Suppressor,1.06,0.0,-3.87,0.0,-0.35,0.0
+Sub Machine Gun,MP7,Muzzle,Compensator,2.11,0.0,0.0,0.0,-1.06,3.17
+Sub Machine Gun,MP7,Muzzle,Tactical Suppressor,1.76,0.0,0.0,0.0,-1.41,-0.35
+Sub Machine Gun,MP7,Muzzle,Muzzle Brake,3.52,0.0,0.0,0.0,-1.06,1.06
+Sub Machine Gun,MP7,Muzzle,Monolithic Suppressor,2.11,0.0,3.17,0.0,-3.17,-1.06
+Sub Machine Gun,MP7,Muzzle,Breacher Device,0.0,0.0,0.0,0.0,-2.11,-2.11
+Sub Machine Gun,MP7,Stock,FORGE TAC Ultralight,-0.7,0.0,0.0,0.0,3.87,-2.46
+Sub Machine Gun,MP7,Stock,FORGE TAC Stalker,2.11,0.0,0.0,0.0,-2.11,3.17
+Sub Machine Gun,MP7,Stock,FSS Close Quarters Stock,-1.76,0.0,0.0,0.0,3.17,-1.06
+Sub Machine Gun,MP7,Stock,No Stock,-2.82,0.0,-1.76,0.0,9.15,-3.87
+Sub Machine Gun,MP7,Ammunition,50 Round Mags,0.0,0.0,0.0,0.0,-2.11,-2.11
+Sub Machine Gun,MP7,Ammunition,60 Round Mags,0.0,0.0,0.0,0.0,-3.87,-2.46
+Sub Machine Gun,MP7,Base,,59.86,47.89,46.83,78.87,75.0,73.94
+Sub Machine Gun,AUG,Barrel,407mm Lightweight,1.06,0.0,3.87,0.0,-2.11,0.0
+Sub Machine Gun,AUG,Barrel,622mm Long Barrel,3.87,0.0,7.04,0.0,-5.99,4.93
+Sub Machine Gun,AUG,Barrel,407mm Extended Barrel,1.76,0.0,3.87,0.0,-1.41,1.76
+Sub Machine Gun,AUG,Perk,Frangible - Disabling,0.0,0.0,0.0,0.0,0.0,0.0
+Sub Machine Gun,AUG,Perk,Fast Melee,0.0,0.0,0.0,0.0,0.0,0.0
+Sub Machine Gun,AUG,Perk,Heavy Hitter,0.0,0.0,0.0,0.0,0.0,0.0
+Sub Machine Gun,AUG,Perk,Recon,0.0,0.0,0.0,0.0,0.0,0.0
+Sub Machine Gun,AUG,Perk,Frangible - Wounding,0.0,0.0,0.0,0.0,0.0,0.0
+Sub Machine Gun,AUG,Perk,Sleight of Hand,0.0,0.0,0.0,2.11,0.0,0.0
+Sub Machine Gun,AUG,Perk,Fully Loaded,0.0,0.0,0.0,0.0,0.0,0.0
+Sub Machine Gun,AUG,Perk,FMJ,0.0,5.28,0.0,0.0,0.0,0.0
+Sub Machine Gun,AUG,Perk,Burst,0.0,0.0,0.0,0.0,0.0,0.0
+Sub Machine Gun,AUG,Perk,Mo! Money,0.0,0.0,0.0,0.0,0.0,0.0
+Sub Machine Gun,AUG,Optic,Scout Combat Optic,4.93,0.0,3.87,0.0,-3.17,-3.17
+Sub Machine Gun,AUG,Optic,Corp Combat Holo Sight,3.87,0.0,1.76,0.0,-2.11,-2.11
+Sub Machine Gun,AUG,Optic,Aim-Op Reflex Sight,2.82,0.0,0.0,0.0,-1.06,-1.06
+Sub Machine Gun,AUG,Optic,G.I. Mini Reflex,2.82,0.0,0.0,0.0,0.0,-1.06
+Sub Machine Gun,AUG,Optic,PBX Holo 7 Sight,3.87,0.0,1.76,0.0,-2.11,-2.11
+Sub Machine Gun,AUG,Optic,Monocle Reflex Sight,2.82,0.0,0.0,0.0,-1.06,-1.06
+Sub Machine Gun,AUG,Optic,4.0x Flip Hybrid,3.87,0.0,5.99,0.0,-3.17,-4.23
+Sub Machine Gun,AUG,Optic,Viper Reflex Sight,2.82,0.0,0.0,0.0,-1.06,-1.06
+Sub Machine Gun,AUG,Optic,Cronen LP945 Mini Reflex,2.82,0.0,0.0,0.0,0.0,-1.06
+Sub Machine Gun,AUG,Optic,Cronen C480 Pro Optic,5.28,0.0,3.87,0.0,-3.52,-3.52
+Sub Machine Gun,AUG,Optic,Thermal Hybrid,4.93,0.0,4.93,0.0,-3.87,-4.93
+Sub Machine Gun,AUG,Optic,VLK 3.0x Optic,4.58,0.0,3.87,0.0,-2.46,-2.82
+Sub Machine Gun,AUG,Optic,Integral 3.0x Optic,4.93,0.0,3.87,0.0,-3.17,-3.17
+Sub Machine Gun,AUG,Optic,Solozero NVG Enhanced,4.93,0.0,3.87,0.0,-3.87,-4.23
+Sub Machine Gun,AUG,Optic,Integral Hybrid,3.87,0.0,4.93,0.0,-2.11,-3.17
+Sub Machine Gun,AUG,Optic,Solozero Optics Mini Reflex,2.82,0.0,0.0,0.0,0.0,-1.06
+Sub Machine Gun,AUG,Optic,Operator Reflex Sight,2.82,0.0,0.0,0.0,-1.06,-1.06
+Sub Machine Gun,AUG,Optic,APXS5 Holographic Sight,3.87,0.0,1.76,0.0,-2.11,-2.11
+Sub Machine Gun,AUG,Optic,Merc Thermal Optic,4.93,0.0,3.87,0.0,-3.87,-4.23
+Sub Machine Gun,AUG,Underbarrel,Commando Foregrip,3.87,0.0,1.76,0.0,-2.11,2.82
+Sub Machine Gun,AUG,Underbarrel,Tactical Foregrip,1.06,0.0,1.06,0.0,-1.06,5.99
+Sub Machine Gun,AUG,Underbarrel,Ranger Foregrip,4.58,0.0,2.82,0.0,-2.46,2.82
+Sub Machine Gun,AUG,Underbarrel,Merc Foregrip,4.93,0.0,1.06,0.0,-1.41,1.76
+Sub Machine Gun,AUG,Underbarrel,Operator Foregrip,3.87,0.0,1.41,0.0,-1.06,1.06
+Sub Machine Gun,AUG,Laser,mW Laser,1.76,0.0,0.0,0.0,1.06,-1.06
+Sub Machine Gun,AUG,Laser,SmW Laser,3.87,0.0,0.0,0.0,2.11,-1.06
+Sub Machine Gun,AUG,Laser,Tac Laser,1.76,0.0,0.0,0.0,2.11,2.82
+Sub Machine Gun,AUG,Rear Grip,Rubberized Grip Tape,3.87,0.0,-0.35,0.0,0.0,-2.11
+Sub Machine Gun,AUG,Rear Grip,Stippled Grip Tape,0.0,0.0,0.0,0.0,2.82,-2.11
+Sub Machine Gun,AUG,Rear Grip,Granulated Grip Tape,1.76,0.0,0.0,0.0,-2.11,1.76
+Sub Machine Gun,AUG,Muzzle,CQB Breacher Device,0.0,0.0,0.0,0.0,-2.11,-2.11
+Sub Machine Gun,AUG,Muzzle,Muzzle Brake,3.52,0.0,0.0,0.0,-1.06,1.06
+Sub Machine Gun,AUG,Muzzle,Compensator,1.76,0.0,0.0,0.0,-1.06,2.82
+Sub Machine Gun,AUG,Muzzle,Tactical Suppressor,1.41,0.0,0.0,0.0,-1.41,-0.7
+Sub Machine Gun,AUG,Muzzle,Lightweight Suppressor,1.06,0.0,-4.23,0.0,-0.7,0.0
+Sub Machine Gun,AUG,Muzzle,Flash Guard,0.0,0.0,-1.06,0.0,-0.7,0.0
+Sub Machine Gun,AUG,Muzzle,Monolithic Suppressor,1.76,0.0,2.82,0.0,-3.17,-1.06
+Sub Machine Gun,AUG,Stock,FORGE TAC CQB Comb,-2.11,0.0,0.0,0.0,2.82,-1.06
+Sub Machine Gun,AUG,Stock,FTAC Ultralight Hollow,-1.06,0.0,0.0,0.0,3.87,-2.46
+Sub Machine Gun,AUG,Stock,FSS Heavy Stock Pro,1.76,0.0,0.0,0.0,-2.11,2.82
+Sub Machine Gun,AUG,Ammunition,5.56 NATO 60-Round Drums,-2.11,8.1,9.86,-3.87,-4.93,-4.93
+Sub Machine Gun,AUG,Ammunition,32 Round Mags,0.0,0.0,0.0,0.0,-2.11,-2.11
+Sub Machine Gun,AUG,Ammunition,5.56 NATO 30-Round Mags,-2.11,8.1,9.86,-3.87,0.0,-2.11
+Sub Machine Gun,AUG,Base,,64.08,53.87,58.1,75.0,63.03,70.07
+Sub Machine Gun,MP5,Barrel,,-2.11,0.0,-3.87,0.0,5.99,-2.11
+Sub Machine Gun,MP5,Barrel,Subsonic Integral Suppressor,2.11,0.0,-5.99,0.0,3.17,0.0
+Sub Machine Gun,MP5,Barrel,FSS Light,0.0,0.0,-2.82,0.0,3.17,0.0
+Sub Machine Gun,MP5,Barrel,Monolithic Integral Suppressor,1.06,0.0,4.23,0.0,-2.82,0.0
+Sub Machine Gun,MP5,Perk,Heavy Hitter,0.0,0.0,0.0,0.0,0.0,0.0
+Sub Machine Gun,MP5,Perk,Mo! Money,0.0,0.0,0.0,0.0,0.0,0.0
+Sub Machine Gun,MP5,Perk,Frangible - Wounding,0.0,0.0,0.0,0.0,0.0,0.0
+Sub Machine Gun,MP5,Perk,FMJ,0.0,4.93,0.0,0.0,0.0,0.0
+Sub Machine Gun,MP5,Perk,Recon,0.0,0.0,0.0,0.0,0.0,0.0
+Sub Machine Gun,MP5,Perk,Fully Loaded,0.0,0.0,0.0,0.0,0.0,0.0
+Sub Machine Gun,MP5,Perk,Sleight of Hand,0.0,0.0,0.0,2.11,0.0,0.0
+Sub Machine Gun,MP5,Perk,Fast Melee,0.0,0.0,0.0,0.0,0.0,0.0
+Sub Machine Gun,MP5,Perk,Burst,0.0,0.0,0.0,0.0,0.0,0.0
+Sub Machine Gun,MP5,Perk,Frangible - Disabling,0.0,0.0,0.0,0.0,0.0,0.0
+Sub Machine Gun,MP5,Optic,PBX Holo 7 Sight,3.87,0.0,2.11,0.0,-1.76,-2.11
+Sub Machine Gun,MP5,Optic,Integral Hybrid,3.87,0.0,4.93,0.0,-1.76,-3.17
+Sub Machine Gun,MP5,Optic,Thermal Hybrid,4.93,0.0,4.93,0.0,-3.87,-4.93
+Sub Machine Gun,MP5,Optic,Cronen LP945 Mini Reflex,2.82,0.0,0.0,0.0,0.0,-1.06
+Sub Machine Gun,MP5,Optic,APXS5 Holographic Sight,3.87,0.0,2.11,0.0,-1.76,-2.11
+Sub Machine Gun,MP5,Optic,Scout Combat Optic,4.93,0.0,4.23,0.0,-2.82,-3.17
+Sub Machine Gun,MP5,Optic,Solozero NVG Enhanced,4.93,0.0,4.23,0.0,-3.87,-3.87
+Sub Machine Gun,MP5,Optic,Aim-Op Reflex Sight,2.82,0.0,0.0,0.0,-1.06,-1.06
+Sub Machine Gun,MP5,Optic,VLK 3.0x Optic,4.58,0.0,4.23,0.0,-2.46,-2.82
+Sub Machine Gun,MP5,Optic,Solozero Optics Mini Reflex,2.82,0.0,0.0,0.0,0.0,-1.06
+Sub Machine Gun,MP5,Optic,Corp Combat Holo Sight,3.87,0.0,2.11,0.0,-1.76,-2.11
+Sub Machine Gun,MP5,Optic,G.I. Mini Reflex,2.82,0.0,0.0,0.0,0.0,-1.06
+Sub Machine Gun,MP5,Optic,Operator Reflex Sight,2.82,0.0,0.0,0.0,-1.06,-1.06
+Sub Machine Gun,MP5,Optic,Canted Hybrid,3.87,0.0,4.93,0.0,-1.76,-3.17
+Sub Machine Gun,MP5,Optic,Cronen C480 Pro Optic,5.63,0.0,4.23,0.0,-3.52,-3.17
+Sub Machine Gun,MP5,Optic,Viper Reflex Sight,2.82,0.0,0.0,0.0,-1.06,-1.06
+Sub Machine Gun,MP5,Optic,Merc Thermal Optic,4.93,0.0,4.23,0.0,-3.87,-3.87
+Sub Machine Gun,MP5,Optic,Monocle Reflex Sight,2.82,0.0,0.0,0.0,-1.06,-1.06
+Sub Machine Gun,MP5,Underbarrel,Operator Foregrip,3.87,0.0,1.41,0.0,-1.06,1.06
+Sub Machine Gun,MP5,Underbarrel,Tactical Foregrip,1.06,0.0,1.06,0.0,-1.06,5.99
+Sub Machine Gun,MP5,Underbarrel,Ranger Foregrip,4.58,0.0,3.17,0.0,-2.46,3.17
+Sub Machine Gun,MP5,Underbarrel,Merc Foregrip,4.93,0.0,1.06,0.0,-1.41,2.11
+Sub Machine Gun,MP5,Underbarrel,Commando Foregrip,3.87,0.0,2.11,0.0,-1.76,3.17
+Sub Machine Gun,MP5,Laser,Tac Laser,2.11,0.0,0.0,0.0,2.11,3.17
+Sub Machine Gun,MP5,Laser,mW Laser,2.11,0.0,0.0,0.0,1.06,-1.06
+Sub Machine Gun,MP5,Laser,SmW Laser,3.87,0.0,0.0,0.0,2.11,-1.06
+Sub Machine Gun,MP5,Rear Grip,Rubberized Grip Tape,3.87,0.0,0.0,0.0,0.0,-2.11
+Sub Machine Gun,MP5,Rear Grip,Stippled Grip Tape,0.0,0.0,0.0,0.0,3.17,-2.11
+Sub Machine Gun,MP5,Rear Grip,Granulated Grip Tape,2.11,0.0,0.0,0.0,-1.76,2.11
+Sub Machine Gun,MP5,Muzzle,Breacher Device,0.0,0.0,0.0,0.0,-1.76,-2.11
+Sub Machine Gun,MP5,Muzzle,Compensator,2.11,0.0,0.0,0.0,-1.06,3.17
+Sub Machine Gun,MP5,Muzzle,Flash Guard,0.0,0.0,-1.06,0.0,-0.35,0.0
+Sub Machine Gun,MP5,Muzzle,Tactical Suppressor,1.41,0.0,0.0,0.0,-1.41,-0.35
+Sub Machine Gun,MP5,Muzzle,Muzzle Brake,3.52,0.0,0.0,0.0,-1.06,1.06
+Sub Machine Gun,MP5,Muzzle,Monolithic Suppressor,2.11,0.0,3.17,0.0,-2.82,-1.06
+Sub Machine Gun,MP5,Muzzle,Lightweight Suppressor,1.06,0.0,-3.87,0.0,-0.35,0.0
+Sub Machine Gun,MP5,Stock,FTAC Collapsible,-3.17,0.0,-1.76,0.0,9.15,-3.87
+Sub Machine Gun,MP5,Stock,FSS Close Quarters Stock,-2.11,0.0,0.0,0.0,3.17,-1.06
+Sub Machine Gun,MP5,Stock,Classic Straight-line Stock,2.11,0.0,0.0,0.0,-1.76,3.17
+Sub Machine Gun,MP5,Stock,FORGE TAC Ultralight,-1.06,0.0,0.0,0.0,4.23,-2.46
+Sub Machine Gun,MP5,Ammunition,10mm Auto 30-Round Mags,3.87,4.93,3.17,-2.82,0.0,-2.11
+Sub Machine Gun,MP5,Ammunition,45 Round Mags,0.0,0.0,0.0,0.0,-1.76,-2.11
+Sub Machine Gun,MP5,Base,,63.03,52.11,54.93,72.89,72.89,75.0
+Sub Machine Gun,PP19 Bizon,Barrel,,2.46,0.0,3.87,0.0,-2.46,3.52
+Sub Machine Gun,PP19 Bizon,Barrel,"8.7"" Aluminum",0.0,0.0,-3.17,0.0,3.17,0.0
+Sub Machine Gun,PP19 Bizon,Barrel,"8.7"" Polygonal",1.06,0.0,3.87,0.0,-2.11,0.0
+Sub Machine Gun,PP19 Bizon,Perk,Fully Loaded,0.0,0.0,0.0,0.0,0.0,0.0
+Sub Machine Gun,PP19 Bizon,Perk,Heavy Hitter,0.0,0.0,0.0,0.0,0.0,0.0
+Sub Machine Gun,PP19 Bizon,Perk,FMJ,0.0,4.93,0.0,0.0,0.0,0.0
+Sub Machine Gun,PP19 Bizon,Perk,Recon,0.0,0.0,0.0,0.0,0.0,0.0
+Sub Machine Gun,PP19 Bizon,Perk,Frangible - Disabling,0.0,0.0,0.0,0.0,0.0,0.0
+Sub Machine Gun,PP19 Bizon,Perk,Fast Melee,0.0,0.0,0.0,0.0,0.0,0.0
+Sub Machine Gun,PP19 Bizon,Perk,Sleight of Hand,0.0,0.0,0.0,1.76,0.0,0.0
+Sub Machine Gun,PP19 Bizon,Perk,Mo! Money,0.0,0.0,0.0,0.0,0.0,0.0
+Sub Machine Gun,PP19 Bizon,Perk,Frangible - Wounding,0.0,0.0,0.0,0.0,0.0,0.0
+Sub Machine Gun,PP19 Bizon,Optic,Operator Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-1.06
+Sub Machine Gun,PP19 Bizon,Optic,Scout Combat Optic,4.93,0.0,3.87,0.0,-2.82,-2.82
+Sub Machine Gun,PP19 Bizon,Optic,PBX Holo 7 Sight,4.23,0.0,1.76,0.0,-2.11,-1.76
+Sub Machine Gun,PP19 Bizon,Optic,Merc Thermal Optic,4.93,0.0,3.87,0.0,-3.87,-3.87
+Sub Machine Gun,PP19 Bizon,Optic,Cronen LP945 Mini Reflex,3.17,0.0,0.0,0.0,0.0,-1.06
+Sub Machine Gun,PP19 Bizon,Optic,APXS5 Holographic Sight,4.23,0.0,1.76,0.0,-2.11,-1.76
+Sub Machine Gun,PP19 Bizon,Optic,Canted Hybrid,4.23,0.0,4.93,0.0,-2.11,-2.82
+Sub Machine Gun,PP19 Bizon,Optic,Monocle Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-1.06
+Sub Machine Gun,PP19 Bizon,Optic,G.I. Mini Reflex,3.17,0.0,0.0,0.0,0.0,-1.06
+Sub Machine Gun,PP19 Bizon,Optic,Cronen C480 Pro Optic,5.63,0.0,3.87,0.0,-3.52,-3.17
+Sub Machine Gun,PP19 Bizon,Optic,Integral Hybrid,4.23,0.0,4.93,0.0,-2.11,-2.82
+Sub Machine Gun,PP19 Bizon,Optic,Aim-Op Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-1.06
+Sub Machine Gun,PP19 Bizon,Optic,Corp Combat Holo Sight,4.23,0.0,1.76,0.0,-2.11,-1.76
+Sub Machine Gun,PP19 Bizon,Optic,VLK 3.0x Optic,4.58,0.0,3.87,0.0,-2.46,-2.82
+Sub Machine Gun,PP19 Bizon,Optic,Solozero Optics Mini Reflex,3.17,0.0,0.0,0.0,0.0,-1.06
+Sub Machine Gun,PP19 Bizon,Optic,Viper Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-1.06
+Sub Machine Gun,PP19 Bizon,Optic,Thermal Hybrid,4.93,0.0,4.93,0.0,-3.87,-4.93
+Sub Machine Gun,PP19 Bizon,Optic,Solozero NVG Enhanced,4.93,0.0,3.87,0.0,-3.87,-3.87
+Sub Machine Gun,PP19 Bizon,Laser,SmW Laser,4.23,0.0,0.0,0.0,2.11,-1.06
+Sub Machine Gun,PP19 Bizon,Laser,mW Laser,2.11,0.0,0.0,0.0,1.06,-1.06
+Sub Machine Gun,PP19 Bizon,Laser,Tac Laser,2.11,0.0,0.0,0.0,2.11,3.17
+Sub Machine Gun,PP19 Bizon,Rear Grip,Granulated Grip Tape,2.11,0.0,0.0,0.0,-2.11,2.11
+Sub Machine Gun,PP19 Bizon,Rear Grip,Stippled Grip Tape,0.0,0.0,0.0,0.0,3.17,-1.76
+Sub Machine Gun,PP19 Bizon,Rear Grip,Rubberized Grip Tape,4.23,0.0,0.0,0.0,0.0,-1.76
+Sub Machine Gun,PP19 Bizon,Muzzle,Muzzle Brake,3.52,0.0,0.0,0.0,-1.06,1.06
+Sub Machine Gun,PP19 Bizon,Muzzle,Monolithic Suppressor,2.11,0.0,2.82,0.0,-2.82,-1.06
+Sub Machine Gun,PP19 Bizon,Muzzle,Lightweight Suppressor,1.06,0.0,-4.23,0.0,-0.35,0.0
+Sub Machine Gun,PP19 Bizon,Muzzle,Compensator,2.11,0.0,0.0,0.0,-1.06,3.17
+Sub Machine Gun,PP19 Bizon,Muzzle,Tactical Suppressor,1.41,0.0,0.0,0.0,-1.41,-0.35
+Sub Machine Gun,PP19 Bizon,Muzzle,Flash Guard,0.0,0.0,-1.06,0.0,-0.35,0.0
+Sub Machine Gun,PP19 Bizon,Muzzle,CQB Breacher Device,0.0,0.0,0.0,0.0,-2.11,-1.76
+Sub Machine Gun,PP19 Bizon,Stock,Corvus Skeleton Stock,-1.76,0.0,0.0,0.0,5.99,-1.06
+Sub Machine Gun,PP19 Bizon,Stock,No Stock,-2.82,0.0,-2.11,0.0,9.15,-3.87
+Sub Machine Gun,PP19 Bizon,Stock,Factory Aluminum Stock,-1.06,0.0,0.0,0.0,3.87,-2.46
+Sub Machine Gun,PP19 Bizon,Stock,FSS Close Quarters Stock,-1.76,0.0,0.0,0.0,3.17,-1.06
+Sub Machine Gun,PP19 Bizon,Ammunition,84 Round Helical Mags,0.0,0.0,0.0,0.0,-2.11,-1.76
+Sub Machine Gun,PP19 Bizon,Base,,60.92,55.99,53.17,71.13,67.96,72.89
+Sub Machine Gun,P90,Barrel,"FSS 10.6"" Pro",1.06,0.0,3.87,0.0,-2.11,0.0
+Sub Machine Gun,P90,Barrel,FORGE TAC Retribution,4.23,0.0,7.04,0.0,-5.99,5.28
+Sub Machine Gun,P90,Perk,Sleight of Hand,0.0,0.0,0.0,1.76,0.0,0.0
+Sub Machine Gun,P90,Perk,Recon,0.0,0.0,0.0,0.0,0.0,0.0
+Sub Machine Gun,P90,Perk,Frangible - Wounding,0.0,0.0,0.0,0.0,0.0,0.0
+Sub Machine Gun,P90,Perk,Frangible - Disabling,0.0,0.0,0.0,0.0,0.0,0.0
+Sub Machine Gun,P90,Perk,Mo! Money,0.0,0.0,0.0,0.0,0.0,0.0
+Sub Machine Gun,P90,Perk,Heavy Hitter,0.0,0.0,0.0,0.0,0.0,0.0
+Sub Machine Gun,P90,Perk,FMJ,0.0,4.93,0.0,0.0,0.0,0.0
+Sub Machine Gun,P90,Perk,Fully Loaded,0.0,0.0,0.0,0.0,0.0,0.0
+Sub Machine Gun,P90,Perk,Fast Melee,0.0,0.0,0.0,0.0,0.0,0.0
+Sub Machine Gun,P90,Optic,Aim-Op Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-0.7
+Sub Machine Gun,P90,Optic,PBX Holo 7 Sight,4.23,0.0,1.76,0.0,-2.11,-1.76
+Sub Machine Gun,P90,Optic,VLK 3.0x Optic,4.58,0.0,3.87,0.0,-2.46,-2.46
+Sub Machine Gun,P90,Optic,FSS Ring Sight,3.17,0.0,0.0,0.0,-1.06,-0.7
+Sub Machine Gun,P90,Optic,Monocle Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-0.7
+Sub Machine Gun,P90,Optic,Thermal Hybrid,5.28,0.0,4.93,0.0,-4.23,-4.93
+Sub Machine Gun,P90,Optic,Cronen LP945 Mini Reflex,3.17,0.0,0.0,0.0,0.0,-0.7
+Sub Machine Gun,P90,Optic,Merc Thermal Optic,5.28,0.0,3.87,0.0,-4.23,-3.87
+Sub Machine Gun,P90,Optic,Viper Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-0.7
+Sub Machine Gun,P90,Optic,Corp Combat Holo Sight,4.23,0.0,1.76,0.0,-2.11,-1.76
+Sub Machine Gun,P90,Optic,APXS5 Holographic Sight,4.23,0.0,1.76,0.0,-2.11,-1.76
+Sub Machine Gun,P90,Optic,Operator Reflex Sight,3.17,0.0,0.0,0.0,-1.06,-0.7
+Sub Machine Gun,P90,Optic,Scout Combat Optic,5.28,0.0,3.87,0.0,-3.17,-2.82
+Sub Machine Gun,P90,Optic,G.I. Mini Reflex,3.17,0.0,0.0,0.0,0.0,-0.7
+Sub Machine Gun,P90,Optic,Solozero Optics Mini Reflex,3.17,0.0,0.0,0.0,0.0,-0.7
+Sub Machine Gun,P90,Optic,Cronen C480 Pro Optic,5.63,0.0,3.87,0.0,-3.52,-3.17
+Sub Machine Gun,P90,Optic,Integral Hybrid,4.23,0.0,4.93,0.0,-2.11,-2.82
+Sub Machine Gun,P90,Optic,Solozero NVG Enhanced,5.28,0.0,3.87,0.0,-4.23,-3.87
+Sub Machine Gun,P90,Optic,Canted Hybrid,4.23,0.0,4.93,0.0,-2.11,-2.82
+Sub Machine Gun,P90,Underbarrel,Rubberized Grip Tape,4.23,0.0,1.41,0.0,-1.06,1.06
+Sub Machine Gun,P90,Underbarrel,Granulated Grip Tape,1.06,0.0,1.06,0.0,-1.06,6.34
+Sub Machine Gun,P90,Underbarrel,Stippled Grip Tape,4.58,0.0,2.82,0.0,-2.46,3.17
+Sub Machine Gun,P90,Laser,mW Laser,2.11,0.0,0.0,0.0,1.06,-0.7
+Sub Machine Gun,P90,Laser,Tac Laser,2.11,0.0,0.0,0.0,1.76,3.17
+Sub Machine Gun,P90,Laser,SmW Laser,4.23,0.0,0.0,0.0,1.76,-0.7
+Sub Machine Gun,P90,Rear Grip,Granulated Grip Tape,2.11,0.0,0.0,0.0,-2.11,2.11
+Sub Machine Gun,P90,Rear Grip,Rubberized Grip Tape,4.23,0.0,0.0,0.0,0.0,-1.76
+Sub Machine Gun,P90,Rear Grip,Stippled Grip Tape,0.0,0.0,0.0,0.0,2.82,-1.76
+Sub Machine Gun,P90,Muzzle,Muzzle Brake,3.52,0.0,0.0,0.0,-1.06,1.06
+Sub Machine Gun,P90,Muzzle,Compensator,2.11,0.0,0.0,0.0,-1.06,3.17
+Sub Machine Gun,P90,Muzzle,Monolithic Suppressor,2.11,0.0,2.82,0.0,-3.17,-0.7
+Sub Machine Gun,P90,Muzzle,Flash Guard,0.0,0.0,-1.06,0.0,-0.7,0.0
+Sub Machine Gun,P90,Muzzle,Lightweight Suppressor,1.06,0.0,-4.23,0.0,-0.7,0.0
+Sub Machine Gun,P90,Muzzle,Tactical Suppressor,1.76,0.0,0.0,0.0,-1.41,-0.35
+Sub Machine Gun,P90,Muzzle,Breacher Device,0.0,0.0,0.0,0.0,-2.11,-1.76
+Sub Machine Gun,P90,Stock,FORGE TAC CQB Comb,-1.76,0.0,0.0,0.0,2.82,-0.7
+Sub Machine Gun,P90,Stock,Fly Strap,-1.41,0.0,0.0,0.0,4.93,-2.82
+Sub Machine Gun,P90,Stock,FSS Heavy Stock Pro,2.11,0.0,0.0,0.0,-2.11,3.17
+Sub Machine Gun,P90,Base,,65.85,52.11,52.11,77.11,70.07,71.83
+Sub Machine Gun,Fennec,Barrel,"ZLR 16"" Apex",2.82,0.0,4.93,0.0,-3.17,3.87
+Sub Machine Gun,Fennec,Barrel,"ZLR 18"" Deadfall",3.87,0.0,7.04,0.0,-5.99,4.93
+Sub Machine Gun,Fennec,Perk,FMJ,0.0,4.93,0.0,0.0,0.0,0.0
+Sub Machine Gun,Fennec,Perk,Fully Loaded,0.0,0.0,0.0,0.0,0.0,0.0
+Sub Machine Gun,Fennec,Perk,Heavy Hitter,0.0,0.0,0.0,0.0,0.0,0.0
+Sub Machine Gun,Fennec,Perk,Frangible - Disabling,0.0,0.0,0.0,0.0,0.0,0.0
+Sub Machine Gun,Fennec,Perk,Mo! Money,0.0,0.0,0.0,0.0,0.0,0.0
+Sub Machine Gun,Fennec,Perk,Sleight of Hand,0.0,0.0,0.0,2.11,0.0,0.0
+Sub Machine Gun,Fennec,Perk,Fast Melee,0.0,0.0,0.0,0.0,0.0,0.0
+Sub Machine Gun,Fennec,Perk,Frangible - Wounding,0.0,0.0,0.0,0.0,0.0,0.0
+Sub Machine Gun,Fennec,Perk,Recon,0.0,0.0,0.0,0.0,0.0,0.0
+Sub Machine Gun,Fennec,Optic,Scout Combat Optic,4.93,0.0,3.87,0.0,-3.17,-3.17
+Sub Machine Gun,Fennec,Optic,Operator Reflex Sight,2.82,0.0,0.0,0.0,-1.06,-1.06
+Sub Machine Gun,Fennec,Optic,Cronen C480 Pro Optic,5.63,0.0,3.87,0.0,-3.52,-3.52
+Sub Machine Gun,Fennec,Optic,Corp Combat Holo Sight,3.87,0.0,2.11,0.0,-2.11,-2.11
+Sub Machine Gun,Fennec,Optic,APXS5 Holographic Sight,3.87,0.0,2.11,0.0,-2.11,-2.11
+Sub Machine Gun,Fennec,Optic,Solozero NVG Enhanced,4.93,0.0,3.87,0.0,-4.23,-4.23
+Sub Machine Gun,Fennec,Optic,Merc Thermal Optic,4.93,0.0,3.87,0.0,-4.23,-4.23
+Sub Machine Gun,Fennec,Optic,Integral Hybrid,3.87,0.0,4.93,0.0,-2.11,-3.17
+Sub Machine Gun,Fennec,Optic,G.I. Mini Reflex,2.82,0.0,0.0,0.0,0.0,-1.06
+Sub Machine Gun,Fennec,Optic,Thermal Hybrid,4.93,0.0,4.93,0.0,-4.23,-5.28
+Sub Machine Gun,Fennec,Optic,Canted Hybrid,3.87,0.0,4.93,0.0,-2.11,-3.17
+Sub Machine Gun,Fennec,Optic,Aim-Op Reflex Sight,2.82,0.0,0.0,0.0,-1.06,-1.06
+Sub Machine Gun,Fennec,Optic,Monocle Reflex Sight,2.82,0.0,0.0,0.0,-1.06,-1.06
+Sub Machine Gun,Fennec,Optic,VLK 3.0x Optic,4.58,0.0,3.87,0.0,-2.46,-2.82
+Sub Machine Gun,Fennec,Optic,PBX Holo 7 Sight,3.87,0.0,2.11,0.0,-2.11,-2.11
+Sub Machine Gun,Fennec,Optic,Viper Reflex Sight,2.82,0.0,0.0,0.0,-1.06,-1.06
+Sub Machine Gun,Fennec,Optic,Cronen LP945 Mini Reflex,2.82,0.0,0.0,0.0,0.0,-1.06
+Sub Machine Gun,Fennec,Optic,Solozero Optics Mini Reflex,2.82,0.0,0.0,0.0,0.0,-1.06
+Sub Machine Gun,Fennec,Underbarrel,Operator Foregrip,3.87,0.0,1.41,0.0,-1.06,0.7
+Sub Machine Gun,Fennec,Underbarrel,Commando Foregrip,3.87,0.0,2.11,0.0,-2.11,2.82
+Sub Machine Gun,Fennec,Underbarrel,Merc Foregrip,4.93,0.0,1.06,0.0,-1.41,1.76
+Sub Machine Gun,Fennec,Underbarrel,Ranger Foregrip,4.58,0.0,3.17,0.0,-2.46,2.82
+Sub Machine Gun,Fennec,Underbarrel,Tactical Foregrip,1.06,0.0,1.06,0.0,-1.06,5.99
+Sub Machine Gun,Fennec,Laser,mW Laser,2.11,0.0,0.0,0.0,1.06,-1.06
+Sub Machine Gun,Fennec,Laser,SmW Laser,3.87,0.0,0.0,0.0,1.76,-1.06
+Sub Machine Gun,Fennec,Laser,Tac Laser,2.11,0.0,0.0,0.0,1.76,2.82
+Sub Machine Gun,Fennec,Rear Grip,Granulated Grip Tape,2.11,0.0,0.0,0.0,-2.11,1.76
+Sub Machine Gun,Fennec,Rear Grip,Stippled Grip Tape,0.0,0.0,0.0,0.0,2.82,-2.11
+Sub Machine Gun,Fennec,Rear Grip,Rubberized Grip Tape,3.87,0.0,0.0,0.0,0.0,-2.11
+Sub Machine Gun,Fennec,Muzzle,Tactical Suppressor,1.41,0.0,0.0,0.0,-1.41,-0.7
+Sub Machine Gun,Fennec,Muzzle,Monolithic Suppressor,2.11,0.0,3.17,0.0,-3.17,-1.06
+Sub Machine Gun,Fennec,Muzzle,Flash Guard,0.0,0.0,-1.06,0.0,-0.7,0.0
+Sub Machine Gun,Fennec,Muzzle,ZLR Sabre,3.87,0.0,5.99,0.0,-4.93,-2.11
+Sub Machine Gun,Fennec,Muzzle,Compensator,2.11,0.0,0.0,0.0,-1.06,2.82
+Sub Machine Gun,Fennec,Muzzle,Muzzle Brake,3.52,0.0,0.0,0.0,-1.06,0.7
+Sub Machine Gun,Fennec,Muzzle,CQB Breacher Device,0.0,0.0,0.0,0.0,-2.11,-2.11
+Sub Machine Gun,Fennec,Stock,No Stock,-3.17,0.0,-2.11,0.0,8.8,-4.23
+Sub Machine Gun,Fennec,Stock,FTAC C6 Carbine PRO,2.11,0.0,0.0,0.0,-2.11,2.82
+Sub Machine Gun,Fennec,Stock,FORGE TAC CQs,-2.11,0.0,0.0,0.0,2.82,-1.06
+Sub Machine Gun,Fennec,Stock,ZLR Blade,3.87,0.0,0.0,0.0,-3.17,3.87
+Sub Machine Gun,Fennec,Ammunition,.45 Hollow Point 12-R Mags,0.0,3.17,-2.11,0.0,3.87,1.76
+Sub Machine Gun,Fennec,Ammunition,40 Round Drum Mags,0.0,0.0,0.0,0.0,-2.11,-2.11
+Sub Machine Gun,Fennec,Base,,69.01,48.94,50.0,82.04,70.07,71.13
