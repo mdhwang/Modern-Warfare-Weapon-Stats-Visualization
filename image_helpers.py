@@ -22,10 +22,27 @@ def halfsize(img):
     # cv2.destroyAllWindows() 
     return cropped
 
-def stats_table(img):
+def get_stats(img):
     x0,x1,y0,y1 = coords['stats_table']
     stats_window = img[y0:y1,x0:x1]
-    return stats_window
+
+    stat_lines = []    
+    slice_size = round(img.shape[0]/6)
+    for i in range(0,6):
+        start = i * slice_size
+        end = start + slice_size
+        stat = img[start:end,:]
+        stat_lines.append(stat)
+
+    attachment_stats = []
+    for i,each in enumerate(stat_lines):
+        mid = round(each.shape[0]/2)
+        arr = each[mid,:]
+        attachment_stats.append(color_classifier(arr,category))
+    
+    row = [weapon, category, name] + attachment_stats
+    rows.append(row)
+    return attachment_name, attachment_stats
 
 def muzzle(img):
     pass
@@ -54,6 +71,6 @@ def ammunition(img):
 def underbarrel(img):
     pass
 
-img = cv2.imread('aug.png',0)
-cropped = halfsize(img)
-cv2.imwrite('aug.png',cropped)
+# img = cv2.imread('aug.png',0)
+# cropped = halfsize(img)
+# cv2.imwrite('aug.png',cropped)

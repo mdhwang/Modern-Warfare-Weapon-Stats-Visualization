@@ -1,0 +1,70 @@
+Class,Weapon,Category,Attachment,Accuracy,Damage,Range,Fire Rate,Mobility,Control
+Rifles,Kilo,Barrel,"Singuard Arms 19.8"" Prowler",3.87,0.0,7.04,0.0,-5.99,5.28
+Rifles,Kilo,Barrel,"Singuard Arms 16.6"" SOCOM",1.76,0.0,3.87,0.0,-1.41,2.11
+Rifles,Kilo,Barrel,Singuard Arms Whisper,1.06,0.0,3.87,0.0,-2.82,0.0
+Rifles,Kilo,Perk,FMJ,0.0,5.28,0.0,0.0,0.0,0.0
+Rifles,Kilo,Perk,Frangible - Disabling,0.0,0.0,0.0,0.0,0.0,0.0
+Rifles,Kilo,Perk,Sleight of Hand,0.0,0.0,0.0,2.11,0.0,0.0
+Rifles,Kilo,Perk,Fully Loaded,0.0,0.0,0.0,0.0,0.0,0.0
+Rifles,Kilo,Perk,Presence of Mind,0.0,0.0,0.0,0.0,0.0,0.0
+Rifles,Kilo,Perk,Burst,0.0,0.0,0.0,0.0,0.0,0.0
+Rifles,Kilo,Perk,Mo! Money,0.0,0.0,0.0,0.0,0.0,0.0
+Rifles,Kilo,Perk,Frangible - Wounding,0.0,0.0,0.0,0.0,0.0,0.0
+Rifles,Kilo,Perk,Fast Melee,0.0,0.0,0.0,0.0,0.0,0.0
+Rifles,Kilo,Perk,Recon,0.0,0.0,0.0,0.0,0.0,0.0
+Rifles,Kilo,Perk,Heavy Hitter,0.0,0.0,0.0,0.0,0.0,0.0
+Rifles,Kilo,Optic,Operator Reflex Sight,2.82,0.0,0.0,0.0,-1.06,-1.06
+Rifles,Kilo,Optic,Variable Zoom Scope,7.04,0.0,13.03,0.0,-4.93,-7.04
+Rifles,Kilo,Optic,Scout Combat Optic,4.93,0.0,3.87,0.0,-2.82,-2.82
+Rifles,Kilo,Optic,G.I. Mini Reflex,2.82,0.0,0.0,0.0,0.0,-1.06
+Rifles,Kilo,Optic,Canted Hybrid,3.87,0.0,4.93,0.0,-1.76,-2.82
+Rifles,Kilo,Optic,Sniper Scope,5.99,0.0,9.86,0.0,-3.87,-5.99
+Rifles,Kilo,Optic,Viper Reflex Sight,2.82,0.0,0.0,0.0,-1.06,-1.06
+Rifles,Kilo,Optic,Integral Hybrid,3.87,0.0,4.93,0.0,-1.76,-2.82
+Rifles,Kilo,Optic,Monocle Reflex Sight,2.82,0.0,0.0,0.0,-1.06,-1.06
+Rifles,Kilo,Optic,VLK 3.0x Optic,4.58,0.0,3.87,0.0,-2.46,-2.82
+Rifles,Kilo,Optic,PBX Holo 7 Sight,3.87,0.0,1.76,0.0,-1.76,-1.76
+Rifles,Kilo,Optic,Solozero NVG Enhanced,4.93,0.0,3.87,0.0,-3.87,-3.87
+Rifles,Kilo,Optic,Cronen C480 Pro Optic,5.28,0.0,3.87,0.0,-3.52,-3.17
+Rifles,Kilo,Optic,Merc Thermal Optic,4.93,0.0,3.87,0.0,-3.87,-3.87
+Rifles,Kilo,Optic,4.0x Flip Hybrid,3.87,0.0,5.99,0.0,-2.82,-3.87
+Rifles,Kilo,Optic,Aim-Op Reflex Sight,2.82,0.0,0.0,0.0,-1.06,-1.06
+Rifles,Kilo,Optic,Cronen LP945 Mini Reflex,2.82,0.0,0.0,0.0,0.0,-1.06
+Rifles,Kilo,Optic,Solozero Optics Mini Reflex,2.82,0.0,0.0,0.0,0.0,-1.06
+Rifles,Kilo,Optic,Thermal Hybrid,4.93,0.0,4.93,0.0,-7.04,-4.93
+Rifles,Kilo,Optic,APXS5 Holographic Sight,3.87,0.0,1.76,0.0,-1.76,-1.76
+Rifles,Kilo,Optic,Corp Combat Holo Sight,3.87,0.0,1.76,0.0,-1.76,-1.76
+Rifles,Kilo,Underbarrel,M203 40mm Incendiary,0.0,0.0,0.0,0.0,-1.76,-2.82
+Rifles,Kilo,Underbarrel,Bipod,0.0,0.0,0.0,0.0,0.0,3.17
+Rifles,Kilo,Underbarrel,Tactical Foregrip,1.06,0.0,1.06,0.0,-1.06,5.99
+Rifles,Kilo,Underbarrel,M203 40mm Smokescreen,0.0,0.0,0.0,0.0,-1.76,-2.82
+Rifles,Kilo,Underbarrel,Merc Foregrip,4.93,0.0,1.06,0.0,-1.41,2.11
+Rifles,Kilo,Underbarrel,M203 40mm Recon,0.0,0.0,0.0,0.0,-1.76,-2.82
+Rifles,Kilo,Underbarrel,M203 40mm Concussive,0.0,0.0,0.0,0.0,-1.76,-2.82
+Rifles,Kilo,Underbarrel,Commando Foregrip,3.87,0.0,1.76,0.0,-1.76,3.17
+Rifles,Kilo,Underbarrel,12-Gauge Deputy,0.0,0.0,0.0,0.0,-0.35,-1.76
+Rifles,Kilo,Underbarrel,M203 40mm Flash,0.0,0.0,0.0,0.0,-1.76,-2.82
+Rifles,Kilo,Underbarrel,Ranger Foregrip,4.58,0.0,2.82,0.0,-2.46,3.17
+Rifles,Kilo,Underbarrel,Operator Foregrip,3.87,0.0,1.41,0.0,-1.06,1.06
+Rifles,Kilo,Underbarrel,M203 40mm High-explosive,0.0,0.0,0.0,0.0,-1.76,-2.82
+Rifles,Kilo,Laser,Tac Laser,1.76,0.0,0.0,0.0,2.11,3.17
+Rifles,Kilo,Laser,SmW Laser,3.87,0.0,0.0,0.0,2.11,-1.06
+Rifles,Kilo,Laser,mW Laser,1.76,0.0,0.0,0.0,1.06,-1.06
+Rifles,Kilo,Rear Grip,Stippled Grip Tape,0.0,0.0,0.0,0.0,3.17,-1.76
+Rifles,Kilo,Rear Grip,Rubberized Grip Tape,3.87,0.0,0.0,0.0,0.0,-1.76
+Rifles,Kilo,Rear Grip,Granulated Grip Tape,1.76,0.0,-2.11,0.0,-1.76,2.11
+Rifles,Kilo,Muzzle,Flash Guard,0.0,0.0,-1.06,0.0,-0.35,0.0
+Rifles,Kilo,Muzzle,Compensator,1.76,0.0,0.0,0.0,-1.06,3.17
+Rifles,Kilo,Muzzle,Tactical Suppressor,1.41,0.0,0.0,0.0,-1.41,-0.35
+Rifles,Kilo,Muzzle,Breacher Device,0.0,0.0,0.0,0.0,-1.76,-1.76
+Rifles,Kilo,Muzzle,Monolithic Suppressor,1.76,0.0,2.82,0.0,-2.82,-1.06
+Rifles,Kilo,Muzzle,Muzzle Brake,3.52,0.0,0.0,0.0,-1.06,1.06
+Rifles,Kilo,Muzzle,Lightweight Suppressor,1.06,0.0,-4.23,0.0,-0.35,0.0
+Rifles,Kilo,Stock,FSS Close Quarters Stock,-2.11,0.0,0.0,0.0,3.17,-1.06
+Rifles,Kilo,Stock,No Stock,-3.17,0.0,-2.11,0.0,9.15,-3.87
+Rifles,Kilo,Stock,Singuard Arms Sniper Pro,1.76,0.0,0.0,0.0,-1.76,3.17
+Rifles,Kilo,Stock,FORGE TAC Ultralight,-1.06,0.0,0.0,0.0,4.23,-2.46
+Rifles,Kilo,Ammunition,100 Round Drums,0.0,0.0,0.0,0.0,-4.93,-2.82
+Rifles,Kilo,Ammunition,60 Round Mags,0.0,0.0,0.0,0.0,-3.87,-2.46
+Rifles,Kilo,Ammunition,50 Round Mags,0.0,0.0,0.0,0.0,-1.76,-1.76
+Rifles,Kilo,Base,,70.07,72.89,64.08,65.85,60.92,72.89
