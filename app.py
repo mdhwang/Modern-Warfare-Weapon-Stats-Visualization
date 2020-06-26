@@ -30,6 +30,9 @@ fig = make_graph()
 fig2 = make_table()
 
 app = dash.Dash(__name__, external_stylesheets = external_stylesheets)
+
+app.title = 'The Gulag Gunsmith'
+server = app.server
 app.layout = html.Div([
 
     html.Br(),
