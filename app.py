@@ -372,20 +372,26 @@ app.layout = html.Div([
 
     html.Br(),
     html.Br(),
-    html.P(
+    html.H5(
         style = {'textAlign': 'center'},
         children = ['Check out @The_Gulag_Gunsmith on IG',
                     html.Br(),
                     'to see the stats for the COD:MW Blueprint Guns',
                     html.Br(),
                     html.Br(),
-                    'If you enjoy this kind of content please consider donating to my pateron page',
+                    html.P('If you enjoy this kind of content please consider donating to my pateron page'),
+                    html.P('to keep the server up and so I can keep making more content'),
                     html.Br(),
-                    'to keep the server up and so I can keep making more content',
+                    html.A('@The_Gulag_Gunsmith',href = 'https://www.instagram.com/the_gulag_gunsmith/',target="_blank"),
                     html.Br(),
+                    html.A('Patreon Link',href = 'www.patreon.com/the_gulag_gunsmith',target="_blank"),
+                    html.Br(),
+                    html.Br(),
+                    html.Img(src='https://raw.githubusercontent.com/mdhwang/Modern-Warfare-Weapon-Stats-Visualization/master/images/MostInterestingCaptain.png'),
                     html.Br(),
                     html.Br(),
                     'Stay frosty my friends.',
+                    html.Br(),
                     html.Br(),
         ]
 
