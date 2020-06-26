@@ -68,6 +68,7 @@ def make_graph(original = m4base, updated = upgrade, gun = "M4A1", gamertag = "G
     fig.update_layout(
         height = 1000,
         width = 1000,
+        dragmode = False,
         title={
             'text': guncode,
             'y':0.95,
