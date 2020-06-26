@@ -1,18 +1,18 @@
 import pandas as pd
 
 def base_stats(df, weapon):
-    base = df[(df.Weapon == weapon) & (df.Category == "BASE")].iloc[0,3:].tolist()
+    base = df[(df.Weapon == weapon) & (df.Category == "Base")].iloc[0,4:].tolist()
     return base
 
 def attachment_stats(df, weapon, attachment):
-    attachment = df[(df.Weapon == weapon) & (df.Attachment == attachment)].iloc[0,3:].tolist()
+    attachment = df[(df.Weapon == weapon) & (df.Attachment == attachment)].iloc[0,4:].tolist()
     return attachment
 
 def aggregate(df, weapon, attachments):
-    stats = df[(df.Weapon == weapon) & (df.Category == "BASE")].iloc[0,3:].tolist()
+    stats = df[(df.Weapon == weapon) & (df.Category == "Base")].iloc[0,4:].tolist()
     for attachment in attachments:
         try:
-            diff = df[(df.Weapon == weapon) & (df.Attachment == attachment)].iloc[0,3:].tolist()
+            diff = df[(df.Weapon == weapon) & (df.Attachment == attachment)].iloc[0,4:].tolist()
             stats = [sum(i) for i in zip(stats, diff)]
         except:
             pass
@@ -20,14 +20,14 @@ def aggregate(df, weapon, attachments):
 
 def table_agg(df, weapon, attachemnts,categories):
     table = []
-    base = df[(df.Weapon == weapon) & (df.Category == "BASE")].iloc[0,3:].tolist()
+    base = df[(df.Weapon == weapon) & (df.Category == "Base")].iloc[0,4:].tolist()
     base.insert(0,"STATS")
     base.insert(0,"BASE")
     table.append(base)
-    final = df[(df.Weapon == weapon) & (df.Category == "BASE")].iloc[0,3:].tolist()
+    final = df[(df.Weapon == weapon) & (df.Category == "Base")].iloc[0,4:].tolist()
     for i, attachment in enumerate(attachemnts):
         try:
-            diff = df[(df.Weapon == weapon) & (df.Attachment == attachment)].iloc[0,3:].tolist()
+            diff = df[(df.Weapon == weapon) & (df.Attachment == attachment)].iloc[0,4:].tolist()
             final = [round(sum(i),2) for i in zip(final, diff)]
             diff.insert(0,attachment)
             diff.insert(0,categories[i])
