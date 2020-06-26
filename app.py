@@ -41,17 +41,23 @@ app.layout = html.Div([
             html.Img(src='https://raw.githubusercontent.com/mdhwang/Modern-Warfare-Weapon-Stats-Visualization/master/images/title.png',),
         ]
     ),
-    html.Hr(style = {'color' : '#333',
-                     'height' : '3px'
-                }),
+    html.Br(),
+    html.Br(),
     html.Div(
         id = 'weapon-block',
         style = {'textAlign': 'center',
                  'margin' : 'auto',
-                 'width' : '60%'},
+                 'width' : '80%'},
         children = [
             html.Br(),
-
+            html.H3('Pretty straight forward - enter your gamer info and build out your custom COD:MW weapons using the dropdowns.'),
+            html.H3('Weapon stats were pulled from in game menus and use a python based computer vision script to determine the +/- of attachments'),
+            html.H3('Data is compiled and charted out for you to min/max everything.'),
+            html.Br(),
+            html.H3('Good Hunting'),
+            html.Br(),
+            html.Hr(),
+            html.Br(),
             html.H2("WHAT'S YOUR GAMERTAG?"),
             dcc.Input(id = "gamertag",
                       type = 'text',
@@ -257,7 +263,6 @@ app.layout = html.Div([
     
     html.Br(),
     html.Br(),
-    html.Hr(),
 
     html.Div(
         style = {'textAlign': 'center',
@@ -304,6 +309,8 @@ app.layout = html.Div([
     ),
     html.Br(),
     html.Br(),
+    html.Br(),
+    html.Br(),
     html.H2(
         style = {'textAlign': 'center'},
         children = [html.H1('Save your customized weapon',
@@ -315,7 +322,6 @@ app.layout = html.Div([
 
     ),
 
-    html.Br(),
     html.Br(),
     html.Hr(),
 
@@ -374,17 +380,19 @@ app.layout = html.Div([
     html.Br(),
     html.H5(
         style = {'textAlign': 'center'},
-        children = ['Check out @The_Gulag_Gunsmith on IG',
+        children = ['Check out ',
+                    html.A('@The_Gulag_Gunsmith',href = 'https://www.instagram.com/the_gulag_gunsmith/',target="_blank"),
+                    ' on IG',
                     html.Br(),
                     'to see the stats for the COD:MW Blueprint Guns',
                     html.Br(),
                     html.Br(),
-                    html.P('If you enjoy this kind of content please consider donating to my pateron page'),
-                    html.P('to keep the server up and so I can keep making more content'),
-                    html.Br(),
-                    html.A('@The_Gulag_Gunsmith',href = 'https://www.instagram.com/the_gulag_gunsmith/',target="_blank"),
-                    html.Br(),
+                    'If you enjoy this kind of content please consider donating to my ',
                     html.A('Patreon Link',href = 'www.patreon.com/the_gulag_gunsmith',target="_blank"),
+                    html.Br(),
+                    'to keep the server up and so I can keep making more content',
+                    html.Br(),
+                    html.Br(),
                     html.Br(),
                     html.Br(),
                     html.Img(src='https://raw.githubusercontent.com/mdhwang/Modern-Warfare-Weapon-Stats-Visualization/master/images/MostInterestingCaptain.png'),
