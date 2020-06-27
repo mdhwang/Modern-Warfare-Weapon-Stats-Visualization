@@ -469,7 +469,10 @@ def update_download_link(n_clicks,fig1,gamer,wep):
     )
 def set_categories_from_weapon(weapon,c1,c2,c3,c4,c5):
     cat_mask = (df.Weapon == weapon) & (df.Category != "BASE")
-    cat = create_options(df[cat_mask].Category.unique())
+    cats = df[cat_mask].Category.unique()
+    cats = list(cats)
+    cats.remove('Base')
+    cat = create_options(cats)
     return cat, cat, cat, cat, cat, '', '', '', '', '', '', '', '', '', ''
 
 @app.callback(
@@ -537,10 +540,6 @@ def set_attachments_from_categories(wep_val,cat_val):
 def generate_figures(wep, gamertag, guncode, cat1, cat2, cat3, cat4, cat5, att1, att2, att3, att4, att5):
     categories = [cat1, cat2, cat3, cat4, cat5]
     attachments = [att1, att2, att3, att4, att5]
-    print('CATEGORIES')
-    print(categories)
-    print('ATTACHMENTS')
-    print(attachments)
     base = base_stats(df, wep)
     agg = aggregate(df, wep, attachments)
     table_values = table_agg(df, wep, attachments, categories)
