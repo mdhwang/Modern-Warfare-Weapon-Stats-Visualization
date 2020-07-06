@@ -14,9 +14,9 @@ coords = {
 }
 
 def halfsize(img):
-    y,x = img.shape
+    y,x,z = img.shape
     half = int(x/2)
-    cropped = img[0:y,0:half]
+    cropped = img[0:y,0:half,0:z]
     return cropped
 
 def get_stats(img):

@@ -1,6 +1,7 @@
 import dash
 import dash_html_components as html
 import dash_core_components as dcc
+import dash_table
 import pandas as pd
 from app_helpers import *
 from graph import *
@@ -25,6 +26,9 @@ df = pd.read_csv('attachment_data.csv',dtype = formatting)
 weapons = create_options(df.Weapon.unique())
 
 empty = []
+
+
+a = [1,2,3,4,5]
 
 fig = make_graph()
 fig2 = make_table()
@@ -78,13 +82,20 @@ app.layout = html.Div([
             ),
             html.Br(),
             html.Br(),
-
-            html.H2('CHOOSE YOUR WEAPON'),
-            dcc.Dropdown(
-                id = 'weapon-dropdown',
-                options = weapons,
-                value = 'M4A1'
+            html.Div(
+                style = {'textAlign': 'center',
+                        'margin' : 'auto',
+                        'width' : '60%'},
+                children = [
+                    html.H2('CHOOSE YOUR WEAPON'),
+                    dcc.Dropdown(
+                        id = 'weapon-dropdown',
+                        options = weapons,
+                        value = 'M4A1'
+                    ),
+                ]
             ),
+            
             html.Br(),
             html.H3('This is my rifle.  There are many like it, but this one is mine.')
         ]
@@ -314,70 +325,126 @@ app.layout = html.Div([
     html.Br(),
     html.Br(),
     html.Br(),
-    html.H2(
-        style = {'textAlign': 'center'},
-        children = [html.H1('Save your customized weapon',
-                            style = {"text-decoration": "underline"}),
-                    'Step 1: Hit the "Generate Image" button',html.Br(),
-                    'Step 2: Hit the "Download Image" button',html.Br(),
-                    'Step 3: Share your creation!',html.Br(),
-        ]
-
-    ),
-
-    html.Br(),
     html.Hr(),
 
     html.Div(
         style = {'textAlign': 'center',
-                         'width' : '50%',
-                         'display': 'inline-block', },
+                 'width' : '50%',
+                 'margin' : 'auto', },
         children = [
-            html.H1("Stats Chart:"),
+            # html.H1("Stats Chart:"),
             html.Button(
                     style = {'margin':'2%'},
                     id="generate",
                     className="btn btn-primary btn-lg",
-                    children="GENERATE CHART"),
+                    children="Add Build to Gulag"),
             html.Br(),
-            html.A(
-                'DOWNLOAD CHART',
-                style = {'margin':'2%'},    
-                className = "btn btn-primary btn-lg",
-                id='download-link',
-                download="",
-                href="",
-                target="_blank"
-            )
         ]
     ),
-
 
 
     html.Div(
         style = {'textAlign': 'center',
-                         'width' : '50%',
-                         'display': 'inline-block',},
+                'display': 'inline-block',
+                'width':'100%',},
         children = [
-            html.H1("Stats Table:"),
-            html.Button(
-                    style = {'margin':'2%'},
-                    id="generate2",
-                    className="btn btn-primary btn-lg",
-                    children="GENERATE TABLE"),
-            html.Br(),
-            html.A(
-                'DOWNLOAD TABLE',
-                style = {'margin':'2%'},    
-                className = "btn btn-primary btn-lg",
-                id='download-link2',
-                download="",
-                href="",
-                target="_blank"
-            )
+            dcc.Graph(
+                id = 'gulag1',
+                style={
+                    'textAlign': 'center',
+                    'display': 'inline-block',
+                    'marginLeft': '0%', 
+                    'marginRight': '0%',
+                    'verticalAlign': 'top', 
+                },
+                figure = fig2
+            ),   
         ]
     ),
-    html.Hr(),
+
+
+    html.Div(
+        style = {'textAlign': 'center',
+                'display': 'inline-block',
+                'width':'100%',},
+        children = [
+            dcc.Graph(
+                id = 'gulag2',
+                style={
+                    'textAlign': 'center',
+                    'display': 'inline-block',
+                    'marginLeft': '0%', 
+                    'marginRight': '0%',
+                    'verticalAlign': 'top', 
+                },
+                figure = fig2
+            ),   
+        ]
+    ),
+
+    # html.H2(
+    #     style = {'textAlign': 'center'},
+    #     children = [html.H1('Save your customized weapon',
+    #                         style = {"text-decoration": "underline"}),
+    #                 'Step 1: Hit the "Generate Image" button',html.Br(),
+    #                 'Step 2: Hit the "Download Image" button',html.Br(),
+    #                 'Step 3: Share your creation!',html.Br(),
+    #     ]
+
+    # ),
+
+    # html.Br(),
+    # html.Hr(),
+
+    # html.Div(
+    #     style = {'textAlign': 'center',
+    #                      'width' : '50%',
+    #                      'display': 'inline-block', },
+    #     children = [
+    #         html.H1("Stats Chart:"),
+    #         html.Button(
+    #                 style = {'margin':'2%'},
+    #                 id="generate",
+    #                 className="btn btn-primary btn-lg",
+    #                 children="GENERATE CHART"),
+    #         html.Br(),
+    #         html.A(
+    #             'DOWNLOAD CHART',
+    #             style = {'margin':'2%'},    
+    #             className = "btn btn-primary btn-lg",
+    #             id='download-link',
+    #             download="",
+    #             href="",
+    #             target="_blank"
+    #         )
+    #     ]
+    # ),
+
+
+
+    # html.Div(
+    #     style = {'textAlign': 'center',
+    #                      'width' : '50%',
+    #                      'display': 'inline-block',},
+    #     children = [
+    #         html.H1("Stats Table:"),
+    #         html.Button(
+    #                 style = {'margin':'2%'},
+    #                 id="generate2",
+    #                 className="btn btn-primary btn-lg",
+    #                 children="GENERATE TABLE"),
+    #         html.Br(),
+    #         html.A(
+    #             'DOWNLOAD TABLE',
+    #             style = {'margin':'2%'},    
+    #             className = "btn btn-primary btn-lg",
+    #             id='download-link2',
+    #             download="",
+    #             href="",
+    #             target="_blank"
+    #         )
+    #     ]
+    # ),
 
     html.Br(),
     html.Br(),
@@ -391,7 +458,7 @@ app.layout = html.Div([
                     html.Br(),
                     html.Br(),
                     'If you enjoy this kind of content please consider donating to my ',
-                    html.A('Patreon Link',href = 'www.patreon.com/the_gulag_gunsmith',target="_blank"),
+                    html.A('Patreon Link',href = 'https://www.patreon.com/the_gulag_gunsmith',target="_blank"),
                     html.Br(),
                     'to keep the server up and so I can keep making more content',
                     html.Br(),
